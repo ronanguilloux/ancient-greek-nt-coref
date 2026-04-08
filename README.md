@@ -14,7 +14,23 @@ Pour un lecteur humain, le contexte permet de savoir qui parle. Pour une machine
 
 Ce projet construit les outils pour résoudre ces énigmes automatiquement.
 
-> Code de recherche en phase initiale. La plupart de ce qui est décrit ci-dessous est planifié, pas encore construit.
+---
+
+## État du projet (Avril 2026)
+
+### Précision actuelle
+- **Précision initiale (LLM) :** 29.7% sur gold PROIEL
+- **Précision règles :** 24.8%
+- **Benchmark SOTA anglais (CoNLL) :** ~80-85%
+- **Benchmark grec ancien :** ❌ N'EXISTE PAS
+
+### Objectif
+**60% de précision** — Ce serait pioneering work, car aucun benchmark public n'existe pour la résolution de coréférence sur le grec ancien.
+
+### Approche
+Architecture two-stage inspirée de Celano (2023) :
+1. Règles de haute précision pour les cas clairs (~87%)
+2. Réseau neuronal pour les cas ambigus (~13%)
 
 ---
 
@@ -223,11 +239,16 @@ Instance pro-drop
 
 #### Décision d'architecture (Sprint 2C)
 
-| Métrique | Règles | LLM Gemini | Δ |
-|----------|--------|------------|---|
-| Level 2+3 Combined | 33.3% | 36.7% | **+19.9%** ✅ |
+| Métrique | Règles | LLM Gemini |
+|----------|--------|------------|
+| Overall (PROIEL gold) | 24.8% | 29.7% |
 
-**Seuil de décision** : >15% d'amélioration sur Level 2+3 → **Stratégie B adoptée** (LLM hybride)
+**Note:** Évaluation sur 101 instances avec gold PROIEL (avril 2026).  
+**Découverte:** AUCUN benchmark SOTA n'existe pour le grec ancien.  
+**Nouvelle cible:** 60% — voir [`project/docs/SPRINT3A_PLAN.md`](./project/docs/SPRINT3A_PLAN.md)
+
+> ⚠️ **Mise à jour avril 2026:** Cette architecture a été dépassée.  
+> Voir [`project/docs/SPRINT2C_POSTMORTEM.md`](./project/docs/SPRINT2C_POSTMORTEM.md) et la nouvelle architecture two-stage dans [`project/docs/SPRINT3A_PLAN.md`](./project/docs/SPRINT3A_PLAN.md).
 
 ---
 
@@ -312,7 +333,7 @@ deactivate
 | Sprint 1 | Pipeline de base + NER minimal (Trankit, LOGION, UGARIT) | ✅ Terminé |
 | Sprint 2A | Clustering de personnages (Dictionnaire d'alias) | ✅ Terminé |
 | Sprint 2B | Règles de coréférence pronominale (Morphologie) | ✅ Terminé |
-| Sprint 2C | Résolution des sujets implicites (pro-drop) | ✅ Terminé |
+| Sprint 2C | Résolution des sujets implicites (pro-drop) | 🔄 Pivot (avril 2026) |
 | Sprint 3 | Attribution des discours + actes narratifs | Planifié |
 | Sprint 4 | API, Granularités, Exports | Planifié |
 

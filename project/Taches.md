@@ -32,11 +32,11 @@ L'architecture C0 (Parser) et C1 (Mention Detector) a été implémentée avec s
 - Les règles morphologiques de coréférence (accord en genre/nombre, score de proximité, bonus sujet de la clause) ont été codées et validées sur des phrases de test.
 - L'extraction des groupes nominaux définis (DEF_NP) est opérationnelle.
 
-### 2C — Résolution des sujets implicites / pro-drop (semaines 12–15) · ✅ TERMINÉ
+### 2C — Résolution des sujets implicites / pro-drop (semaines 12–15) · 🔄 PIVOT
 
-**Expérimentation ML terminée — Décision : ADOPTER STRATÉGIE B (LLM HYBRID)**
+**État:** Apr ès évaluation sur VRAI gold PROIEL, pivot vers nouvelle approche.
 
-**Évaluation sur 40 instances (Level 1/2/3) vs Gemini 3.1 Pro :**
+**Évaluation initiale sur 40 instances (Level 1/2/3) vs Gemini 3.1 Pro :**
 
 | Niveau | Instances testées | Rules | LLM | Δ Improvement |
 |--------|-----------------|-------|-----|---------------|
@@ -45,59 +45,51 @@ L'architecture C0 (Parser) et C1 (Mention Detector) a été implémentée avec s
 | Level 3 (Complexe) | 11 | 63.6% | 54.5% | -9.1% |
 | **Level 2+3 Combined** | **30** | **33.3%** | **36.7%** | **+19.9%** ✅ |
 
-**Décision阈值**: >15% improvement on Level 2+3 → **PASS (Δ = +19.9%)**
-
-**Implémentation complétée :**
-- `scripts/prodrop_hybrid_resolver.py` — Résolveur hybride production (Level 1 → Règles, Level 2+3 → LLM Gemini avec fallback)
-- `scripts/build_prodrop_evaluation_dataset.py` — Entity extraction améliorée (fenêtre 5 versets + regex)
-- Entity coverage: 51% → 73%
-
-**Améliorations terminées :**
-- Expansion du dictionnaire KNOWN_CHARACTERS (51 → 75+ caractères)
-- Entity coverage: 51% → 77%
-- Intégration dans `sprint2_full_pipeline.py` (via ProDropHybridResolver)
-
-**Option A - Améliorations avant Sprint 3A (8 avril 2026) :**
-
-| Tâche | Statut | Impact |
-|-------|--------|--------|
-| Expansion du dictionnaire d'alias | ✅ | ~90 entrées (tous les cas grecs) |
-| Filtrage personne/nombre | ✅ | Exclut lieux et concepts abstraits |
-| Évaluation sur 739 instances | ✅ | Métriques revues à la baisse (gold proxy non fiable) |
-| Documentation | ✅ | `project/data/experiments/sprint2c/IMPROVEMENTS_ANALYSIS.md` |
-
-**Note importante :** Le gold standard proxy ("entité la plus récente") est intrinsèquement fiable. 61/163 instances Level 1 n'ont pas d'entités personne dans la fenêtre. LLM fallback остаётся nécessaire pour ces cas.
-
-**Évaluation sur VRAI gold PROIEL (8 avril 2026) :**
+**Évaluation finale sur VRAI gold PROIEL (8 avril 2026) :**
 
 | Niveau | Évalué | Correct | Accuracy |
 |--------|---------|---------|----------|
-| **Overall** | 101 | 25 | **24.8%** |
-| Level 1 | 22 | 2 | 9.1% |
-| Level 2 | 60 | 18 | 30.0% |
-| Level 3 | 19 | 5 | 26.3% |
+| **Overall (LLM)** | 101 | 30 | **29.7%** |
+| **Overall (Rules)** | 101 | 25 | **24.8%** |
+| Level 1 | 22 | 2-3 | 9-14% |
+| Level 2 | 60 | 18-24 | 30-40% |
+| Level 3 | 19 | 3-5 | 16-26% |
 
-**Analyse des problèmes :**
-1. **Fenêtre de 5 versets trop large** → IOANNES prédit même quand la narration a basculé vers IESOUS
-2. **Heuristique de saillie biaisée** → "most frequent" favorise les entités citées plus tôt
-3. **Détection du génitif absolu incorrecte** → parfois appliquée à tort
-4. **Pluriel (μαθηταί) non détecté** → les verbes pluriels ne correspondent pas à OI_MATHETAI
+**Découverte clé : AUCUN benchmark SOTA n'existe pour le grec ancien.** L'objectif de 60% serait pioneering work.
 
-**Fichiers générés :**
-- `scripts/extract_proiel_gold.py` — extraction du gold depuis PROIEL antecedent-id
-- `scripts/evaluate_against_proiel_gold.py` — évaluation contre gold PROIEL
-- `project/data/experiments/sprint2c/PROIEL_GOLD_EVALUATION.md` — rapport détaillé
-
-**Limites identifiées :**
-- Proxy gold non fiable pour Level 2/3 → l'annotation manuelle de 50 cas par un helléniste reste recommandée pour des métriques exactes
-- 61 instances Level 1 retournent NONE (pas d'entités personne dans la fenêtre) → fenêtre plus large ou recherche textuelle nécessaire
+**Postmortem:** Voir `project/docs/SPRINT2C_POSTMORTEM.md`
 
 ---
 
-## Sprint 3 — Attribution des discours & actes narratifs (semaines 16–20) · À venir
+## Sprint 2C v2 — Nouvelle Architecture (Avril 2026) · 🔄 EN COURS
 
-- **3A** — Attribution des discours directs (détection ponctuation + verba_dicendi + résolution agent).
-- **3B** — Actes narratifs par personnage (Semantic Role Labeling via typologie Pedalion).
+**Objectif:** 60% de précision sur gold PROIEL
+
+**Approche two-stage inspirée de Celano (2023) :**
+
+1. **Stage 1:** Règles de haute précision (cas clairs ~87%)
+2. **Stage 2:** Réseau neuronal pour cas ambigus (~13%)
+
+**Plan d'implémentation:** Voir `project/docs/SPRINT3A_PLAN.md`
+
+| Semaine | Tâche | Livrable |
+|---------|-------|----------|
+| 1 | Intégration parsing dépendanciel | Candidate detector |
+| 2 | Classificateur d'ambiguïté | `is_ambiguous()` |
+| 3 | Modèle neuronal | Training loop |
+| 4 | Caractère-level (LOGION/CNN) | Embeddings |
+| 5 | Pipeline complet | Script intégré |
+| 6 | Évaluation | Rapport 60% |
+
+---
+
+## Sprint 3A — Attribution des discours directs (semaines 16–20) · À venir
+
+- Détection ponctuation + verba_dicendi + résolution agent.
+
+## Sprint 3B — Actes narratifs par personnage (semaines 18–20) · À venir
+
+- Semantic Role Labeling via typologie Pedalion.
 
 ## Sprint 4 — API, granularités et exports (semaines 21–24) · À venir
 

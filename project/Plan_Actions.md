@@ -613,6 +613,30 @@ Fine-tuner un petit classifieur (régression logistique ou MLP léger sur embedd
 
 ---
 
+## Sprint 2C — Postmortem & Pivot (Avril 2026)
+
+### Résultats initiaux vs réels
+
+| Métrique | Proxy Gold | PROIEL Gold |
+|----------|-----------|-------------|
+| LLM accuracy | 36.7% | **29.7%** |
+| Rules accuracy | 33.3% | **24.8%** |
+
+### Découverte clé
+
+> **AUCUN benchmark SOTA n'existe pour la résolution de coréférence sur le grec ancien.** Notre objectif de 60% serait pioneering work.
+
+### Nouvelle architecture (Two-Stage, Celano 2023)
+
+1. **Stage 1:** Règles de haute précision (cas clairs ~87%)
+2. **Stage 2:** Réseau neuronal pour cas ambigus (~13%)
+
+**Documents:**
+- [`SPRINT2C_POSTMORTEM.md`](./docs/SPRINT2C_POSTMORTEM.md) — Analyse détaillée
+- [`SPRINT3A_PLAN.md`](./docs/SPRINT3A_PLAN.md) — Plan d'implémentation 6 semaines
+
+---
+
 ### Sprint 3 — Attribution des discours & actes narratifs (semaines 16–20)
 
 **Correspond à l'Étape 5 de la feuille de route globale.**
@@ -739,7 +763,7 @@ Chaque entité canonique reçoit une couleur. Les mentions sont surlignées avec
 |---|---|---|
 | Détection des mentions | Rappel | > 90% |
 | Résolution pronominale | MUC F1 / B³ F1 / CEAFₑ F1 → **CoNLL Avg** | > 65% |
-| Pro-drop | Accuracy sur gold annoté | > 70% |
+| Pro-drop | Accuracy sur gold annoté | > 60% (pioneering) |
 | Attribution discours | Précision | > 85% |
 | Actes narratifs (agent) | Accuracy agent résolu | > 80% |
 
@@ -788,7 +812,7 @@ Semaines  1– 3 │ ✅ Sprint 0 │ Données, lexiques, gold annoté
 Semaines  4– 7 │ ✅ Sprint 1 │ MentionDetector + NER minimal
 Semaines  8–11 │ ✅ Sprint 2A│ CharacterRegistry + clustering
 Semaines  9–15 │ ✅ Sprint 2B│ Résolution pronominale (règles)
-Semaines 12–15 │ ✅ Sprint 2C│ Pro-drop (règles + ML ciblé)
+Semaines 12–15 │ 🔄 Sprint 2C│ Pro-drop (pivot avril 2026)
 Semaines 16–18 │ ⏳ Sprint 3A│ Attribution discours directs
 Semaines 18–20 │ ⏳ Sprint 3B│ Actes narratifs par personnage
 Semaines 21–24 │ ⏳ Sprint 4 │ API + granularités + exports + évaluation finale
