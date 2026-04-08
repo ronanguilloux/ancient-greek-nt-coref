@@ -100,7 +100,7 @@ Texte grec NT (péricope / chapitre / livre)
 
 ## Feuille de route — 5 sprints
 
-### Sprint 0 — Données et environnement (semaines 1–3) ✅
+### Sprint 0 — Données et environnement · ✅
 
 **Issu de l'Étape 1 de la feuille de route globale, recentré coréférence.**
 
@@ -470,7 +470,7 @@ Le script produit un DataFrame complet pour les 27 livres du NT sans erreur. Vé
 
 ---
 
-### Sprint 1 — Pipeline de base + détection des mentions (semaines 4–7) ✅
+### Sprint 1 — Pipeline de base + détection des mentions · ✅
 
 **Issu de l'Étape 2 (Module 0+1), recentré sur la détection des mentions coréférentielles.**
 
@@ -520,11 +520,11 @@ Approche :
 
 ---
 
-### Sprint 2 — Résolution de coréférence (semaines 8–15)
+### Sprint 2 — Résolution de coréférence
 
 **Cœur du plan. Correspond à l'Étape 3 (clustering) + Étape 4 (coréférence) fusionnées.**
 
-#### 2A — Clustering de noms de personnages (semaines 8–10) ✅
+#### 2A — Clustering de noms de personnages · ✅
 
 Avant de résoudre les pronoms, on unifie les noms propres en entités canoniques. *Il est crucial de se reposer sur ces règles déterministes. En effet, la littérature (Beersmans et al., 2025) a prouvé que les modèles ML de désambiguïsation d'entités échouent largement sur les homonymes en grec ancien faute d'indices contextuels suffisants. De plus, Kindt et al. (2022) ont mesuré que les réseaux de neurones peinent particulièrement sur l'analyse des noms propres (seulement 71,2% d'exactitude sur les anthroponymes, contre >93% sur les verbes et pronoms). Cela valide notre décision de sécuriser cette étape via un registre canonique et des règles dures (`character_aliases.tsv`).*
 
@@ -536,7 +536,7 @@ Avant de résoudre les pronoms, on unifie les noms propres en entités canonique
 
 Livrable : `CharacterRegistry` — dictionnaire structuré comme un nœud "Person" de graphe : `{id_canonique: [liste des mentions nominales], attributs: {genre, groupe...}, profil_textuel: "..."}` pour chaque livre.
 
-#### 2B — Résolution pronominale (semaines 9–11, parallèle à 2A) ✅
+#### 2B — Résolution pronominale · ✅
 
 Pour chaque mention `PRONOUN` ou `DEF_NP` :
 
@@ -558,7 +558,7 @@ Pour chaque mention `PRONOUN` ou `DEF_NP` :
 
 Baseline attendue : ~70% F1 sur pronoms explicites (estimé d'après littérature sur langues flexionnelles).
 
-#### 2C — Résolution des sujets implicites / pro-drop (semaines 12–15)
+#### 2C — Résolution des sujets implicites / pro-drop
 
 C'est la vraie innovation par rapport à BookNLP.
 
@@ -640,11 +640,11 @@ Fine-tuner un petit classifieur (régression logistique ou MLP léger sur embedd
 
 ---
 
-### Sprint 3 — Attribution des discours & actes narratifs (semaines 16–20)
+### Sprint 3 — Attribution des discours & actes narratifs
 
 **Correspond à l'Étape 5 de la feuille de route globale.**
 
-#### 3A — Attribution des discours directs (semaines 16–18)
+#### 3A — Attribution des discours directs
 
 Le discours direct dans le NT est signalé par :
 - Deux-points `·` ou `·` + changement de mode (impératif, questions)
@@ -671,7 +671,7 @@ Output pour chaque prise de parole :
 }
 ```
 
-#### 3B — Actes narratifs par personnage (semaines 18–20)
+#### 3B — Actes narratifs par personnage
 
 Pour chaque verbe fini dans le texte, nous implémenterons une extraction par **Semantic Role Labeling (SRL)** inspirée de Keersmaekers (2020), en se basant sur la typologie de *Pedalion* (29 rôles) :
 1. Détecter le rôle sémantique de l'entité résolue par rapport au verbe : `Agent`, `Patient`, `Experiencer`, `Beneficiary`, `Companion`, etc. (Plutôt que de se fier au sujet/objet syntaxique qui échoue sur le passif ou les déponents).
@@ -709,7 +709,7 @@ Output agrégé :
 
 ---
 
-### Sprint 4 — API, granularités et exports (semaines 21–24)
+### Sprint 4 — API, granularités et exports
 
 **Correspond à l'Étape 6 de la feuille de route globale.**
 
@@ -808,17 +808,18 @@ Les modules NER général (LOC, ORG, groupes) et l'export Text-Fabric complet so
 
 ---
 
-## Calendrier synthétique
+## Jalons (milestones)
 
 ```
-Semaines  1– 3 │ ✅ Sprint 0 │ Données, lexiques, gold annoté
-Semaines  4– 7 │ ✅ Sprint 1 │ MentionDetector + NER minimal
-Semaines  8–11 │ ✅ Sprint 2A│ CharacterRegistry + clustering
-Semaines  9–15 │ ✅ Sprint 2B│ Résolution pronominale (règles)
-Semaines 12–15 │ 🔄 Sprint 2C│ Pro-drop (pivot avril 2026)
-Semaines 16–18 │ ⏳ Sprint 3A│ Attribution discours directs
-Semaines 18–20 │ ⏳ Sprint 3B│ Actes narratifs par personnage
-Semaines 21–24 │ ⏳ Sprint 4 │ API + granularités + exports + évaluation finale
+✅ Sprint 0        │ Données, lexiques, gold annoté
+✅ Sprint 1        │ MentionDetector + NER minimal
+✅ Sprint 2A       │ CharacterRegistry + clustering
+✅ Sprint 2B       │ Résolution pronominale (règles)
+🔄 Sprint 2C v2   │ Pro-drop (en cours - Avril 2026)
+⏳ Sprint 3A       │ Attribution discours directs
+⏳ Sprint 3B       │ Actes narratifs par personnage
+⏳ Sprint 4        │ API + granularités + exports + évaluation finale
+```
 
 ---
 

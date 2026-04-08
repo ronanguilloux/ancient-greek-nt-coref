@@ -18,15 +18,17 @@
 
 ## 🚀 Prochaines étapes immédiates (Sprint 3A)
 
-### Étape 1 : Intégration du parsing dépendanciel
+### Étape 1 : Intégration du parsing dépendanciel · ✅ TERMINÉ
 
-**Objectif :** Remplacer la fenêtre d'entités par une détection basée sur les dépendances
+**Livrable:** `scripts/sprint3a_phase1_prodrop_detection.py`
 
-1. **Charger PROIEL XML directement** (serveurs trankit instables)
-2. **Détecter les verbes finis sans nsubj** (candidats pro-drop)
-3. **Construire `find_prodrop_candidates()`**
+**Résultats:**
+- 6 phrases PROIEL chargées, 2465 tokens
+- 245 candidats pro-drop détectés
+- 23 avec antécédent personne (gold standard)
+- Baseline: 9.4% (23/245)
 
-**Livrable attendu :** Script qui parse Mark 1 et identifie les verbes pro-drop
+**Prochaines étapes:**
 
 ### Étape 2 : Classification d'ambiguïté
 
@@ -49,7 +51,7 @@ Toutes les tâches du Sprint 0 (Parsing PROIEL, création des lexiques, généra
 
 ---
 
-## Sprint 1 — Pipeline de base + MentionDetector (semaines 4–7) · ✅ TERMINÉ
+## Sprint 1 — Pipeline de base + MentionDetector · ✅ TERMINÉ
 
 L'architecture C0 (Parser) et C1 (Mention Detector) a été implémentée avec succès via `scripts/sprint1_mention_detector_final.py` :
 - **[C0.5] Module de Résilience :** LOGION est intégré pour détecter les corruptions textuelles.
@@ -58,7 +60,7 @@ L'architecture C0 (Parser) et C1 (Mention Detector) a été implémentée avec s
 
 ---
 
-## Sprint 2 — Résolution de coréférence (semaines 8–15)
+## Sprint 2 — Résolution de coréférence
 
 ### 2A — Clustering de noms de personnages · ✅ TERMINÉ
 - Le dictionnaire d'alias a été implémenté dans la pipeline (`sprint2_full_pipeline.py`) et permet de rattacher une mention (ex: Σίμων) à son entité canonique (PETROS).
@@ -67,7 +69,7 @@ L'architecture C0 (Parser) et C1 (Mention Detector) a été implémentée avec s
 - Les règles morphologiques de coréférence (accord en genre/nombre, score de proximité, bonus sujet de la clause) ont été codées et validées sur des phrases de test.
 - L'extraction des groupes nominaux définis (DEF_NP) est opérationnelle.
 
-### 2C — Résolution des sujets implicites / pro-drop (semaines 12–15) · 🔄 PIVOT
+### 2C — Résolution des sujets implicites / pro-drop · 🔄 PIVOT
 
 **État:** Apr ès évaluation sur VRAI gold PROIEL, pivot vers nouvelle approche.
 
@@ -124,15 +126,15 @@ L'architecture C0 (Parser) et C1 (Mention Detector) a été implémentée avec s
 
 ---
 
-## Sprint 3A — Attribution des discours directs (semaines 16–20) · À venir
+## Sprint 3A — Attribution des discours directs · À venir
 
 - Détection ponctuation + verba_dicendi + résolution agent.
 
-## Sprint 3B — Actes narratifs par personnage (semaines 18–20) · À venir
+## Sprint 3B — Actes narratifs par personnage · À venir
 
 - Semantic Role Labeling via typologie Pedalion.
 
-## Sprint 4 — API, granularités et exports (semaines 21–24) · À venir
+## Sprint 4 — API, granularités et exports · À venir
 
 - Interface unifiée (`pericope`, `chapter`, `book`).
 - Exports multiples (CoNLL-U, JSON, HTML interactif, GraphML).

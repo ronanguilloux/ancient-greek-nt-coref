@@ -10,7 +10,7 @@ import json
 import os
 import re
 from pathlib import Path
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import Optional, List, Dict, Tuple
 from collections import defaultdict
 
@@ -55,7 +55,7 @@ class Sentence:
     id: str
     text: str
     tokens: List[Token]
-    verse_ref: Optional[str] = None
+    verse_refs: List[str] = field(default_factory=list)
 
     def get_predicates(self) -> List[Token]:
         """Get all finite verbs with 'pred' relation (predicates)."""
@@ -106,7 +106,7 @@ class ProielCONLLU:
     @staticmethod
     def parse_file(
         filepath: str,
-    ) -> Tuple[List[Sentence], Dict[str, Sentence], Dict[int, Token]]:
+    ) -> Tuple[List[Sentence], Dict[str, Sentence], Dict[Tuple[str, int], Token]]:
         """Parse a CONLLU file and return sentences, sentence index, and token index."""
         sentences = []
         sentence_index = {}
@@ -116,7 +116,7 @@ class ProielCONLLU:
         current_tokens = []
         current_sent_id = None
         current_text = None
-        current_verse_ref = None
+        current_verse_refs = []
 
         with open(filepath, "r", encoding="utf-8") as f:
             for line in f:
@@ -127,10 +127,10 @@ class ProielCONLLU:
                 elif line.startswith("# text"):
                     current_text = line.split("=", 1)[1].strip()
                 elif line.startswith("# Ref="):
-                    current_verse_ref = line.split("=", 1)[1].strip()
+                    current_verse_refs.append(line.split("=", 1)[1].strip())
                 elif line.startswith("#") or not line:
                     continue
-                elif line.startswith("1\t") or (current_tokens and line[0].isdigit()):
+                elif "\t" in line and line.split("\t")[0].isdigit():
                     if current_sent_id:
                         parts = line.split("\t")
                         if len(parts) >= 8:
@@ -158,14 +158,25 @@ class ProielCONLLU:
                                 misc=parts[9] if len(parts) > 9 else None,
                             )
                             current_tokens.append(token)
-                            token_index[token.id] = token
+                            token_index[(current_sent_id, token.id)] = token
+
+                            if token.misc and "Ref=" in token.misc:
+                                import re
+
+                                match = re.search(
+                                    r"Ref=([A-Za-z]+\s*[\d.]+)", token.misc
+                                )
+                                if match:
+                                    ref = match.group(1).strip()
+                                    if ref not in current_verse_refs:
+                                        current_verse_refs.append(ref)
                 else:
                     if current_sent_id and current_tokens:
                         sentence = Sentence(
                             id=current_sent_id,
                             text=current_text or "",
                             tokens=current_tokens,
-                            verse_ref=current_verse_ref,
+                            verse_refs=current_verse_refs,
                         )
                         sentences.append(sentence)
                         sentence_index[current_sent_id] = sentence
@@ -173,14 +184,14 @@ class ProielCONLLU:
                     current_sent_id = None
                     current_tokens = []
                     current_text = None
-                    current_verse_ref = None
+                    current_verse_refs = []
 
         if current_sent_id and current_tokens:
             sentence = Sentence(
                 id=current_sent_id,
                 text=current_text or "",
                 tokens=current_tokens,
-                verse_ref=current_verse_ref,
+                verse_refs=current_verse_refs,
             )
             sentences.append(sentence)
             sentence_index[current_sent_id] = sentence
@@ -190,7 +201,7 @@ class ProielCONLLU:
     @staticmethod
     def load_gold_directory(
         directory: str,
-    ) -> Tuple[List[Sentence], Dict[str, Sentence], Dict[int, Token]]:
+    ) -> Tuple[List[Sentence], Dict[str, Sentence], Dict[Tuple[str, int], Token]]:
         """Load all CONLLU files from a directory."""
         all_sentences = []
         all_index = {}
@@ -226,7 +237,7 @@ def find_prodrop_candidates(
 
             candidate = {
                 "sentence_id": sent.id,
-                "verse_ref": sent.verse_ref,
+                "verse_refs": sent.verse_refs,
                 "sentence_text": sent.text,
                 "verb_form": verb.form,
                 "verb_lemma": verb.lemma,
@@ -266,14 +277,29 @@ def integrate_with_gold(
         gold_map[key] = result
 
     for candidate in candidates:
-        key = (candidate.get("verse_ref"), candidate.get("verb_form"))
-        gold = gold_map.get(key, {})
+        verse_refs = candidate.get("verse_refs", [])
+        verb_form = candidate.get("verb_form")
+        matched_gold = None
 
-        candidate["gold_antecedent_entity"] = gold.get("antecedent_entity")
-        candidate["gold_antecedent_lemma"] = gold.get("antecedent_lemma")
-        candidate["gold_antecedent_form"] = gold.get("antecedent_form")
-        candidate["difficulty_level"] = gold.get("difficulty_level")
-        candidate["gold_note"] = gold.get("note")
+        for vr in verse_refs:
+            key = (vr, verb_form)
+            if key in gold_map:
+                matched_gold = gold_map[key]
+                candidate["matched_verse_ref"] = vr
+                break
+
+        if matched_gold:
+            candidate["gold_antecedent_entity"] = matched_gold.get("antecedent_entity")
+            candidate["gold_antecedent_lemma"] = matched_gold.get("antecedent_lemma")
+            candidate["gold_antecedent_form"] = matched_gold.get("antecedent_form")
+            candidate["difficulty_level"] = matched_gold.get("difficulty_level")
+            candidate["gold_note"] = matched_gold.get("note")
+        else:
+            candidate["gold_antecedent_entity"] = None
+            candidate["gold_antecedent_lemma"] = None
+            candidate["gold_antecedent_form"] = None
+            candidate["difficulty_level"] = None
+            candidate["gold_note"] = None
 
         integrated.append(candidate)
 
@@ -284,7 +310,7 @@ def analyze_verbs_in_sentence(sent: Sentence) -> Dict:
     """Analyze a sentence to find finite verbs and their subject status."""
     result = {
         "sentence_id": sent.id,
-        "verse_ref": sent.verse_ref,
+        "verse_refs": sent.verse_refs,
         "text": sent.text,
         "predicates": [],
     }
@@ -370,9 +396,10 @@ def main():
         print(f"  {entity}: {count}")
     print()
 
-    print("Sample pro-drop candidates with gold entities (Mark 1):")
+    print("Sample pro-drop candidates with gold entities:")
     for c in with_entity[:15]:
-        print(f"  {c['verse_ref']}: {c['verb_form']} → {c['gold_antecedent_entity']}")
+        ref = c.get("matched_verse_ref", "Unknown")
+        print(f"  {ref}: {c['verb_form']} → {c['gold_antecedent_entity']}")
 
     output_path = "project/data/experiments/sprint3a/prodrop_candidates.json"
     os.makedirs(os.path.dirname(output_path), exist_ok=True)

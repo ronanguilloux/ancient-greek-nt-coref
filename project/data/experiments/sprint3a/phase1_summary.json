@@ -1,0 +1,7 @@
+{
+  "phase": "1_dependency_parsing",
+  "total_sentences": 6,
+  "total_pro_drop": 245,
+  "with_antecedent": 23,
+  "accuracy_baseline": 0.09387755102040816
+}

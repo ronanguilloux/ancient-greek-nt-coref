@@ -90,32 +90,21 @@ The CRAC 2024 evaluation uses **head-match CoNLL F1** as the primary metric:
 
 ---
 
-## Week-by-Week Implementation
+## Milestones
 
-### Week 1: Dependency Parsing Integration
+### Milestone 1: Dependency Parsing Integration · ✅ TERMINÉ
 
-**Goal:** Replace entity window with dependency-based candidate detection
+**Script:** `scripts/sprint3a_phase1_prodrop_detection.py`
 
-| Task | Deliverable | Tools |
-|------|-------------|-------|
-| Integrate trankit | Parser initialized | trankit |
-| Alternative: OdyCy | Check availability | OdyCy spaCy |
-| Build candidate detector | `find_prodrop_candidates()` | PROIEL XML |
-
-**Success criteria:** Parse Mark 1 sentences, identify finite verbs without nsubj
-
-```python
-# Week 1 deliverable
-def find_prodrop_candidates(sentence_tokens):
-    """Find finite verbs without subject (pro-drop candidates)."""
-    # 1. Find finite verbs (V-* POS)
-    # 2. Check for nsubj dependency
-    # 3. Return candidates
-```
+**Results:**
+- 6 CONLLU files parsed, 2,465 tokens
+- 245 pro-drop candidates detected
+- 23 with person antecedent (gold standard)
+- **Baseline accuracy: 9.4%**
 
 ---
 
-### Week 2: Ambiguity Classifier
+### Milestone 2: Ambiguity Classifier · ⏳ PROCHAIN
 
 **Goal:** Binary classification — clear vs ambiguous
 
@@ -123,7 +112,7 @@ def find_prodrop_candidates(sentence_tokens):
 |------|-------------|
 | Feature engineering | Narrative markers, entity count, distance |
 | Build classifier | `is_ambiguous()` function |
-| Train on PROIEL | ~100 annotated examples |
+| Validate on PROIEL | ~100 annotated examples |
 
 **Features:**
 
@@ -141,7 +130,7 @@ features = {
 
 ---
 
-### Week 3: Neural Resolution Model
+### Milestone 3: Neural Resolution Model · ⏳ À VENIR
 
 **Goal:** Train classifier for ambiguous cases
 
@@ -167,7 +156,7 @@ Output: Entity probability distribution
 
 ---
 
-### Week 4: Character-Level Integration
+### Milestone 4: Character-Level Integration · ⏳ À VENIR
 
 **Goal:** Integrate LOGION or alternative for Greek morphology
 
@@ -175,7 +164,7 @@ Output: Entity probability distribution
 |------|--------|-------|
 | Research LOGION | ❓ | Find access |
 | Alternative: Character CNN | ✅ Fallback | Simpler but effective |
-| Integration | Pending | Week 4 dependent |
+| Integration | Pending | Dependent on Milestone 3 |
 
 **Character CNN approach:**
 
@@ -188,7 +177,7 @@ cnn = Conv1D(filters=128, kernel_size=3)
 
 ---
 
-### Week 5: Full Pipeline Integration
+### Milestone 5: Full Pipeline Integration · ⏳ À VENIR
 
 **Goal:** End-to-end system
 
@@ -214,7 +203,7 @@ def resolve_prodrop(sentence, context):
 
 ---
 
-### Week 6: Evaluation & Documentation
+### Milestone 6: Evaluation & Documentation · ⏳ À VENIR
 
 **Goal:** Validate 60% target
 
@@ -261,14 +250,14 @@ def resolve_prodrop(sentence, context):
 
 ## Deliverables
 
-| Phase | Deliverable |
-|-------|-------------|
-| 1 | Candidate detector script |
-| 2 | Ambiguity classifier |
-| 3 | Neural resolution model |
-| 4 | Character-level features |
-| 5 | Full pipeline script |
-| 6 | Evaluation report + 55-60% accuracy claim |
+| Milestone | Deliverable |
+|----------|-------------|
+| 1 ✅ | Candidate detector script |
+| 2 ⏳ | Ambiguity classifier |
+| 3 ⏳ | Neural resolution model |
+| 4 ⏳ | Character-level features |
+| 5 ⏳ | Full pipeline script |
+| 6 ⏳ | Evaluation report + 55-60% accuracy claim |
 
 ---
 
@@ -285,13 +274,42 @@ def resolve_prodrop(sentence, context):
 
 ---
 
-## Next Steps
+## Phase 1 Completion (9 avril 2026)
 
-1. **Week 1:** Start with PROIEL XML parsing for candidate detection
-2. **Parallel:** Research LOGION availability and OdyCy alternatives
-3. **Week 2:** Build ambiguity classifier with narrative features
-4. **Ongoing:** Document every decision in `project/docs/`
+**Deliverable:** `scripts/sprint3a_phase1_prodrop_detection.py`
+
+### Results
+
+| Metric | Value |
+|--------|-------|
+| Sentences parsed | 6 |
+| Tokens | 2,465 |
+| Pro-drop candidates | 245 |
+| With person antecedent | 23 |
+| **Baseline accuracy** | **9.4%** |
+
+### Entity Distribution (Gold Standard Matches)
+
+| Entity | Count |
+|--------|-------|
+| IESOUS | 15 |
+| ANDREAS | 4 |
+| IOANNES | 4 |
+
+### Key Findings
+
+1. **CONLLU format works:** Successfully parsed PROIEL CONLLU files directly
+2. **Token IDs restart per sentence:** Required composite key `(sentence_id, token_id)`
+3. **Verse refs in token MISC:** Extracted from `Ref=` annotation
+4. **Low baseline:** 9.4% because most verbs don't have person antecedents (they have non-person or no antecedents)
+
+### Next: Milestone 2
+
+- **Ambiguity classifier** (`is_ambiguous()`)
+- Narrative markers: δέ, τότε, genitive absolute
+- Entity count in context window
+- Target: Distinguish clear cases (1 candidate) from ambiguous (2+ candidates)
 
 ---
 
-**Status:** Ready to begin Week 1 implementation
+**Status:** Milestone 1 Complete ✅ — Ready for Milestone 2
