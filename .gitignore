@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+cache/
+*.pyc
+.DS_Store
+.ruff_cache/
+.vscode/
+project/data/proiel_coref.csv
+proiel-treebank/
+proiel_audit/
+.env

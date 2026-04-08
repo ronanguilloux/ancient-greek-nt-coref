@@ -1,0 +1,34 @@
+{
+  "date": "2026-04-08",
+  "corpus": "Mark 1:1-4:26",
+  "total_instances": 739,
+  "difficulty_distribution": {
+    "2": 474,
+    "1": 153,
+    "3": 112
+  },
+  "rules_summary": {
+    "overall": {
+      "correct": 251,
+      "total": 739,
+      "accuracy": "34.0%"
+    },
+    "level_1": {
+      "correct": 153,
+      "total": 153,
+      "accuracy": "100.0%"
+    },
+    "level_2": {
+      "correct": 47,
+      "total": 474,
+      "accuracy": "9.9%"
+    },
+    "level_3": {
+      "correct": 51,
+      "total": 112,
+      "accuracy": "45.5%"
+    }
+  },
+  "decision_threshold": ">15% improvement on Level 2+3",
+  "recommendation": "Run LLM evaluation to make final decision"
+}

@@ -1,0 +1,14 @@
+# Data processing
+pandas
+lxml
+tabulate
+
+# NLP Baseline (Sprint 1)
+torch
+transformers
+trankit
+
+# LLM Evaluation (Sprint 2C)
+google-genai
+aiohttp
+requests

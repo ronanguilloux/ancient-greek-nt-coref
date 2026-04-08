@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh repo:*)",
+      "Read(//Users/ronan.guilloux@akeneo.com/Documents/Code/Github/Ronan-Perso/ronan-personal-skills/ronan-gmail-unsollicited/scripts/**)",
+      "Bash(source .venv/bin/activate)",
+      "Bash(python3 triage.py)",
+      "Bash(wc -l scripts/sprint1_mention_detector.py scripts/sprint1_mention_detector_final.py scripts/sprint2_character_registry.py scripts/sprint2_full_pipeline.py scripts/sprint2_pronoun_resolution.py scripts/test_*.py)"
+    ]
+  }
+}

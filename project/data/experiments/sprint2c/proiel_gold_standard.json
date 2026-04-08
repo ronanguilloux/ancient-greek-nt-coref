@@ -1,0 +1,6949 @@
+{
+  "metadata": {
+    "source": "PROIEL",
+    "date": "2026-04-08",
+    "stats": {
+      "total": 739,
+      "null_found": 668,
+      "no_null": 71,
+      "person_antecedent": 97,
+      "non_person_antecedent": 343,
+      "no_antecedent": 228
+    }
+  },
+  "gold_results": [
+    {
+      "instance_id": 0,
+      "verse_ref": "MARK 1.7",
+      "verb_form": "ἐκήρυσσεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "101793",
+      "antecedent_form": "Ἰωάννης",
+      "antecedent_lemma": "Ἰωάν(ν)ης",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "IOANNES"
+    },
+    {
+      "instance_id": 1,
+      "verse_ref": "MARK 1.9",
+      "verb_form": "ἐγένετο",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 2,
+      "verse_ref": "MARK 1.10",
+      "verb_form": "εἶδεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "101898",
+      "antecedent_form": "Ἰησοῦς",
+      "antecedent_lemma": "Ἰησοῦς",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "IESOUS"
+    },
+    {
+      "instance_id": 3,
+      "verse_ref": "MARK 1.13",
+      "verb_form": "ἦν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "101898",
+      "antecedent_form": "Ἰησοῦς",
+      "antecedent_lemma": "Ἰησοῦς",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "IESOUS"
+    },
+    {
+      "instance_id": 4,
+      "verse_ref": "MARK 1.13",
+      "verb_form": "ἦν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "101898",
+      "antecedent_form": "Ἰησοῦς",
+      "antecedent_lemma": "Ἰησοῦς",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "IESOUS"
+    },
+    {
+      "instance_id": 5,
+      "verse_ref": "MARK 1.16",
+      "verb_form": "εἶδεν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "101898",
+      "antecedent_form": "Ἰησοῦς",
+      "antecedent_lemma": "Ἰησοῦς",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "IESOUS"
+    },
+    {
+      "instance_id": 6,
+      "verse_ref": "MARK 1.16",
+      "verb_form": "ἦσαν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "102029",
+      "antecedent_form": "Ἀνδρέαν",
+      "antecedent_lemma": "Ἀνδρέας",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "ANDREAS"
+    },
+    {
+      "instance_id": 7,
+      "verse_ref": "MARK 1.18",
+      "verb_form": "ἠκολούθησαν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "102029",
+      "antecedent_form": "Ἀνδρέαν",
+      "antecedent_lemma": "Ἀνδρέας",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "ANDREAS"
+    },
+    {
+      "instance_id": 8,
+      "verse_ref": "MARK 1.19",
+      "verb_form": "εἶδεν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "101898",
+      "antecedent_form": "Ἰησοῦς",
+      "antecedent_lemma": "Ἰησοῦς",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "IESOUS"
+    },
+    {
+      "instance_id": 9,
+      "verse_ref": "MARK 1.20",
+      "verb_form": "ἐκάλεσεν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "101898",
+      "antecedent_form": "Ἰησοῦς",
+      "antecedent_lemma": "Ἰησοῦς",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "IESOUS"
+    },
+    {
+      "instance_id": 10,
+      "verse_ref": "MARK 1.20",
+      "verb_form": "ἀπῆλθον",
+      "difficulty_level": 2,
+      "antecedent_token_id": "102076",
+      "antecedent_form": "Ἰωάννην",
+      "antecedent_lemma": "Ἰωάν(ν)ης",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "IOANNES"
+    },
+    {
+      "instance_id": 11,
+      "verse_ref": "MARK 1.21",
+      "verb_form": "εἰσπορεύονται",
+      "difficulty_level": 2,
+      "antecedent_token_id": "102076",
+      "antecedent_form": "Ἰωάννην",
+      "antecedent_lemma": "Ἰωάν(ν)ης",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "IOANNES"
+    },
+    {
+      "instance_id": 12,
+      "verse_ref": "MARK 1.21",
+      "verb_form": "ἐδίδασκεν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "101898",
+      "antecedent_form": "Ἰησοῦς",
+      "antecedent_lemma": "Ἰησοῦς",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "IESOUS"
+    },
+    {
+      "instance_id": 13,
+      "verse_ref": "MARK 1.23",
+      "verb_form": "ἀνέκραξεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "102155",
+      "antecedent_form": "πνεύματι",
+      "antecedent_lemma": "πνεῦμα",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 14,
+      "verse_ref": "MARK 1.27",
+      "verb_form": "ἐπιτάσσει",
+      "difficulty_level": 3,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 15,
+      "verse_ref": "MARK 1.27",
+      "verb_form": "ὑπακούουσιν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "102231",
+      "antecedent_form": "πνεύμασι",
+      "antecedent_lemma": "πνεῦμα",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 16,
+      "verse_ref": "MARK 1.29",
+      "verb_form": "ἦλθον",
+      "difficulty_level": 2,
+      "antecedent_token_id": "102114",
+      "antecedent_form": "Καφαρναούμ",
+      "antecedent_lemma": "Καφαρναούμ",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 17,
+      "verse_ref": "MARK 1.30",
+      "verb_form": "λέγουσιν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "102264",
+      "antecedent_form": "Σίμωνος",
+      "antecedent_lemma": "Σίμων",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "PETROS"
+    },
+    {
+      "instance_id": 18,
+      "verse_ref": "MARK 1.31",
+      "verb_form": "ἤγειρεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "679291",
+      "antecedent_form": "",
+      "antecedent_lemma": "",
+      "antecedent_pos": "",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 19,
+      "verse_ref": "MARK 1.31",
+      "verb_form": "διηκόνει",
+      "difficulty_level": 2,
+      "antecedent_token_id": "102274",
+      "antecedent_form": "πενθερὰ",
+      "antecedent_lemma": "πενθερά",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 20,
+      "verse_ref": "MARK 1.32",
+      "verb_form": "ἔφερον",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 21,
+      "verse_ref": "MARK 1.34",
+      "verb_form": "ἐθεράπευσεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "679291",
+      "antecedent_form": "",
+      "antecedent_lemma": "",
+      "antecedent_pos": "",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 22,
+      "verse_ref": "MARK 1.34",
+      "verb_form": "ἐξέβαλεν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "679291",
+      "antecedent_form": "",
+      "antecedent_lemma": "",
+      "antecedent_pos": "",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 23,
+      "verse_ref": "MARK 1.34",
+      "verb_form": "ἤφιεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "679291",
+      "antecedent_form": "",
+      "antecedent_lemma": "",
+      "antecedent_pos": "",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 24,
+      "verse_ref": "MARK 1.34",
+      "verb_form": "ᾔδεισαν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "102343",
+      "antecedent_form": "δαιμόνια",
+      "antecedent_lemma": "δαιμόνιον",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 25,
+      "verse_ref": "MARK 1.35",
+      "verb_form": "ἐξῆλθεν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "679291",
+      "antecedent_form": "",
+      "antecedent_lemma": "",
+      "antecedent_pos": "",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 26,
+      "verse_ref": "MARK 1.35",
+      "verb_form": "ἀπῆλθεν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "679291",
+      "antecedent_form": "",
+      "antecedent_lemma": "",
+      "antecedent_pos": "",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 27,
+      "verse_ref": "MARK 1.35",
+      "verb_form": "προσηύχετο",
+      "difficulty_level": 1,
+      "antecedent_token_id": "679291",
+      "antecedent_form": "",
+      "antecedent_lemma": "",
+      "antecedent_pos": "",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 28,
+      "verse_ref": "MARK 1.37",
+      "verb_form": "εὗρον",
+      "difficulty_level": 1,
+      "antecedent_token_id": "765137",
+      "antecedent_form": "μετ’",
+      "antecedent_lemma": "μετά",
+      "antecedent_pos": "R-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 29,
+      "verse_ref": "MARK 1.37",
+      "verb_form": "λέγουσιν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "765137",
+      "antecedent_form": "μετ’",
+      "antecedent_lemma": "μετά",
+      "antecedent_pos": "R-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 30,
+      "verse_ref": "MARK 1.38",
+      "verb_form": "λέγει",
+      "difficulty_level": 1,
+      "antecedent_token_id": "679291",
+      "antecedent_form": "",
+      "antecedent_lemma": "",
+      "antecedent_pos": "",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 31,
+      "verse_ref": "MARK 1.39",
+      "verb_form": "ἦλθεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 32,
+      "verse_ref": "MARK 1.41",
+      "verb_form": "ἥψατο",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 33,
+      "verse_ref": "MARK 1.41",
+      "verb_form": "λέγει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 34,
+      "verse_ref": "MARK 1.43",
+      "verb_form": "ἐξέβαλεν",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 35,
+      "verse_ref": "MARK 1.44",
+      "verb_form": "λέγει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 36,
+      "verse_ref": "MARK 1.45",
+      "verb_form": "ἦν",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 37,
+      "verse_ref": "MARK 1.45",
+      "verb_form": "ἤρχοντο",
+      "difficulty_level": 1,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 38,
+      "verse_ref": "MARK 2.1",
+      "verb_form": "ἐστίν",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 39,
+      "verse_ref": "MARK 2.2",
+      "verb_form": "ἐλάλει",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 40,
+      "verse_ref": "MARK 2.3",
+      "verb_form": "ἔρχονται",
+      "difficulty_level": 1,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 41,
+      "verse_ref": "MARK 2.4",
+      "verb_form": "ἀπεστέγασαν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "102581",
+      "antecedent_form": "τεσσάρων",
+      "antecedent_lemma": "τέσσαρες",
+      "antecedent_pos": "Ma",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 42,
+      "verse_ref": "MARK 2.4",
+      "verb_form": "ἦν",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 43,
+      "verse_ref": "MARK 2.4",
+      "verb_form": "χαλῶσι",
+      "difficulty_level": 1,
+      "antecedent_token_id": "102581",
+      "antecedent_form": "τεσσάρων",
+      "antecedent_lemma": "τέσσαρες",
+      "antecedent_pos": "Ma",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 44,
+      "verse_ref": "MARK 2.7",
+      "verb_form": "βλασφημεῖ",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 45,
+      "verse_ref": "MARK 2.8",
+      "verb_form": "διαλογίζονται",
+      "difficulty_level": 3,
+      "antecedent_token_id": "102627",
+      "antecedent_form": "τινες",
+      "antecedent_lemma": "τὶς",
+      "antecedent_pos": "Px",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 46,
+      "verse_ref": "MARK 2.10",
+      "verb_form": "λέγει",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 47,
+      "verse_ref": "MARK 2.12",
+      "verb_form": "ἐξῆλθεν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "102578",
+      "antecedent_form": "παραλυτικὸν",
+      "antecedent_lemma": "παραλυτικός",
+      "antecedent_pos": "A-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 48,
+      "verse_ref": "MARK 2.13",
+      "verb_form": "ἐξῆλθεν",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 49,
+      "verse_ref": "MARK 2.13",
+      "verb_form": "ἐδίδασκεν",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 50,
+      "verse_ref": "MARK 2.14",
+      "verb_form": "εἶδεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 51,
+      "verse_ref": "MARK 2.14",
+      "verb_form": "λέγει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 52,
+      "verse_ref": "MARK 2.14",
+      "verb_form": "ἠκολούθησεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "102786",
+      "antecedent_form": "Λευεὶν",
+      "antecedent_lemma": "Λευί",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "ΛΕΥΊ"
+    },
+    {
+      "instance_id": 53,
+      "verse_ref": "MARK 2.15",
+      "verb_form": "γίνεται",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 54,
+      "verse_ref": "MARK 2.15",
+      "verb_form": "ἦσαν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "102826",
+      "antecedent_form": "μαθηταῖς",
+      "antecedent_lemma": "μαθητής",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": "OI_MATHETAI"
+    },
+    {
+      "instance_id": 55,
+      "verse_ref": "MARK 2.16",
+      "verb_form": "ἤσθιεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 56,
+      "verse_ref": "MARK 2.16",
+      "verb_form": "ἔλεγον",
+      "difficulty_level": 2,
+      "antecedent_token_id": "102836",
+      "antecedent_form": "γραμματεῖς",
+      "antecedent_lemma": "γραμματεύς",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 57,
+      "verse_ref": "MARK 2.18",
+      "verb_form": "ἔρχονται",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 58,
+      "verse_ref": "MARK 2.18",
+      "verb_form": "λέγουσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "759795",
+      "antecedent_form": "",
+      "antecedent_lemma": "",
+      "antecedent_pos": "",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 59,
+      "verse_ref": "MARK 2.19",
+      "verb_form": "ἔχουσιν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "102933",
+      "antecedent_form": "υἱοὶ",
+      "antecedent_lemma": "υἱός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 60,
+      "verse_ref": "MARK 2.19",
+      "verb_form": "δύνανται",
+      "difficulty_level": 2,
+      "antecedent_token_id": "102933",
+      "antecedent_form": "υἱοὶ",
+      "antecedent_lemma": "υἱός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 61,
+      "verse_ref": "MARK 2.20",
+      "verb_form": "νηστεύσουσιν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "102933",
+      "antecedent_form": "υἱοὶ",
+      "antecedent_lemma": "υἱός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 62,
+      "verse_ref": "MARK 2.23",
+      "verb_form": "ἐγένετο",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 63,
+      "verse_ref": "MARK 2.25",
+      "verb_form": "λέγει",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 64,
+      "verse_ref": "MARK 2.25",
+      "verb_form": "ἔσχεν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "103075",
+      "antecedent_form": "Δαυείδ",
+      "antecedent_lemma": "Δαυίδ",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "ΔΑΥΊΔ"
+    },
+    {
+      "instance_id": 65,
+      "verse_ref": "MARK 2.26",
+      "verb_form": "εἰσῆλθεν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "103075",
+      "antecedent_form": "Δαυείδ",
+      "antecedent_lemma": "Δαυίδ",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "ΔΑΥΊΔ"
+    },
+    {
+      "instance_id": 66,
+      "verse_ref": "MARK 2.26",
+      "verb_form": "ἔφαγεν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "103075",
+      "antecedent_form": "Δαυείδ",
+      "antecedent_lemma": "Δαυίδ",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "ΔΑΥΊΔ"
+    },
+    {
+      "instance_id": 67,
+      "verse_ref": "MARK 2.26",
+      "verb_form": "ἔξεστιν",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 68,
+      "verse_ref": "MARK 2.26",
+      "verb_form": "ἔδωκεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103075",
+      "antecedent_form": "Δαυείδ",
+      "antecedent_lemma": "Δαυίδ",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "ΔΑΥΊΔ"
+    },
+    {
+      "instance_id": 69,
+      "verse_ref": "MARK 2.27",
+      "verb_form": "ἔλεγεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 70,
+      "verse_ref": "MARK 3.1",
+      "verb_form": "εἰσῆλθεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 71,
+      "verse_ref": "MARK 3.2",
+      "verb_form": "παρετήρουν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103155",
+      "antecedent_form": "συναγωγήν",
+      "antecedent_lemma": "συναγωγή",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 72,
+      "verse_ref": "MARK 3.2",
+      "verb_form": "θεραπεύει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 73,
+      "verse_ref": "MARK 3.2",
+      "verb_form": "κατηγορήσωσιν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "103155",
+      "antecedent_form": "συναγωγήν",
+      "antecedent_lemma": "συναγωγή",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 74,
+      "verse_ref": "MARK 3.3",
+      "verb_form": "λέγει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 75,
+      "verse_ref": "MARK 3.4",
+      "verb_form": "λέγει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 76,
+      "verse_ref": "MARK 3.4",
+      "verb_form": "ἔξεστιν",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 77,
+      "verse_ref": "MARK 3.5",
+      "verb_form": "λέγει",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 78,
+      "verse_ref": "MARK 3.5",
+      "verb_form": "ἐξέτεινεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103160",
+      "antecedent_form": "ἄνθρωπος",
+      "antecedent_lemma": "ἄνθρωπος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 79,
+      "verse_ref": "MARK 3.6",
+      "verb_form": "ἀπολέσωσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103254",
+      "antecedent_form": "Ἡρῳδιανῶν",
+      "antecedent_lemma": "Ἡρῳδιανοί",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 80,
+      "verse_ref": "MARK 3.8",
+      "verb_form": "ἐποίει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 81,
+      "verse_ref": "MARK 3.9",
+      "verb_form": "εἶπεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 82,
+      "verse_ref": "MARK 3.9",
+      "verb_form": "θλίβωσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103304",
+      "antecedent_form": "πλῆθος",
+      "antecedent_lemma": "πλῆθος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 83,
+      "verse_ref": "MARK 3.10",
+      "verb_form": "ἐθεράπευσεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 84,
+      "verse_ref": "MARK 3.10",
+      "verb_form": "ἅψωνται",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 85,
+      "verse_ref": "MARK 3.11",
+      "verb_form": "ἐθεώρουν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103346",
+      "antecedent_form": "μάστιγας",
+      "antecedent_lemma": "μάστιξ",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 86,
+      "verse_ref": "MARK 3.11",
+      "verb_form": "ἔκραζον",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103346",
+      "antecedent_form": "μάστιγας",
+      "antecedent_lemma": "μάστιξ",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 87,
+      "verse_ref": "MARK 3.12",
+      "verb_form": "ἐπετίμα",
+      "difficulty_level": 3,
+      "antecedent_token_id": "103367",
+      "antecedent_form": "υἱὸς",
+      "antecedent_lemma": "υἱός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 88,
+      "verse_ref": "MARK 3.12",
+      "verb_form": "ποιήσωσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103346",
+      "antecedent_form": "μάστιγας",
+      "antecedent_lemma": "μάστιξ",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 89,
+      "verse_ref": "MARK 3.13",
+      "verb_form": "ἀναβαίνει",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103378",
+      "antecedent_form": "φανερὸν",
+      "antecedent_lemma": "φανερός",
+      "antecedent_pos": "A-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 90,
+      "verse_ref": "MARK 3.13",
+      "verb_form": "προσκαλεῖται",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103378",
+      "antecedent_form": "φανερὸν",
+      "antecedent_lemma": "φανερός",
+      "antecedent_pos": "A-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 91,
+      "verse_ref": "MARK 3.13",
+      "verb_form": "ἀπῆλθον",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103389",
+      "antecedent_form": "ἤθελεν",
+      "antecedent_lemma": "ἐθέλω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 92,
+      "verse_ref": "MARK 3.14",
+      "verb_form": "ἐποίησεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103378",
+      "antecedent_form": "φανερὸν",
+      "antecedent_lemma": "φανερός",
+      "antecedent_pos": "A-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 93,
+      "verse_ref": "MARK 3.14",
+      "verb_form": "ὦσιν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "103389",
+      "antecedent_form": "ἤθελεν",
+      "antecedent_lemma": "ἐθέλω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 94,
+      "verse_ref": "MARK 3.14",
+      "verb_form": "ἀποστέλλῃ",
+      "difficulty_level": 3,
+      "antecedent_token_id": "103378",
+      "antecedent_form": "φανερὸν",
+      "antecedent_lemma": "φανερός",
+      "antecedent_pos": "A-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 95,
+      "verse_ref": "MARK 3.16",
+      "verb_form": "ἐποίησεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103378",
+      "antecedent_form": "φανερὸν",
+      "antecedent_lemma": "φανερός",
+      "antecedent_pos": "A-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 96,
+      "verse_ref": "MARK 3.16",
+      "verb_form": "ἐπέθηκεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103378",
+      "antecedent_form": "φανερὸν",
+      "antecedent_lemma": "φανερός",
+      "antecedent_pos": "A-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 97,
+      "verse_ref": "MARK 3.17",
+      "verb_form": "ἐπέθηκεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103378",
+      "antecedent_form": "φανερὸν",
+      "antecedent_lemma": "φανερός",
+      "antecedent_pos": "A-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 98,
+      "verse_ref": "MARK 3.19",
+      "verb_form": "ἔρχεται",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103378",
+      "antecedent_form": "φανερὸν",
+      "antecedent_lemma": "φανερός",
+      "antecedent_pos": "A-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 99,
+      "verse_ref": "MARK 3.21",
+      "verb_form": "ἔλεγον",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103504",
+      "antecedent_form": "παρ’",
+      "antecedent_lemma": "παρά",
+      "antecedent_pos": "R-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 100,
+      "verse_ref": "MARK 3.21",
+      "verb_form": "ἐξέστη",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103378",
+      "antecedent_form": "φανερὸν",
+      "antecedent_lemma": "φανερός",
+      "antecedent_pos": "A-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 101,
+      "verse_ref": "MARK 3.22",
+      "verb_form": "ἔχει",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103378",
+      "antecedent_form": "φανερὸν",
+      "antecedent_lemma": "φανερός",
+      "antecedent_pos": "A-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 102,
+      "verse_ref": "MARK 3.22",
+      "verb_form": "ἐκβάλλει",
+      "difficulty_level": 3,
+      "antecedent_token_id": "103378",
+      "antecedent_form": "φανερὸν",
+      "antecedent_lemma": "φανερός",
+      "antecedent_pos": "A-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 103,
+      "verse_ref": "MARK 3.23",
+      "verb_form": "ἔλεγεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103378",
+      "antecedent_form": "φανερὸν",
+      "antecedent_lemma": "φανερός",
+      "antecedent_pos": "A-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 104,
+      "verse_ref": "MARK 3.26",
+      "verb_form": "δύναται",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103583",
+      "antecedent_form": "σατανᾶς",
+      "antecedent_lemma": "Σατανᾶς",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "ΣΑΤΑΝΑ͂Σ"
+    },
+    {
+      "instance_id": 105,
+      "verse_ref": "MARK 3.26",
+      "verb_form": "ἔχει",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103583",
+      "antecedent_form": "σατανᾶς",
+      "antecedent_lemma": "Σατανᾶς",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "ΣΑΤΑΝΑ͂Σ"
+    },
+    {
+      "instance_id": 106,
+      "verse_ref": "MARK 3.27",
+      "verb_form": "δήσῃ",
+      "difficulty_level": 3,
+      "antecedent_token_id": "103600",
+      "antecedent_form": "οὐδεὶς",
+      "antecedent_lemma": "οὐδείς",
+      "antecedent_pos": "Px",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 107,
+      "verse_ref": "MARK 3.27",
+      "verb_form": "διαρπάσει",
+      "difficulty_level": 3,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 108,
+      "verse_ref": "MARK 3.28",
+      "verb_form": "βλασφημήσωσιν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "103633",
+      "antecedent_form": "υἱοῖς",
+      "antecedent_lemma": "υἱός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 109,
+      "verse_ref": "MARK 3.29",
+      "verb_form": "ἔσται",
+      "difficulty_level": 1,
+      "antecedent_token_id": "103649",
+      "antecedent_form": "βλασφημήσῃ",
+      "antecedent_lemma": "βλασφημέω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 110,
+      "verse_ref": "MARK 3.30",
+      "verb_form": "ἔχει",
+      "difficulty_level": 3,
+      "antecedent_token_id": "103649",
+      "antecedent_form": "βλασφημήσῃ",
+      "antecedent_lemma": "βλασφημέω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 111,
+      "verse_ref": "MARK 3.31",
+      "verb_form": "ἀπέστειλαν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "103682",
+      "antecedent_form": "ἀδελφοὶ",
+      "antecedent_lemma": "ἀδελφός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 112,
+      "verse_ref": "MARK 3.32",
+      "verb_form": "λέγουσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103698",
+      "antecedent_form": "ὄχλος",
+      "antecedent_lemma": "ὄχλος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 113,
+      "verse_ref": "MARK 3.33",
+      "verb_form": "λέγει",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103649",
+      "antecedent_form": "βλασφημήσῃ",
+      "antecedent_lemma": "βλασφημέω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 114,
+      "verse_ref": "MARK 3.34",
+      "verb_form": "λέγει",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103649",
+      "antecedent_form": "βλασφημήσῃ",
+      "antecedent_lemma": "βλασφημέω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 115,
+      "verse_ref": "MARK 4.1",
+      "verb_form": "ἤρξατο",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 116,
+      "verse_ref": "MARK 4.2",
+      "verb_form": "ἐδίδασκεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 117,
+      "verse_ref": "MARK 4.2",
+      "verb_form": "ἔλεγεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 118,
+      "verse_ref": "MARK 4.4",
+      "verb_form": "ἐγένετο",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 119,
+      "verse_ref": "MARK 4.4",
+      "verb_form": "κατέφαγεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103845",
+      "antecedent_form": "πετεινὰ",
+      "antecedent_lemma": "πετεινόν",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 120,
+      "verse_ref": "MARK 4.5",
+      "verb_form": "εἶχεν",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 121,
+      "verse_ref": "MARK 4.5",
+      "verb_form": "ἐξανέτειλεν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "103828",
+      "antecedent_form": "σπεῖραι",
+      "antecedent_lemma": "σπείρω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 122,
+      "verse_ref": "MARK 4.7",
+      "verb_form": "συνέπνιξαν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103894",
+      "antecedent_form": "ἀκάνθας",
+      "antecedent_lemma": "ἄκανθα",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 123,
+      "verse_ref": "MARK 4.7",
+      "verb_form": "ἔδωκεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103828",
+      "antecedent_form": "σπεῖραι",
+      "antecedent_lemma": "σπείρω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 124,
+      "verse_ref": "MARK 4.8",
+      "verb_form": "ἐδίδου",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103828",
+      "antecedent_form": "σπεῖραι",
+      "antecedent_lemma": "σπείρω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 125,
+      "verse_ref": "MARK 4.8",
+      "verb_form": "ἔφερεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103828",
+      "antecedent_form": "σπεῖραι",
+      "antecedent_lemma": "σπείρω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 126,
+      "verse_ref": "MARK 4.9",
+      "verb_form": "ἔλεγεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 127,
+      "verse_ref": "MARK 4.10",
+      "verb_form": "ἐγένετο",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 128,
+      "verse_ref": "MARK 4.11",
+      "verb_form": "ἔλεγεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 129,
+      "verse_ref": "MARK 4.12",
+      "verb_form": "βλέπωσιν",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 130,
+      "verse_ref": "MARK 4.12",
+      "verb_form": "ἴδωσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103782",
+      "antecedent_form": "ὄχλος",
+      "antecedent_lemma": "ὄχλος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 131,
+      "verse_ref": "MARK 4.12",
+      "verb_form": "ἀκούωσιν",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 132,
+      "verse_ref": "MARK 4.12",
+      "verb_form": "συνιῶσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "103782",
+      "antecedent_form": "ὄχλος",
+      "antecedent_lemma": "ὄχλος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 133,
+      "verse_ref": "MARK 4.12",
+      "verb_form": "ἐπιστρέψωσιν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "103782",
+      "antecedent_form": "ὄχλος",
+      "antecedent_lemma": "ὄχλος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 134,
+      "verse_ref": "MARK 4.13",
+      "verb_form": "λέγει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 135,
+      "verse_ref": "MARK 4.15",
+      "verb_form": "ἀκούσωσιν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "104028",
+      "antecedent_form": "οὗτοι",
+      "antecedent_lemma": "οὗτος",
+      "antecedent_pos": "Pd",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 136,
+      "verse_ref": "MARK 4.15",
+      "verb_form": "αἴρει",
+      "difficulty_level": 3,
+      "antecedent_token_id": "104046",
+      "antecedent_form": "σατανᾶς",
+      "antecedent_lemma": "Σατανᾶς",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "ΣΑΤΑΝΑ͂Σ"
+    },
+    {
+      "instance_id": 137,
+      "verse_ref": "MARK 4.16",
+      "verb_form": "ἀκούσωσιν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "104064",
+      "antecedent_form": "σπειρόμενοι",
+      "antecedent_lemma": "σπείρω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 138,
+      "verse_ref": "MARK 4.17",
+      "verb_form": "ἔχουσιν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "104064",
+      "antecedent_form": "σπειρόμενοι",
+      "antecedent_lemma": "σπείρω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 139,
+      "verse_ref": "MARK 4.17",
+      "verb_form": "εἰσίν",
+      "difficulty_level": 1,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 140,
+      "verse_ref": "MARK 4.19",
+      "verb_form": "γίνεται",
+      "difficulty_level": 1,
+      "antecedent_token_id": "104025",
+      "antecedent_form": "λόγον",
+      "antecedent_lemma": "λόγος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 141,
+      "verse_ref": "MARK 4.20",
+      "verb_form": "παραδέχονται",
+      "difficulty_level": 1,
+      "antecedent_token_id": "104148",
+      "antecedent_form": "σπαρέντες",
+      "antecedent_lemma": "σπείρω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 142,
+      "verse_ref": "MARK 4.20",
+      "verb_form": "καρποφοροῦσιν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "104148",
+      "antecedent_form": "σπαρέντες",
+      "antecedent_lemma": "σπείρω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 143,
+      "verse_ref": "MARK 4.21",
+      "verb_form": "ἔλεγεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "104006",
+      "antecedent_form": "λέγει",
+      "antecedent_lemma": "λέγω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 144,
+      "verse_ref": "MARK 4.22",
+      "verb_form": "ἔλθῃ",
+      "difficulty_level": 3,
+      "antecedent_token_id": "104205",
+      "antecedent_form": "ἀπόκρυφον",
+      "antecedent_lemma": "ἀπόκρυφος",
+      "antecedent_pos": "A-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 145,
+      "verse_ref": "MARK 4.23",
+      "verb_form": "ἀκουέτω",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 146,
+      "verse_ref": "MARK 4.24",
+      "verb_form": "ἔλεγεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "104006",
+      "antecedent_form": "λέγει",
+      "antecedent_lemma": "λέγω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 147,
+      "verse_ref": "MARK 4.25",
+      "verb_form": "ἔχει",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 148,
+      "verse_ref": "MARK 4.26",
+      "verb_form": "ἔλεγεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "104006",
+      "antecedent_form": "λέγει",
+      "antecedent_lemma": "λέγω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 149,
+      "verse_ref": "MARK 4.27",
+      "verb_form": "καθεύδῃ",
+      "difficulty_level": 3,
+      "antecedent_token_id": "104268",
+      "antecedent_form": "ἄνθρωπος",
+      "antecedent_lemma": "ἄνθρωπος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 150,
+      "verse_ref": "MARK 4.29",
+      "verb_form": "ἀποστέλλει",
+      "difficulty_level": 3,
+      "antecedent_token_id": "104268",
+      "antecedent_form": "ἄνθρωπος",
+      "antecedent_lemma": "ἄνθρωπος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 151,
+      "verse_ref": "MARK 4.30",
+      "verb_form": "ἔλεγεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "104006",
+      "antecedent_form": "λέγει",
+      "antecedent_lemma": "λέγω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 152,
+      "verse_ref": "MARK 4.32",
+      "verb_form": "ἀναβαίνει",
+      "difficulty_level": 3,
+      "antecedent_token_id": "104347",
+      "antecedent_form": "κόκκῳ",
+      "antecedent_lemma": "κόκκος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 153,
+      "verse_ref": "MARK 4.32",
+      "verb_form": "γίνεται",
+      "difficulty_level": 2,
+      "antecedent_token_id": "104347",
+      "antecedent_form": "κόκκῳ",
+      "antecedent_lemma": "κόκκος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 154,
+      "verse_ref": "MARK 4.32",
+      "verb_form": "ποιεῖ",
+      "difficulty_level": 2,
+      "antecedent_token_id": "104347",
+      "antecedent_form": "κόκκῳ",
+      "antecedent_lemma": "κόκκος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 155,
+      "verse_ref": "MARK 4.33",
+      "verb_form": "ἐλάλει",
+      "difficulty_level": 3,
+      "antecedent_token_id": "104006",
+      "antecedent_form": "λέγει",
+      "antecedent_lemma": "λέγω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 156,
+      "verse_ref": "MARK 4.33",
+      "verb_form": "ἠδύναντο",
+      "difficulty_level": 3,
+      "antecedent_token_id": "103955",
+      "antecedent_form": "περὶ",
+      "antecedent_lemma": "περί",
+      "antecedent_pos": "R-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 157,
+      "verse_ref": "MARK 4.35",
+      "verb_form": "λέγει",
+      "difficulty_level": 2,
+      "antecedent_token_id": "104006",
+      "antecedent_form": "λέγει",
+      "antecedent_lemma": "λέγω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 158,
+      "verse_ref": "MARK 4.36",
+      "verb_form": "παραλαμβάνουσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "104421",
+      "antecedent_form": "μαθηταῖς",
+      "antecedent_lemma": "μαθητής",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": "OI_MATHETAI"
+    },
+    {
+      "instance_id": 159,
+      "verse_ref": "MARK 4.36",
+      "verb_form": "ἦν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "104006",
+      "antecedent_form": "λέγει",
+      "antecedent_lemma": "λέγω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 160,
+      "verse_ref": "MARK 4.38",
+      "verb_form": "ἐγείρουσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "104421",
+      "antecedent_form": "μαθηταῖς",
+      "antecedent_lemma": "μαθητής",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": "OI_MATHETAI"
+    },
+    {
+      "instance_id": 161,
+      "verse_ref": "MARK 4.38",
+      "verb_form": "λέγουσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "104421",
+      "antecedent_form": "μαθηταῖς",
+      "antecedent_lemma": "μαθητής",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": "OI_MATHETAI"
+    },
+    {
+      "instance_id": 162,
+      "verse_ref": "MARK 4.38",
+      "verb_form": "μέλει",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 163,
+      "verse_ref": "MARK 4.39",
+      "verb_form": "ἐπετίμησεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "104006",
+      "antecedent_form": "λέγει",
+      "antecedent_lemma": "λέγω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 164,
+      "verse_ref": "MARK 4.39",
+      "verb_form": "εἶπεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "104006",
+      "antecedent_form": "λέγει",
+      "antecedent_lemma": "λέγω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 165,
+      "verse_ref": "MARK 4.40",
+      "verb_form": "εἶπεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "104006",
+      "antecedent_form": "λέγει",
+      "antecedent_lemma": "λέγω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 166,
+      "verse_ref": "MARK 4.41",
+      "verb_form": "ἔλεγον",
+      "difficulty_level": 2,
+      "antecedent_token_id": "104421",
+      "antecedent_form": "μαθηταῖς",
+      "antecedent_lemma": "μαθητής",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": "OI_MATHETAI"
+    },
+    {
+      "instance_id": 167,
+      "verse_ref": "MARK 5.1",
+      "verb_form": "ἦλθον",
+      "difficulty_level": 2,
+      "antecedent_token_id": "104421",
+      "antecedent_form": "μαθηταῖς",
+      "antecedent_lemma": "μαθητής",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": "OI_MATHETAI"
+    },
+    {
+      "instance_id": 168,
+      "verse_ref": "MARK 5.5",
+      "verb_form": "ἦν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "104594",
+      "antecedent_form": "ἄνθρωπος",
+      "antecedent_lemma": "ἄνθρωπος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 169,
+      "verse_ref": "MARK 5.6",
+      "verb_form": "ἔδραμεν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "104594",
+      "antecedent_form": "ἄνθρωπος",
+      "antecedent_lemma": "ἄνθρωπος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 170,
+      "verse_ref": "MARK 5.6",
+      "verb_form": "προσεκύνησεν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "104594",
+      "antecedent_form": "ἄνθρωπος",
+      "antecedent_lemma": "ἄνθρωπος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 171,
+      "verse_ref": "MARK 5.7",
+      "verb_form": "λέγει",
+      "difficulty_level": 3,
+      "antecedent_token_id": "104594",
+      "antecedent_form": "ἄνθρωπος",
+      "antecedent_lemma": "ἄνθρωπος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 172,
+      "verse_ref": "MARK 5.8",
+      "verb_form": "ἔλεγεν",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 173,
+      "verse_ref": "MARK 5.9",
+      "verb_form": "ἐπηρώτα",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 174,
+      "verse_ref": "MARK 5.9",
+      "verb_form": "λέγει",
+      "difficulty_level": 1,
+      "antecedent_token_id": "104596",
+      "antecedent_form": "πνεύματι",
+      "antecedent_lemma": "πνεῦμα",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 175,
+      "verse_ref": "MARK 5.10",
+      "verb_form": "παρεκάλει",
+      "difficulty_level": 1,
+      "antecedent_token_id": "104596",
+      "antecedent_form": "πνεύματι",
+      "antecedent_lemma": "πνεῦμα",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 176,
+      "verse_ref": "MARK 5.10",
+      "verb_form": "ἀποστείλῃ",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 177,
+      "verse_ref": "MARK 5.12",
+      "verb_form": "παρεκάλεσαν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "104596",
+      "antecedent_form": "πνεύματι",
+      "antecedent_lemma": "πνεῦμα",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 178,
+      "verse_ref": "MARK 5.13",
+      "verb_form": "ἐπέτρεψεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 179,
+      "verse_ref": "MARK 5.14",
+      "verb_form": "ἀπήγγειλαν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "104807",
+      "antecedent_form": "βόσκοντες",
+      "antecedent_lemma": "βόσκω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 180,
+      "verse_ref": "MARK 5.14",
+      "verb_form": "ἦλθον",
+      "difficulty_level": 2,
+      "antecedent_token_id": "104577",
+      "antecedent_form": "χώραν",
+      "antecedent_lemma": "χώρα",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 181,
+      "verse_ref": "MARK 5.15",
+      "verb_form": "ἔρχονται",
+      "difficulty_level": 1,
+      "antecedent_token_id": "104577",
+      "antecedent_form": "χώραν",
+      "antecedent_lemma": "χώρα",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 182,
+      "verse_ref": "MARK 5.15",
+      "verb_form": "θεωροῦσιν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "104577",
+      "antecedent_form": "χώραν",
+      "antecedent_lemma": "χώρα",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 183,
+      "verse_ref": "MARK 5.16",
+      "verb_form": "ἐγένετο",
+      "difficulty_level": 3,
+      "antecedent_token_id": "104800",
+      "antecedent_form": "ἐπνίγοντο",
+      "antecedent_lemma": "πνίγω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 184,
+      "verse_ref": "MARK 5.17",
+      "verb_form": "ἤρξαντο",
+      "difficulty_level": 1,
+      "antecedent_token_id": "104577",
+      "antecedent_form": "χώραν",
+      "antecedent_lemma": "χώρα",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 185,
+      "verse_ref": "MARK 5.18",
+      "verb_form": "ᾖ",
+      "difficulty_level": 1,
+      "antecedent_token_id": "104594",
+      "antecedent_form": "ἄνθρωπος",
+      "antecedent_lemma": "ἄνθρωπος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 186,
+      "verse_ref": "MARK 5.19",
+      "verb_form": "ἀφῆκεν",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 187,
+      "verse_ref": "MARK 5.19",
+      "verb_form": "λέγει",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 188,
+      "verse_ref": "MARK 5.19",
+      "verb_form": "ἠλέησέν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "104913",
+      "antecedent_form": "κύριός",
+      "antecedent_lemma": "κύριος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 189,
+      "verse_ref": "MARK 5.20",
+      "verb_form": "ἀπῆλθεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 190,
+      "verse_ref": "MARK 5.20",
+      "verb_form": "ἤρξατο",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 191,
+      "verse_ref": "MARK 5.21",
+      "verb_form": "ἦν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "104913",
+      "antecedent_form": "κύριός",
+      "antecedent_lemma": "κύριος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 192,
+      "verse_ref": "MARK 5.22",
+      "verb_form": "πίπτει",
+      "difficulty_level": 2,
+      "antecedent_token_id": "104965",
+      "antecedent_form": "εἷς",
+      "antecedent_lemma": "εἷς",
+      "antecedent_pos": "Ma",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 193,
+      "verse_ref": "MARK 5.23",
+      "verb_form": "παρακαλεῖ",
+      "difficulty_level": 2,
+      "antecedent_token_id": "104965",
+      "antecedent_form": "εἷς",
+      "antecedent_lemma": "εἷς",
+      "antecedent_pos": "Ma",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 194,
+      "verse_ref": "MARK 5.23",
+      "verb_form": "ζήσῃ",
+      "difficulty_level": 2,
+      "antecedent_token_id": "104988",
+      "antecedent_form": "θυγάτριόν",
+      "antecedent_lemma": "θυγάτριον",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 195,
+      "verse_ref": "MARK 5.24",
+      "verb_form": "ἀπῆλθεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "104913",
+      "antecedent_form": "κύριός",
+      "antecedent_lemma": "κύριος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 196,
+      "verse_ref": "MARK 5.24",
+      "verb_form": "συνέθλιβον",
+      "difficulty_level": 2,
+      "antecedent_token_id": "105012",
+      "antecedent_form": "ὄχλος",
+      "antecedent_lemma": "ὄχλος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 197,
+      "verse_ref": "MARK 5.28",
+      "verb_form": "ἔλεγεν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "105020",
+      "antecedent_form": "γυνὴ",
+      "antecedent_lemma": "γυνή",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 198,
+      "verse_ref": "MARK 5.29",
+      "verb_form": "ἔγνω",
+      "difficulty_level": 1,
+      "antecedent_token_id": "105020",
+      "antecedent_form": "γυνὴ",
+      "antecedent_lemma": "γυνή",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 199,
+      "verse_ref": "MARK 5.32",
+      "verb_form": "περιεβλέπετο",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 200,
+      "verse_ref": "MARK 5.33",
+      "verb_form": "προσέπεσεν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "105020",
+      "antecedent_form": "γυνὴ",
+      "antecedent_lemma": "γυνή",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 201,
+      "verse_ref": "MARK 5.33",
+      "verb_form": "εἶπεν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "105020",
+      "antecedent_form": "γυνὴ",
+      "antecedent_lemma": "γυνή",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 202,
+      "verse_ref": "MARK 5.35",
+      "verb_form": "ἔρχονται",
+      "difficulty_level": 3,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 203,
+      "verse_ref": "MARK 5.37",
+      "verb_form": "ἀφῆκεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 204,
+      "verse_ref": "MARK 5.38",
+      "verb_form": "ἔρχονται",
+      "difficulty_level": 2,
+      "antecedent_token_id": "105248",
+      "antecedent_form": "Ἰωάννην",
+      "antecedent_lemma": "Ἰωάν(ν)ης",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "IOANNES"
+    },
+    {
+      "instance_id": 205,
+      "verse_ref": "MARK 5.38",
+      "verb_form": "θεωρεῖ",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 206,
+      "verse_ref": "MARK 5.39",
+      "verb_form": "λέγει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 207,
+      "verse_ref": "MARK 5.39",
+      "verb_form": "καθεύδει",
+      "difficulty_level": 2,
+      "antecedent_token_id": "765538",
+      "antecedent_form": "θυγάτηρ",
+      "antecedent_lemma": "θυγάτηρ",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 208,
+      "verse_ref": "MARK 5.40",
+      "verb_form": "κατεγέλων",
+      "difficulty_level": 2,
+      "antecedent_token_id": "105267",
+      "antecedent_form": "ἀλαλάζοντας",
+      "antecedent_lemma": "ἀλαλάζω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 209,
+      "verse_ref": "MARK 5.40",
+      "verb_form": "εἰσπορεύεται",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 210,
+      "verse_ref": "MARK 5.41",
+      "verb_form": "λέγει",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 211,
+      "verse_ref": "MARK 5.42",
+      "verb_form": "περιεπάτει",
+      "difficulty_level": 2,
+      "antecedent_token_id": "765538",
+      "antecedent_form": "θυγάτηρ",
+      "antecedent_lemma": "θυγάτηρ",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 212,
+      "verse_ref": "MARK 5.42",
+      "verb_form": "ἦν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "765538",
+      "antecedent_form": "θυγάτηρ",
+      "antecedent_lemma": "θυγάτηρ",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 213,
+      "verse_ref": "MARK 5.42",
+      "verb_form": "ἐξέστησαν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "105304",
+      "antecedent_form": "τοὺς",
+      "antecedent_lemma": "ὁ",
+      "antecedent_pos": "S-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 214,
+      "verse_ref": "MARK 5.43",
+      "verb_form": "διεστείλατο",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 215,
+      "verse_ref": "MARK 5.43",
+      "verb_form": "εἶπεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 216,
+      "verse_ref": "MARK 6.1",
+      "verb_form": "ἐξῆλθεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 217,
+      "verse_ref": "MARK 6.1",
+      "verb_form": "ἔρχεται",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 218,
+      "verse_ref": "MARK 6.2",
+      "verb_form": "ἤρξατο",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 219,
+      "verse_ref": "MARK 6.5",
+      "verb_form": "ἐδύνατο",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 220,
+      "verse_ref": "MARK 6.5",
+      "verb_form": "ἐθεράπευσεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 221,
+      "verse_ref": "MARK 6.6",
+      "verb_form": "ἐθαύμασεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 222,
+      "verse_ref": "MARK 6.6",
+      "verb_form": "περιῆγεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 223,
+      "verse_ref": "MARK 6.7",
+      "verb_form": "προσκαλεῖται",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 224,
+      "verse_ref": "MARK 6.7",
+      "verb_form": "ἤρξατο",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 225,
+      "verse_ref": "MARK 6.7",
+      "verb_form": "ἐδίδου",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 226,
+      "verse_ref": "MARK 6.8",
+      "verb_form": "παρήγγειλεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 227,
+      "verse_ref": "MARK 6.8",
+      "verb_form": "αἴρωσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "105525",
+      "antecedent_form": "δώδεκα",
+      "antecedent_lemma": "δώδεκα",
+      "antecedent_pos": "Ma",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 228,
+      "verse_ref": "MARK 6.10",
+      "verb_form": "ἔλεγεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 229,
+      "verse_ref": "MARK 6.11",
+      "verb_form": "ἀκούσωσιν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "105597",
+      "antecedent_form": "τόπος",
+      "antecedent_lemma": "τόπος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 230,
+      "verse_ref": "MARK 6.12",
+      "verb_form": "ἐκήρυξαν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "105525",
+      "antecedent_form": "δώδεκα",
+      "antecedent_lemma": "δώδεκα",
+      "antecedent_pos": "Ma",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 231,
+      "verse_ref": "MARK 6.12",
+      "verb_form": "μετανοῶσιν",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 232,
+      "verse_ref": "MARK 6.13",
+      "verb_form": "ἐξέβαλλον",
+      "difficulty_level": 3,
+      "antecedent_token_id": "105525",
+      "antecedent_form": "δώδεκα",
+      "antecedent_lemma": "δώδεκα",
+      "antecedent_pos": "Ma",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 233,
+      "verse_ref": "MARK 6.13",
+      "verb_form": "ἤλειφον",
+      "difficulty_level": 2,
+      "antecedent_token_id": "105525",
+      "antecedent_form": "δώδεκα",
+      "antecedent_lemma": "δώδεκα",
+      "antecedent_pos": "Ma",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 234,
+      "verse_ref": "MARK 6.13",
+      "verb_form": "ἐθεράπευον",
+      "difficulty_level": 2,
+      "antecedent_token_id": "105525",
+      "antecedent_form": "δώδεκα",
+      "antecedent_lemma": "δώδεκα",
+      "antecedent_pos": "Ma",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 235,
+      "verse_ref": "MARK 6.14",
+      "verb_form": "ἔλεγεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "105641",
+      "antecedent_form": "βασιλεὺς",
+      "antecedent_lemma": "βασιλεύς",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 236,
+      "verse_ref": "MARK 6.15",
+      "verb_form": "ἐστίν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 237,
+      "verse_ref": "MARK 6.17",
+      "verb_form": "ἔδησεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "105641",
+      "antecedent_form": "βασιλεὺς",
+      "antecedent_lemma": "βασιλεύς",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 238,
+      "verse_ref": "MARK 6.17",
+      "verb_form": "ἐγάμησεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "105641",
+      "antecedent_form": "βασιλεὺς",
+      "antecedent_lemma": "βασιλεύς",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 239,
+      "verse_ref": "MARK 6.19",
+      "verb_form": "ἤθελεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "105739",
+      "antecedent_form": "γυναῖκα",
+      "antecedent_lemma": "γυνή",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 240,
+      "verse_ref": "MARK 6.19",
+      "verb_form": "ἠδύνατο",
+      "difficulty_level": 2,
+      "antecedent_token_id": "105739",
+      "antecedent_form": "γυναῖκα",
+      "antecedent_lemma": "γυνή",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 241,
+      "verse_ref": "MARK 6.20",
+      "verb_form": "συνετήρει",
+      "difficulty_level": 2,
+      "antecedent_token_id": "105641",
+      "antecedent_form": "βασιλεὺς",
+      "antecedent_lemma": "βασιλεύς",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 242,
+      "verse_ref": "MARK 6.20",
+      "verb_form": "ἠπόρει",
+      "difficulty_level": 3,
+      "antecedent_token_id": "105641",
+      "antecedent_form": "βασιλεὺς",
+      "antecedent_lemma": "βασιλεύς",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 243,
+      "verse_ref": "MARK 6.20",
+      "verb_form": "ἤκουεν",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 244,
+      "verse_ref": "MARK 6.22",
+      "verb_form": "ἤρεσεν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "105814",
+      "antecedent_form": "θυγατρὸς",
+      "antecedent_lemma": "θυγάτηρ",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 245,
+      "verse_ref": "MARK 6.23",
+      "verb_form": "ὤμοσεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 246,
+      "verse_ref": "MARK 6.24",
+      "verb_form": "εἶπεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "105814",
+      "antecedent_form": "θυγατρὸς",
+      "antecedent_lemma": "θυγάτηρ",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 247,
+      "verse_ref": "MARK 6.25",
+      "verb_form": "ᾐτήσατο",
+      "difficulty_level": 2,
+      "antecedent_token_id": "105814",
+      "antecedent_form": "θυγατρὸς",
+      "antecedent_lemma": "θυγάτηρ",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 248,
+      "verse_ref": "MARK 6.28",
+      "verb_form": "ἀπεκεφάλισεν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "105926",
+      "antecedent_form": "σπεκουλάτορα",
+      "antecedent_lemma": "σπεκουλάτωρ",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 249,
+      "verse_ref": "MARK 6.28",
+      "verb_form": "ἤνεγκεν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "105926",
+      "antecedent_form": "σπεκουλάτορα",
+      "antecedent_lemma": "σπεκουλάτωρ",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 250,
+      "verse_ref": "MARK 6.28",
+      "verb_form": "ἔδωκεν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "105926",
+      "antecedent_form": "σπεκουλάτορα",
+      "antecedent_lemma": "σπεκουλάτωρ",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 251,
+      "verse_ref": "MARK 6.29",
+      "verb_form": "ἦραν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "105966",
+      "antecedent_form": "μαθηταὶ",
+      "antecedent_lemma": "μαθητής",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": "OI_MATHETAI"
+    },
+    {
+      "instance_id": 252,
+      "verse_ref": "MARK 6.29",
+      "verb_form": "ἔθηκαν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "105966",
+      "antecedent_form": "μαθηταὶ",
+      "antecedent_lemma": "μαθητής",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": "OI_MATHETAI"
+    },
+    {
+      "instance_id": 253,
+      "verse_ref": "MARK 6.30",
+      "verb_form": "ἀπήγγειλαν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "105984",
+      "antecedent_form": "ἀπόστολοι",
+      "antecedent_lemma": "ἀπόστολος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": "OI_APOSTOLOI"
+    },
+    {
+      "instance_id": 254,
+      "verse_ref": "MARK 6.30",
+      "verb_form": "ἐποίησαν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "105984",
+      "antecedent_form": "ἀπόστολοι",
+      "antecedent_lemma": "ἀπόστολος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": "OI_APOSTOLOI"
+    },
+    {
+      "instance_id": 255,
+      "verse_ref": "MARK 6.30",
+      "verb_form": "ἐδίδαξαν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "105984",
+      "antecedent_form": "ἀπόστολοι",
+      "antecedent_lemma": "ἀπόστολος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": "OI_APOSTOLOI"
+    },
+    {
+      "instance_id": 256,
+      "verse_ref": "MARK 6.31",
+      "verb_form": "λέγει",
+      "difficulty_level": 1,
+      "antecedent_token_id": "105987",
+      "antecedent_form": "Ἰησοῦν",
+      "antecedent_lemma": "Ἰησοῦς",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "IESOUS"
+    },
+    {
+      "instance_id": 257,
+      "verse_ref": "MARK 6.31",
+      "verb_form": "εὐκαίρουν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "105984",
+      "antecedent_form": "ἀπόστολοι",
+      "antecedent_lemma": "ἀπόστολος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": "OI_APOSTOLOI"
+    },
+    {
+      "instance_id": 258,
+      "verse_ref": "MARK 6.32",
+      "verb_form": "ἀπῆλθον",
+      "difficulty_level": 1,
+      "antecedent_token_id": "105984",
+      "antecedent_form": "ἀπόστολοι",
+      "antecedent_lemma": "ἀπόστολος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": "OI_APOSTOLOI"
+    },
+    {
+      "instance_id": 259,
+      "verse_ref": "MARK 6.33",
+      "verb_form": "εἶδον",
+      "difficulty_level": 1,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 260,
+      "verse_ref": "MARK 6.33",
+      "verb_form": "συνέδραμον",
+      "difficulty_level": 1,
+      "antecedent_token_id": "679758",
+      "antecedent_form": "",
+      "antecedent_lemma": "",
+      "antecedent_pos": "",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 261,
+      "verse_ref": "MARK 6.33",
+      "verb_form": "προῆλθον",
+      "difficulty_level": 1,
+      "antecedent_token_id": "679758",
+      "antecedent_form": "",
+      "antecedent_lemma": "",
+      "antecedent_pos": "",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 262,
+      "verse_ref": "MARK 6.34",
+      "verb_form": "εἶδεν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "105987",
+      "antecedent_form": "Ἰησοῦν",
+      "antecedent_lemma": "Ἰησοῦς",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "IESOUS"
+    },
+    {
+      "instance_id": 263,
+      "verse_ref": "MARK 6.34",
+      "verb_form": "ἦσαν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "106063",
+      "antecedent_form": "ὄχλον",
+      "antecedent_lemma": "ὄχλος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 264,
+      "verse_ref": "MARK 6.34",
+      "verb_form": "ἤρξατο",
+      "difficulty_level": 1,
+      "antecedent_token_id": "105987",
+      "antecedent_form": "Ἰησοῦν",
+      "antecedent_lemma": "Ἰησοῦς",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "IESOUS"
+    },
+    {
+      "instance_id": 265,
+      "verse_ref": "MARK 6.36",
+      "verb_form": "ἀγοράσωσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "106063",
+      "antecedent_form": "ὄχλον",
+      "antecedent_lemma": "ὄχλος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 266,
+      "verse_ref": "MARK 6.36",
+      "verb_form": "φάγωσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "106063",
+      "antecedent_form": "ὄχλον",
+      "antecedent_lemma": "ὄχλος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 267,
+      "verse_ref": "MARK 6.37",
+      "verb_form": "λέγουσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "105984",
+      "antecedent_form": "ἀπόστολοι",
+      "antecedent_lemma": "ἀπόστολος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": "OI_APOSTOLOI"
+    },
+    {
+      "instance_id": 268,
+      "verse_ref": "MARK 6.38",
+      "verb_form": "λέγουσιν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 269,
+      "verse_ref": "MARK 6.39",
+      "verb_form": "ἐπέταξεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "105987",
+      "antecedent_form": "Ἰησοῦν",
+      "antecedent_lemma": "Ἰησοῦς",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "IESOUS"
+    },
+    {
+      "instance_id": 270,
+      "verse_ref": "MARK 6.40",
+      "verb_form": "ἀνέπεσαν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "106063",
+      "antecedent_form": "ὄχλον",
+      "antecedent_lemma": "ὄχλος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 271,
+      "verse_ref": "MARK 6.41",
+      "verb_form": "εὐλόγησεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "105987",
+      "antecedent_form": "Ἰησοῦν",
+      "antecedent_lemma": "Ἰησοῦς",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "IESOUS"
+    },
+    {
+      "instance_id": 272,
+      "verse_ref": "MARK 6.41",
+      "verb_form": "κατέκλασεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "105987",
+      "antecedent_form": "Ἰησοῦν",
+      "antecedent_lemma": "Ἰησοῦς",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "IESOUS"
+    },
+    {
+      "instance_id": 273,
+      "verse_ref": "MARK 6.41",
+      "verb_form": "ἐδίδου",
+      "difficulty_level": 2,
+      "antecedent_token_id": "105987",
+      "antecedent_form": "Ἰησοῦν",
+      "antecedent_lemma": "Ἰησοῦς",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "IESOUS"
+    },
+    {
+      "instance_id": 274,
+      "verse_ref": "MARK 6.41",
+      "verb_form": "παρατιθῶσιν",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 275,
+      "verse_ref": "MARK 6.41",
+      "verb_form": "ἐμέρισεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "105987",
+      "antecedent_form": "Ἰησοῦν",
+      "antecedent_lemma": "Ἰησοῦς",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "IESOUS"
+    },
+    {
+      "instance_id": 276,
+      "verse_ref": "MARK 6.43",
+      "verb_form": "ἦραν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 277,
+      "verse_ref": "MARK 6.45",
+      "verb_form": "ἠνάγκασεν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "105987",
+      "antecedent_form": "Ἰησοῦν",
+      "antecedent_lemma": "Ἰησοῦς",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "IESOUS"
+    },
+    {
+      "instance_id": 278,
+      "verse_ref": "MARK 6.46",
+      "verb_form": "ἀπῆλθεν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "105987",
+      "antecedent_form": "Ἰησοῦν",
+      "antecedent_lemma": "Ἰησοῦς",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "IESOUS"
+    },
+    {
+      "instance_id": 279,
+      "verse_ref": "MARK 6.48",
+      "verb_form": "ἔρχεται",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 280,
+      "verse_ref": "MARK 6.48",
+      "verb_form": "ἤθελεν",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 281,
+      "verse_ref": "MARK 6.49",
+      "verb_form": "ἐστιν",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 282,
+      "verse_ref": "MARK 6.49",
+      "verb_form": "ἀνέκραξαν",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 283,
+      "verse_ref": "MARK 6.50",
+      "verb_form": "λέγει",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 284,
+      "verse_ref": "MARK 6.51",
+      "verb_form": "ἀνέβη",
+      "difficulty_level": 2,
+      "antecedent_token_id": "106372",
+      "antecedent_form": "ἐγώ",
+      "antecedent_lemma": "ἐγώ",
+      "antecedent_pos": "Pp",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 285,
+      "verse_ref": "MARK 6.51",
+      "verb_form": "ἐξίσταντο",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 286,
+      "verse_ref": "MARK 6.52",
+      "verb_form": "συνῆκαν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 287,
+      "verse_ref": "MARK 6.53",
+      "verb_form": "ἦλθον",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 288,
+      "verse_ref": "MARK 6.55",
+      "verb_form": "περιέδραμον",
+      "difficulty_level": 1,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 289,
+      "verse_ref": "MARK 6.55",
+      "verb_form": "ἤρξαντο",
+      "difficulty_level": 1,
+      "antecedent_token_id": "679799",
+      "antecedent_form": "",
+      "antecedent_lemma": "",
+      "antecedent_pos": "",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 290,
+      "verse_ref": "MARK 6.55",
+      "verb_form": "ἤκουον",
+      "difficulty_level": 1,
+      "antecedent_token_id": "679799",
+      "antecedent_form": "",
+      "antecedent_lemma": "",
+      "antecedent_pos": "",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 291,
+      "verse_ref": "MARK 6.55",
+      "verb_form": "ἐστίν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "106372",
+      "antecedent_form": "ἐγώ",
+      "antecedent_lemma": "ἐγώ",
+      "antecedent_pos": "Pp",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 292,
+      "verse_ref": "MARK 6.56",
+      "verb_form": "εἰσεπορεύετο",
+      "difficulty_level": 1,
+      "antecedent_token_id": "106372",
+      "antecedent_form": "ἐγώ",
+      "antecedent_lemma": "ἐγώ",
+      "antecedent_pos": "Pp",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 293,
+      "verse_ref": "MARK 6.56",
+      "verb_form": "ἐτίθεσαν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "106456",
+      "antecedent_form": "εἰσεπορεύετο",
+      "antecedent_lemma": "εἰσπορεύομαι",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 294,
+      "verse_ref": "MARK 6.56",
+      "verb_form": "παρεκάλουν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "106456",
+      "antecedent_form": "εἰσεπορεύετο",
+      "antecedent_lemma": "εἰσπορεύομαι",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 295,
+      "verse_ref": "MARK 6.56",
+      "verb_form": "ἅψωνται",
+      "difficulty_level": 3,
+      "antecedent_token_id": "106456",
+      "antecedent_form": "εἰσεπορεύετο",
+      "antecedent_lemma": "εἰσπορεύομαι",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 296,
+      "verse_ref": "MARK 7.2",
+      "verb_form": "ἐσθίουσιν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "106508",
+      "antecedent_form": "τινὰς",
+      "antecedent_lemma": "τὶς",
+      "antecedent_pos": "Px",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 297,
+      "verse_ref": "MARK 7.3",
+      "verb_form": "νίψωνται",
+      "difficulty_level": 3,
+      "antecedent_token_id": "106529",
+      "antecedent_form": "Ἰουδαῖοι",
+      "antecedent_lemma": "Ἰουδαῖος",
+      "antecedent_pos": "A-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 298,
+      "verse_ref": "MARK 7.4",
+      "verb_form": "βαπτίσωνται",
+      "difficulty_level": 1,
+      "antecedent_token_id": "106529",
+      "antecedent_form": "Ἰουδαῖοι",
+      "antecedent_lemma": "Ἰουδαῖος",
+      "antecedent_pos": "A-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 299,
+      "verse_ref": "MARK 7.4",
+      "verb_form": "ἐσθίουσιν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "106508",
+      "antecedent_form": "τινὰς",
+      "antecedent_lemma": "τὶς",
+      "antecedent_pos": "Px",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 300,
+      "verse_ref": "MARK 7.4",
+      "verb_form": "παρέλαβον",
+      "difficulty_level": 1,
+      "antecedent_token_id": "106529",
+      "antecedent_form": "Ἰουδαῖοι",
+      "antecedent_lemma": "Ἰουδαῖος",
+      "antecedent_pos": "A-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 301,
+      "verse_ref": "MARK 7.5",
+      "verb_form": "ἐσθίουσιν",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 302,
+      "verse_ref": "MARK 7.7",
+      "verb_form": "σέβονταί",
+      "difficulty_level": 1,
+      "antecedent_token_id": "106614",
+      "antecedent_form": "λαὸς",
+      "antecedent_lemma": "λαός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 303,
+      "verse_ref": "MARK 7.9",
+      "verb_form": "ἔλεγεν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "106372",
+      "antecedent_form": "ἐγώ",
+      "antecedent_lemma": "ἐγώ",
+      "antecedent_pos": "Pp",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 304,
+      "verse_ref": "MARK 7.14",
+      "verb_form": "ἔλεγεν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "106372",
+      "antecedent_form": "ἐγώ",
+      "antecedent_lemma": "ἐγώ",
+      "antecedent_pos": "Pp",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 305,
+      "verse_ref": "MARK 7.17",
+      "verb_form": "εἰσῆλθεν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "106372",
+      "antecedent_form": "ἐγώ",
+      "antecedent_lemma": "ἐγώ",
+      "antecedent_pos": "Pp",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 306,
+      "verse_ref": "MARK 7.18",
+      "verb_form": "λέγει",
+      "difficulty_level": 2,
+      "antecedent_token_id": "106372",
+      "antecedent_form": "ἐγώ",
+      "antecedent_lemma": "ἐγώ",
+      "antecedent_pos": "Pp",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 307,
+      "verse_ref": "MARK 7.19",
+      "verb_form": "εἰσπορεύεται",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 308,
+      "verse_ref": "MARK 7.19",
+      "verb_form": "ἐκπορεύεται",
+      "difficulty_level": 2,
+      "antecedent_token_id": "106761",
+      "antecedent_form": "εἰσπορευόμενον",
+      "antecedent_lemma": "εἰσπορεύομαι",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 309,
+      "verse_ref": "MARK 7.20",
+      "verb_form": "ἔλεγεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "106372",
+      "antecedent_form": "ἐγώ",
+      "antecedent_lemma": "ἐγώ",
+      "antecedent_pos": "Pp",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 310,
+      "verse_ref": "MARK 7.23",
+      "verb_form": "κοινοῖ",
+      "difficulty_level": 2,
+      "antecedent_token_id": "106869",
+      "antecedent_form": "διαλογισμοὶ",
+      "antecedent_lemma": "διαλογισμός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 311,
+      "verse_ref": "MARK 7.24",
+      "verb_form": "ἀπῆλθεν",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 312,
+      "verse_ref": "MARK 7.24",
+      "verb_form": "ἠθέλησεν",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 313,
+      "verse_ref": "MARK 7.26",
+      "verb_form": "ἠρώτα",
+      "difficulty_level": 1,
+      "antecedent_token_id": "106935",
+      "antecedent_form": "γυνὴ",
+      "antecedent_lemma": "γυνή",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 314,
+      "verse_ref": "MARK 7.26",
+      "verb_form": "ἐκβάλῃ",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 315,
+      "verse_ref": "MARK 7.27",
+      "verb_form": "ἔλεγεν",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 316,
+      "verse_ref": "MARK 7.27",
+      "verb_form": "ἐστιν",
+      "difficulty_level": 1,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 317,
+      "verse_ref": "MARK 7.28",
+      "verb_form": "λέγει",
+      "difficulty_level": 1,
+      "antecedent_token_id": "106935",
+      "antecedent_form": "γυνὴ",
+      "antecedent_lemma": "γυνή",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 318,
+      "verse_ref": "MARK 7.29",
+      "verb_form": "εἶπεν",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 319,
+      "verse_ref": "MARK 7.30",
+      "verb_form": "εὗρεν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "106935",
+      "antecedent_form": "γυνὴ",
+      "antecedent_lemma": "γυνή",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 320,
+      "verse_ref": "MARK 7.31",
+      "verb_form": "ἦλθεν",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 321,
+      "verse_ref": "MARK 7.32",
+      "verb_form": "φέρουσιν",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 322,
+      "verse_ref": "MARK 7.32",
+      "verb_form": "παρακαλοῦσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "679845",
+      "antecedent_form": "",
+      "antecedent_lemma": "",
+      "antecedent_pos": "",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 323,
+      "verse_ref": "MARK 7.32",
+      "verb_form": "ἐπιθῇ",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 324,
+      "verse_ref": "MARK 7.33",
+      "verb_form": "ἔβαλεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 325,
+      "verse_ref": "MARK 7.33",
+      "verb_form": "ἥψατο",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 326,
+      "verse_ref": "MARK 7.34",
+      "verb_form": "ἐστέναξεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 327,
+      "verse_ref": "MARK 7.34",
+      "verb_form": "λέγει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 328,
+      "verse_ref": "MARK 7.35",
+      "verb_form": "ἐλάλει",
+      "difficulty_level": 2,
+      "antecedent_token_id": "107084",
+      "antecedent_form": "κωφὸν",
+      "antecedent_lemma": "κωφός",
+      "antecedent_pos": "A-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 329,
+      "verse_ref": "MARK 7.36",
+      "verb_form": "διεστείλατο",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 330,
+      "verse_ref": "MARK 7.36",
+      "verb_form": "λέγωσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "679845",
+      "antecedent_form": "",
+      "antecedent_lemma": "",
+      "antecedent_pos": "",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 331,
+      "verse_ref": "MARK 7.36",
+      "verb_form": "διεστέλλετο",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 332,
+      "verse_ref": "MARK 7.37",
+      "verb_form": "πεποίηκεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 333,
+      "verse_ref": "MARK 7.37",
+      "verb_form": "ποιεῖ",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 334,
+      "verse_ref": "MARK 8.1",
+      "verb_form": "φάγωσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "107197",
+      "antecedent_form": "ὄχλου",
+      "antecedent_lemma": "ὄχλος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 335,
+      "verse_ref": "MARK 8.1",
+      "verb_form": "λέγει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 336,
+      "verse_ref": "MARK 8.2",
+      "verb_form": "προσμένουσίν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "107197",
+      "antecedent_form": "ὄχλου",
+      "antecedent_lemma": "ὄχλος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 337,
+      "verse_ref": "MARK 8.2",
+      "verb_form": "ἔχουσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "107197",
+      "antecedent_form": "ὄχλου",
+      "antecedent_lemma": "ὄχλος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 338,
+      "verse_ref": "MARK 8.2",
+      "verb_form": "φάγωσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "107197",
+      "antecedent_form": "ὄχλου",
+      "antecedent_lemma": "ὄχλος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 339,
+      "verse_ref": "MARK 8.5",
+      "verb_form": "ἠρώτα",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 340,
+      "verse_ref": "MARK 8.6",
+      "verb_form": "παραγγέλλει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 341,
+      "verse_ref": "MARK 8.6",
+      "verb_form": "ἔκλασεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 342,
+      "verse_ref": "MARK 8.6",
+      "verb_form": "ἐδίδου",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 343,
+      "verse_ref": "MARK 8.6",
+      "verb_form": "παρατιθῶσιν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "107207",
+      "antecedent_form": "μαθητὰς",
+      "antecedent_lemma": "μαθητής",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": "OI_MATHETAI"
+    },
+    {
+      "instance_id": 344,
+      "verse_ref": "MARK 8.6",
+      "verb_form": "παρέθηκαν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "107207",
+      "antecedent_form": "μαθητὰς",
+      "antecedent_lemma": "μαθητής",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": "OI_MATHETAI"
+    },
+    {
+      "instance_id": 345,
+      "verse_ref": "MARK 8.7",
+      "verb_form": "εἶχαν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "107207",
+      "antecedent_form": "μαθητὰς",
+      "antecedent_lemma": "μαθητής",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": "OI_MATHETAI"
+    },
+    {
+      "instance_id": 346,
+      "verse_ref": "MARK 8.7",
+      "verb_form": "παρέθηκέν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 347,
+      "verse_ref": "MARK 8.8",
+      "verb_form": "ἔφαγον",
+      "difficulty_level": 2,
+      "antecedent_token_id": "107197",
+      "antecedent_form": "ὄχλου",
+      "antecedent_lemma": "ὄχλος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 348,
+      "verse_ref": "MARK 8.8",
+      "verb_form": "ἦραν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "107197",
+      "antecedent_form": "ὄχλου",
+      "antecedent_lemma": "ὄχλος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 349,
+      "verse_ref": "MARK 8.9",
+      "verb_form": "ἦσαν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "107197",
+      "antecedent_form": "ὄχλου",
+      "antecedent_lemma": "ὄχλος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 350,
+      "verse_ref": "MARK 8.9",
+      "verb_form": "ἀπέλυσεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 351,
+      "verse_ref": "MARK 8.10",
+      "verb_form": "ἦλθεν",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 352,
+      "verse_ref": "MARK 8.11",
+      "verb_form": "ἤρξαντο",
+      "difficulty_level": 1,
+      "antecedent_token_id": "107359",
+      "antecedent_form": "Φαρισαῖοι",
+      "antecedent_lemma": "Φαρισαῖος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 353,
+      "verse_ref": "MARK 8.12",
+      "verb_form": "λέγει",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 354,
+      "verse_ref": "MARK 8.13",
+      "verb_form": "ἀπῆλθεν",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 355,
+      "verse_ref": "MARK 8.14",
+      "verb_form": "ἐπελάθοντο",
+      "difficulty_level": 1,
+      "antecedent_token_id": "107207",
+      "antecedent_form": "μαθητὰς",
+      "antecedent_lemma": "μαθητής",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": "OI_MATHETAI"
+    },
+    {
+      "instance_id": 356,
+      "verse_ref": "MARK 8.14",
+      "verb_form": "εἶχον",
+      "difficulty_level": 1,
+      "antecedent_token_id": "107207",
+      "antecedent_form": "μαθητὰς",
+      "antecedent_lemma": "μαθητής",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": "OI_MATHETAI"
+    },
+    {
+      "instance_id": 357,
+      "verse_ref": "MARK 8.15",
+      "verb_form": "διεστέλλετο",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 358,
+      "verse_ref": "MARK 8.16",
+      "verb_form": "διελογίζοντο",
+      "difficulty_level": 1,
+      "antecedent_token_id": "107207",
+      "antecedent_form": "μαθητὰς",
+      "antecedent_lemma": "μαθητής",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": "OI_MATHETAI"
+    },
+    {
+      "instance_id": 359,
+      "verse_ref": "MARK 8.17",
+      "verb_form": "λέγει",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 360,
+      "verse_ref": "MARK 8.19",
+      "verb_form": "λέγουσιν",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 361,
+      "verse_ref": "MARK 8.20",
+      "verb_form": "λέγουσιν",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 362,
+      "verse_ref": "MARK 8.21",
+      "verb_form": "ἔλεγεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 363,
+      "verse_ref": "MARK 8.22",
+      "verb_form": "ἔρχονται",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 364,
+      "verse_ref": "MARK 8.22",
+      "verb_form": "φέρουσιν",
+      "difficulty_level": 1,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 365,
+      "verse_ref": "MARK 8.22",
+      "verb_form": "παρακαλοῦσιν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "679980",
+      "antecedent_form": "",
+      "antecedent_lemma": "",
+      "antecedent_pos": "",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 366,
+      "verse_ref": "MARK 8.22",
+      "verb_form": "ἅψηται",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 367,
+      "verse_ref": "MARK 8.23",
+      "verb_form": "ἐξήνεγκεν",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 368,
+      "verse_ref": "MARK 8.23",
+      "verb_form": "ἐπηρώτα",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 369,
+      "verse_ref": "MARK 8.23",
+      "verb_form": "βλέπει",
+      "difficulty_level": 1,
+      "antecedent_token_id": "107549",
+      "antecedent_form": "τυφλὸν",
+      "antecedent_lemma": "τυφλός",
+      "antecedent_pos": "A-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 370,
+      "verse_ref": "MARK 8.24",
+      "verb_form": "ἔλεγεν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "107549",
+      "antecedent_form": "τυφλὸν",
+      "antecedent_lemma": "τυφλός",
+      "antecedent_pos": "A-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 371,
+      "verse_ref": "MARK 8.25",
+      "verb_form": "ἐπέθηκεν",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 372,
+      "verse_ref": "MARK 8.25",
+      "verb_form": "διέβλεψεν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "107549",
+      "antecedent_form": "τυφλὸν",
+      "antecedent_lemma": "τυφλός",
+      "antecedent_pos": "A-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 373,
+      "verse_ref": "MARK 8.25",
+      "verb_form": "ἀπεκατέστη",
+      "difficulty_level": 1,
+      "antecedent_token_id": "107549",
+      "antecedent_form": "τυφλὸν",
+      "antecedent_lemma": "τυφλός",
+      "antecedent_pos": "A-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 374,
+      "verse_ref": "MARK 8.25",
+      "verb_form": "ἐνέβλεπεν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "107549",
+      "antecedent_form": "τυφλὸν",
+      "antecedent_lemma": "τυφλός",
+      "antecedent_pos": "A-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 375,
+      "verse_ref": "MARK 8.26",
+      "verb_form": "ἀπέστειλεν",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 376,
+      "verse_ref": "MARK 8.27",
+      "verb_form": "ἐπηρώτα",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 377,
+      "verse_ref": "MARK 8.30",
+      "verb_form": "ἐπετίμησεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 378,
+      "verse_ref": "MARK 8.30",
+      "verb_form": "λέγωσιν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 379,
+      "verse_ref": "MARK 8.31",
+      "verb_form": "ἤρξατο",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 380,
+      "verse_ref": "MARK 8.31",
+      "verb_form": "δεῖ",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 381,
+      "verse_ref": "MARK 8.32",
+      "verb_form": "ἐλάλει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 382,
+      "verse_ref": "MARK 8.33",
+      "verb_form": "λέγει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 383,
+      "verse_ref": "MARK 8.34",
+      "verb_form": "εἶπεν",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 384,
+      "verse_ref": "MARK 8.34",
+      "verb_form": "ἀράτω",
+      "difficulty_level": 2,
+      "antecedent_token_id": "107814",
+      "antecedent_form": "θέλει",
+      "antecedent_lemma": "ἐθέλω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 385,
+      "verse_ref": "MARK 8.34",
+      "verb_form": "ἀκολουθείτω",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 386,
+      "verse_ref": "MARK 8.36",
+      "verb_form": "ὠφελεῖ",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 387,
+      "verse_ref": "MARK 8.38",
+      "verb_form": "ἔλθῃ",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 388,
+      "verse_ref": "MARK 9.1",
+      "verb_form": "ἔλεγεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 389,
+      "verse_ref": "MARK 9.1",
+      "verb_form": "ἴδωσιν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "107930",
+      "antecedent_form": "τινες",
+      "antecedent_lemma": "τὶς",
+      "antecedent_pos": "Px",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 390,
+      "verse_ref": "MARK 9.2",
+      "verb_form": "ἀναφέρει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 391,
+      "verse_ref": "MARK 9.4",
+      "verb_form": "ἦσαν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "108005",
+      "antecedent_form": "Μωϋσεῖ",
+      "antecedent_lemma": "Μωϋσῆς",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "MOYSES"
+    },
+    {
+      "instance_id": 392,
+      "verse_ref": "MARK 9.5",
+      "verb_form": "ἐστιν",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 393,
+      "verse_ref": "MARK 9.6",
+      "verb_form": "ᾔδει",
+      "difficulty_level": 2,
+      "antecedent_token_id": "107958",
+      "antecedent_form": "Πέτρον",
+      "antecedent_lemma": "Πέτρος",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "PETROS"
+    },
+    {
+      "instance_id": 394,
+      "verse_ref": "MARK 9.6",
+      "verb_form": "ἐγένοντο",
+      "difficulty_level": 2,
+      "antecedent_token_id": "107958",
+      "antecedent_form": "Πέτρον",
+      "antecedent_lemma": "Πέτρος",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "PETROS"
+    },
+    {
+      "instance_id": 395,
+      "verse_ref": "MARK 9.8",
+      "verb_form": "εἶδον",
+      "difficulty_level": 2,
+      "antecedent_token_id": "107958",
+      "antecedent_form": "Πέτρον",
+      "antecedent_lemma": "Πέτρος",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "PETROS"
+    },
+    {
+      "instance_id": 396,
+      "verse_ref": "MARK 9.9",
+      "verb_form": "διεστείλατο",
+      "difficulty_level": 2,
+      "antecedent_token_id": "108069",
+      "antecedent_form": "υἱός",
+      "antecedent_lemma": "υἱός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 397,
+      "verse_ref": "MARK 9.9",
+      "verb_form": "εἶδον",
+      "difficulty_level": 2,
+      "antecedent_token_id": "107958",
+      "antecedent_form": "Πέτρον",
+      "antecedent_lemma": "Πέτρος",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "PETROS"
+    },
+    {
+      "instance_id": 398,
+      "verse_ref": "MARK 9.9",
+      "verb_form": "διηγήσωνται",
+      "difficulty_level": 2,
+      "antecedent_token_id": "107958",
+      "antecedent_form": "Πέτρον",
+      "antecedent_lemma": "Πέτρος",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "PETROS"
+    },
+    {
+      "instance_id": 399,
+      "verse_ref": "MARK 9.10",
+      "verb_form": "ἐκράτησαν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "107958",
+      "antecedent_form": "Πέτρον",
+      "antecedent_lemma": "Πέτρος",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "PETROS"
+    },
+    {
+      "instance_id": 400,
+      "verse_ref": "MARK 9.11",
+      "verb_form": "ἐπηρώτων",
+      "difficulty_level": 2,
+      "antecedent_token_id": "107958",
+      "antecedent_form": "Πέτρον",
+      "antecedent_lemma": "Πέτρος",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "PETROS"
+    },
+    {
+      "instance_id": 401,
+      "verse_ref": "MARK 9.12",
+      "verb_form": "πάθῃ",
+      "difficulty_level": 2,
+      "antecedent_token_id": "108069",
+      "antecedent_form": "υἱός",
+      "antecedent_lemma": "υἱός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 402,
+      "verse_ref": "MARK 9.12",
+      "verb_form": "ἐξουθενωθῇ",
+      "difficulty_level": 2,
+      "antecedent_token_id": "108069",
+      "antecedent_form": "υἱός",
+      "antecedent_lemma": "υἱός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 403,
+      "verse_ref": "MARK 9.13",
+      "verb_form": "ἐποίησαν",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 404,
+      "verse_ref": "MARK 9.13",
+      "verb_form": "ἤθελον",
+      "difficulty_level": 2,
+      "antecedent_token_id": "679923",
+      "antecedent_form": "",
+      "antecedent_lemma": "",
+      "antecedent_pos": "",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 405,
+      "verse_ref": "MARK 9.14",
+      "verb_form": "εἶδον",
+      "difficulty_level": 1,
+      "antecedent_token_id": "107958",
+      "antecedent_form": "Πέτρον",
+      "antecedent_lemma": "Πέτρος",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "PETROS"
+    },
+    {
+      "instance_id": 406,
+      "verse_ref": "MARK 9.15",
+      "verb_form": "ἠσπάζοντο",
+      "difficulty_level": 1,
+      "antecedent_token_id": "108198",
+      "antecedent_form": "ὄχλον",
+      "antecedent_lemma": "ὄχλος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 407,
+      "verse_ref": "MARK 9.16",
+      "verb_form": "ἐπηρώτησεν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "108069",
+      "antecedent_form": "υἱός",
+      "antecedent_lemma": "υἱός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 408,
+      "verse_ref": "MARK 9.18",
+      "verb_form": "ἐκβάλωσιν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "108198",
+      "antecedent_form": "ὄχλον",
+      "antecedent_lemma": "ὄχλος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 409,
+      "verse_ref": "MARK 9.18",
+      "verb_form": "ἴσχυσαν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "108198",
+      "antecedent_form": "ὄχλον",
+      "antecedent_lemma": "ὄχλος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 410,
+      "verse_ref": "MARK 9.20",
+      "verb_form": "ἤνεγκαν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "108198",
+      "antecedent_form": "ὄχλον",
+      "antecedent_lemma": "ὄχλος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 411,
+      "verse_ref": "MARK 9.20",
+      "verb_form": "ἐκυλίετο",
+      "difficulty_level": 2,
+      "antecedent_token_id": "108243",
+      "antecedent_form": "υἱόν",
+      "antecedent_lemma": "υἱός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 412,
+      "verse_ref": "MARK 9.21",
+      "verb_form": "ἐπηρώτησεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 413,
+      "verse_ref": "MARK 9.22",
+      "verb_form": "ἔβαλεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "108249",
+      "antecedent_form": "πνεῦμα",
+      "antecedent_lemma": "πνεῦμα",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 414,
+      "verse_ref": "MARK 9.22",
+      "verb_form": "ἀπολέσῃ",
+      "difficulty_level": 3,
+      "antecedent_token_id": "108249",
+      "antecedent_form": "πνεῦμα",
+      "antecedent_lemma": "πνεῦμα",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 415,
+      "verse_ref": "MARK 9.26",
+      "verb_form": "ἐξῆλθεν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "108249",
+      "antecedent_form": "πνεῦμα",
+      "antecedent_lemma": "πνεῦμα",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 416,
+      "verse_ref": "MARK 9.26",
+      "verb_form": "ἐγένετο",
+      "difficulty_level": 1,
+      "antecedent_token_id": "108243",
+      "antecedent_form": "υἱόν",
+      "antecedent_lemma": "υἱός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 417,
+      "verse_ref": "MARK 9.26",
+      "verb_form": "ἀπέθανεν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "108243",
+      "antecedent_form": "υἱόν",
+      "antecedent_lemma": "υἱός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 418,
+      "verse_ref": "MARK 9.27",
+      "verb_form": "ἀνέστη",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 419,
+      "verse_ref": "MARK 9.29",
+      "verb_form": "εἶπεν",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 420,
+      "verse_ref": "MARK 9.30",
+      "verb_form": "παρεπορεύοντο",
+      "difficulty_level": 2,
+      "antecedent_token_id": "108482",
+      "antecedent_form": "μαθηταὶ",
+      "antecedent_lemma": "μαθητής",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": "OI_MATHETAI"
+    },
+    {
+      "instance_id": 421,
+      "verse_ref": "MARK 9.30",
+      "verb_form": "ἤθελεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 422,
+      "verse_ref": "MARK 9.31",
+      "verb_form": "ἐδίδασκεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 423,
+      "verse_ref": "MARK 9.31",
+      "verb_form": "ἔλεγεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 424,
+      "verse_ref": "MARK 9.31",
+      "verb_form": "ἀποκτενοῦσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "108543",
+      "antecedent_form": "ἀνθρώπων",
+      "antecedent_lemma": "ἄνθρωπος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 425,
+      "verse_ref": "MARK 9.31",
+      "verb_form": "ἀναστήσεται",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 426,
+      "verse_ref": "MARK 9.32",
+      "verb_form": "ἐφοβοῦντο",
+      "difficulty_level": 2,
+      "antecedent_token_id": "108482",
+      "antecedent_form": "μαθηταὶ",
+      "antecedent_lemma": "μαθητής",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": "OI_MATHETAI"
+    },
+    {
+      "instance_id": 427,
+      "verse_ref": "MARK 9.33",
+      "verb_form": "ἦλθον",
+      "difficulty_level": 2,
+      "antecedent_token_id": "108482",
+      "antecedent_form": "μαθηταὶ",
+      "antecedent_lemma": "μαθητής",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": "OI_MATHETAI"
+    },
+    {
+      "instance_id": 428,
+      "verse_ref": "MARK 9.33",
+      "verb_form": "ἐπηρώτα",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 429,
+      "verse_ref": "MARK 9.35",
+      "verb_form": "ἐφώνησεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 430,
+      "verse_ref": "MARK 9.35",
+      "verb_form": "λέγει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 431,
+      "verse_ref": "MARK 9.35",
+      "verb_form": "ἔσται",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 432,
+      "verse_ref": "MARK 9.36",
+      "verb_form": "ἔστησεν",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 433,
+      "verse_ref": "MARK 9.36",
+      "verb_form": "εἶπεν",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 434,
+      "verse_ref": "MARK 9.38",
+      "verb_form": "ἠκολούθει",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 435,
+      "verse_ref": "MARK 9.42",
+      "verb_form": "ἐστιν",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 436,
+      "verse_ref": "MARK 9.43",
+      "verb_form": "ἐστίν",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 437,
+      "verse_ref": "MARK 9.45",
+      "verb_form": "ἐστίν",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 438,
+      "verse_ref": "MARK 9.47",
+      "verb_form": "ἐστιν",
+      "difficulty_level": 1,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 439,
+      "verse_ref": "MARK 10.1",
+      "verb_form": "ἔρχεται",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 440,
+      "verse_ref": "MARK 10.1",
+      "verb_form": "εἰώθει",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 441,
+      "verse_ref": "MARK 10.1",
+      "verb_form": "ἐδίδασκεν",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 442,
+      "verse_ref": "MARK 10.2",
+      "verb_form": "ἔξεστιν",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 443,
+      "verse_ref": "MARK 10.5",
+      "verb_form": "ἔγραψεν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "108978",
+      "antecedent_form": "Μωϋσῆς",
+      "antecedent_lemma": "Μωϋσῆς",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "MOYSES"
+    },
+    {
+      "instance_id": 444,
+      "verse_ref": "MARK 10.6",
+      "verb_form": "ἐποίησεν",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 445,
+      "verse_ref": "MARK 10.8",
+      "verb_form": "εἰσὶν",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 446,
+      "verse_ref": "MARK 10.11",
+      "verb_form": "λέγει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 447,
+      "verse_ref": "MARK 10.11",
+      "verb_form": "γαμήσῃ",
+      "difficulty_level": 2,
+      "antecedent_token_id": "109074",
+      "antecedent_form": "ἀπολύσῃ",
+      "antecedent_lemma": "ἀπολύω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 448,
+      "verse_ref": "MARK 10.12",
+      "verb_form": "μοιχᾶται",
+      "difficulty_level": 2,
+      "antecedent_token_id": "109076",
+      "antecedent_form": "γυναῖκα",
+      "antecedent_lemma": "γυνή",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 449,
+      "verse_ref": "MARK 10.13",
+      "verb_form": "προσέφερον",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 450,
+      "verse_ref": "MARK 10.13",
+      "verb_form": "ἅψηται",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 451,
+      "verse_ref": "MARK 10.16",
+      "verb_form": "κατευλόγει",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 452,
+      "verse_ref": "MARK 10.21",
+      "verb_form": "εἶπεν",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 453,
+      "verse_ref": "MARK 10.22",
+      "verb_form": "ἦν",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 454,
+      "verse_ref": "MARK 10.24",
+      "verb_form": "ἐστιν",
+      "difficulty_level": 1,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 455,
+      "verse_ref": "MARK 10.25",
+      "verb_form": "ἐστιν",
+      "difficulty_level": 1,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 456,
+      "verse_ref": "MARK 10.32",
+      "verb_form": "Ἦσαν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "109313",
+      "antecedent_form": "μαθηταῖς",
+      "antecedent_lemma": "μαθητής",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": "OI_MATHETAI"
+    },
+    {
+      "instance_id": 457,
+      "verse_ref": "MARK 10.32",
+      "verb_form": "ἤρξατο",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 458,
+      "verse_ref": "MARK 10.43",
+      "verb_form": "ἐστιν",
+      "difficulty_level": 3,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 459,
+      "verse_ref": "MARK 10.46",
+      "verb_form": "ἔρχονται",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 460,
+      "verse_ref": "MARK 10.47",
+      "verb_form": "ἐστιν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 461,
+      "verse_ref": "MARK 10.47",
+      "verb_form": "ἤρξατο",
+      "difficulty_level": 2,
+      "antecedent_token_id": "109816",
+      "antecedent_form": "υἱὸς",
+      "antecedent_lemma": "υἱός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 462,
+      "verse_ref": "MARK 10.48",
+      "verb_form": "σιωπήσῃ",
+      "difficulty_level": 3,
+      "antecedent_token_id": "109816",
+      "antecedent_form": "υἱὸς",
+      "antecedent_lemma": "υἱός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 463,
+      "verse_ref": "MARK 10.49",
+      "verb_form": "φωνοῦσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "109813",
+      "antecedent_form": "ὄχλου",
+      "antecedent_lemma": "ὄχλος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 464,
+      "verse_ref": "MARK 10.52",
+      "verb_form": "ἀνέβλεψεν",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 465,
+      "verse_ref": "MARK 10.52",
+      "verb_form": "ἠκολούθει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 466,
+      "verse_ref": "MARK 11.1",
+      "verb_form": "ἐγγίζουσιν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "109813",
+      "antecedent_form": "ὄχλου",
+      "antecedent_lemma": "ὄχλος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 467,
+      "verse_ref": "MARK 11.1",
+      "verb_form": "ἀποστέλλει",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 468,
+      "verse_ref": "MARK 11.2",
+      "verb_form": "λέγει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 469,
+      "verse_ref": "MARK 11.4",
+      "verb_form": "ἀπῆλθον",
+      "difficulty_level": 2,
+      "antecedent_token_id": "109965",
+      "antecedent_form": "δύο",
+      "antecedent_lemma": "δύο",
+      "antecedent_pos": "Ma",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 470,
+      "verse_ref": "MARK 11.4",
+      "verb_form": "εὗρον",
+      "difficulty_level": 2,
+      "antecedent_token_id": "109965",
+      "antecedent_form": "δύο",
+      "antecedent_lemma": "δύο",
+      "antecedent_pos": "Ma",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 471,
+      "verse_ref": "MARK 11.4",
+      "verb_form": "λύουσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "109965",
+      "antecedent_form": "δύο",
+      "antecedent_lemma": "δύο",
+      "antecedent_pos": "Ma",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 472,
+      "verse_ref": "MARK 11.6",
+      "verb_form": "ἀφῆκαν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110047",
+      "antecedent_form": "τινες",
+      "antecedent_lemma": "τὶς",
+      "antecedent_pos": "Px",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 473,
+      "verse_ref": "MARK 11.7",
+      "verb_form": "φέρουσιν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "109965",
+      "antecedent_form": "δύο",
+      "antecedent_lemma": "δύο",
+      "antecedent_pos": "Ma",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 474,
+      "verse_ref": "MARK 11.7",
+      "verb_form": "ἐπιβάλλουσιν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "109965",
+      "antecedent_form": "δύο",
+      "antecedent_lemma": "δύο",
+      "antecedent_pos": "Ma",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 475,
+      "verse_ref": "MARK 11.7",
+      "verb_form": "ἐκάθισεν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "109965",
+      "antecedent_form": "δύο",
+      "antecedent_lemma": "δύο",
+      "antecedent_pos": "Ma",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 476,
+      "verse_ref": "MARK 11.11",
+      "verb_form": "εἰσῆλθεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "109965",
+      "antecedent_form": "δύο",
+      "antecedent_lemma": "δύο",
+      "antecedent_pos": "Ma",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 477,
+      "verse_ref": "MARK 11.11",
+      "verb_form": "ἐξῆλθεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "109965",
+      "antecedent_form": "δύο",
+      "antecedent_lemma": "δύο",
+      "antecedent_pos": "Ma",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 478,
+      "verse_ref": "MARK 11.12",
+      "verb_form": "ἐπείνασεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "109965",
+      "antecedent_form": "δύο",
+      "antecedent_lemma": "δύο",
+      "antecedent_pos": "Ma",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 479,
+      "verse_ref": "MARK 11.13",
+      "verb_form": "ἦλθεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "109965",
+      "antecedent_form": "δύο",
+      "antecedent_lemma": "δύο",
+      "antecedent_pos": "Ma",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 480,
+      "verse_ref": "MARK 11.13",
+      "verb_form": "εὑρήσει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 481,
+      "verse_ref": "MARK 11.13",
+      "verb_form": "εὗρεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 482,
+      "verse_ref": "MARK 11.14",
+      "verb_form": "εἶπεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 483,
+      "verse_ref": "MARK 11.15",
+      "verb_form": "ἔρχονται",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110166",
+      "antecedent_form": "δώδεκα",
+      "antecedent_lemma": "δώδεκα",
+      "antecedent_pos": "Ma",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 484,
+      "verse_ref": "MARK 11.15",
+      "verb_form": "ἤρξατο",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 485,
+      "verse_ref": "MARK 11.15",
+      "verb_form": "κατέστρεψεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 486,
+      "verse_ref": "MARK 11.16",
+      "verb_form": "ἤφιεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 487,
+      "verse_ref": "MARK 11.17",
+      "verb_form": "ἐδίδασκεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 488,
+      "verse_ref": "MARK 11.17",
+      "verb_form": "ἔλεγεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 489,
+      "verse_ref": "MARK 11.18",
+      "verb_form": "ἐζήτουν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "110146",
+      "antecedent_form": "Ἱεροσόλυμα",
+      "antecedent_lemma": "Ἱεροσόλυμα",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 490,
+      "verse_ref": "MARK 11.18",
+      "verb_form": "ἀπολέσωσιν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "110146",
+      "antecedent_form": "Ἱεροσόλυμα",
+      "antecedent_lemma": "Ἱεροσόλυμα",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 491,
+      "verse_ref": "MARK 11.19",
+      "verb_form": "ἐγένετο",
+      "difficulty_level": 1,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 492,
+      "verse_ref": "MARK 11.19",
+      "verb_form": "ἐξεπορεύοντο",
+      "difficulty_level": 3,
+      "antecedent_token_id": "110166",
+      "antecedent_form": "δώδεκα",
+      "antecedent_lemma": "δώδεκα",
+      "antecedent_pos": "Ma",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 493,
+      "verse_ref": "MARK 11.20",
+      "verb_form": "εἶδον",
+      "difficulty_level": 3,
+      "antecedent_token_id": "110166",
+      "antecedent_form": "δώδεκα",
+      "antecedent_lemma": "δώδεκα",
+      "antecedent_pos": "Ma",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 494,
+      "verse_ref": "MARK 11.27",
+      "verb_form": "ἔρχονται",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 495,
+      "verse_ref": "MARK 11.28",
+      "verb_form": "ἔλεγον",
+      "difficulty_level": 1,
+      "antecedent_token_id": "110469",
+      "antecedent_form": "ἱερῷ",
+      "antecedent_lemma": "ἱερόν",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 496,
+      "verse_ref": "MARK 11.31",
+      "verb_form": "διελογίζοντο",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110469",
+      "antecedent_form": "ἱερῷ",
+      "antecedent_lemma": "ἱερόν",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 497,
+      "verse_ref": "MARK 11.31",
+      "verb_form": "ἐρεῖ",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110469",
+      "antecedent_form": "ἱερῷ",
+      "antecedent_lemma": "ἱερόν",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 498,
+      "verse_ref": "MARK 11.32",
+      "verb_form": "ἐφοβοῦντο",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110469",
+      "antecedent_form": "ἱερῷ",
+      "antecedent_lemma": "ἱερόν",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 499,
+      "verse_ref": "MARK 11.32",
+      "verb_form": "ἦν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110531",
+      "antecedent_form": "Ἰωάννου",
+      "antecedent_lemma": "Ἰωάν(ν)ης",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "IOANNES"
+    },
+    {
+      "instance_id": 500,
+      "verse_ref": "MARK 11.33",
+      "verb_form": "λέγουσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110469",
+      "antecedent_form": "ἱερῷ",
+      "antecedent_lemma": "ἱερόν",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 501,
+      "verse_ref": "MARK 12.1",
+      "verb_form": "ἤρξατο",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 502,
+      "verse_ref": "MARK 12.1",
+      "verb_form": "περιέθηκεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110615",
+      "antecedent_form": "ἄνθρωπος",
+      "antecedent_lemma": "ἄνθρωπος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 503,
+      "verse_ref": "MARK 12.1",
+      "verb_form": "ὤρυξεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110615",
+      "antecedent_form": "ἄνθρωπος",
+      "antecedent_lemma": "ἄνθρωπος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 504,
+      "verse_ref": "MARK 12.1",
+      "verb_form": "ᾠκοδόμησεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110615",
+      "antecedent_form": "ἄνθρωπος",
+      "antecedent_lemma": "ἄνθρωπος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 505,
+      "verse_ref": "MARK 12.1",
+      "verb_form": "ἐξέδετο",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110615",
+      "antecedent_form": "ἄνθρωπος",
+      "antecedent_lemma": "ἄνθρωπος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 506,
+      "verse_ref": "MARK 12.1",
+      "verb_form": "ἀπεδήμησεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110615",
+      "antecedent_form": "ἄνθρωπος",
+      "antecedent_lemma": "ἄνθρωπος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 507,
+      "verse_ref": "MARK 12.2",
+      "verb_form": "ἀπέστειλεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110615",
+      "antecedent_form": "ἄνθρωπος",
+      "antecedent_lemma": "ἄνθρωπος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 508,
+      "verse_ref": "MARK 12.2",
+      "verb_form": "λάβῃ",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110643",
+      "antecedent_form": "δοῦλον",
+      "antecedent_lemma": "δοῦλος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 509,
+      "verse_ref": "MARK 12.3",
+      "verb_form": "ἔδειραν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110631",
+      "antecedent_form": "γεωργοῖς",
+      "antecedent_lemma": "γεωργός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 510,
+      "verse_ref": "MARK 12.3",
+      "verb_form": "ἀπέστειλαν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110631",
+      "antecedent_form": "γεωργοῖς",
+      "antecedent_lemma": "γεωργός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 511,
+      "verse_ref": "MARK 12.4",
+      "verb_form": "ἀπέστειλεν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "110615",
+      "antecedent_form": "ἄνθρωπος",
+      "antecedent_lemma": "ἄνθρωπος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 512,
+      "verse_ref": "MARK 12.4",
+      "verb_form": "ἐκεφαλίωσαν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110631",
+      "antecedent_form": "γεωργοῖς",
+      "antecedent_lemma": "γεωργός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 513,
+      "verse_ref": "MARK 12.4",
+      "verb_form": "ἠτίμασαν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110631",
+      "antecedent_form": "γεωργοῖς",
+      "antecedent_lemma": "γεωργός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 514,
+      "verse_ref": "MARK 12.5",
+      "verb_form": "ἀπέστειλεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110615",
+      "antecedent_form": "ἄνθρωπος",
+      "antecedent_lemma": "ἄνθρωπος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 515,
+      "verse_ref": "MARK 12.5",
+      "verb_form": "ἀπέκτειναν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110631",
+      "antecedent_form": "γεωργοῖς",
+      "antecedent_lemma": "γεωργός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 516,
+      "verse_ref": "MARK 12.6",
+      "verb_form": "εἶχεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110615",
+      "antecedent_form": "ἄνθρωπος",
+      "antecedent_lemma": "ἄνθρωπος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 517,
+      "verse_ref": "MARK 12.8",
+      "verb_form": "ἀπέκτειναν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110631",
+      "antecedent_form": "γεωργοῖς",
+      "antecedent_lemma": "γεωργός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 518,
+      "verse_ref": "MARK 12.8",
+      "verb_form": "ἐξέβαλον",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110631",
+      "antecedent_form": "γεωργοῖς",
+      "antecedent_lemma": "γεωργός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 519,
+      "verse_ref": "MARK 12.9",
+      "verb_form": "ἐλεύσεται",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110615",
+      "antecedent_form": "ἄνθρωπος",
+      "antecedent_lemma": "ἄνθρωπος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 520,
+      "verse_ref": "MARK 12.9",
+      "verb_form": "ἀπολέσει",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110615",
+      "antecedent_form": "ἄνθρωπος",
+      "antecedent_lemma": "ἄνθρωπος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 521,
+      "verse_ref": "MARK 12.9",
+      "verb_form": "δώσει",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110615",
+      "antecedent_form": "ἄνθρωπος",
+      "antecedent_lemma": "ἄνθρωπος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 522,
+      "verse_ref": "MARK 12.11",
+      "verb_form": "ἔστιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110784",
+      "antecedent_form": "κεφαλὴν",
+      "antecedent_lemma": "κεφαλή",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 523,
+      "verse_ref": "MARK 12.12",
+      "verb_form": "ἐζήτουν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "680318",
+      "antecedent_form": "",
+      "antecedent_lemma": "",
+      "antecedent_pos": "",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 524,
+      "verse_ref": "MARK 12.12",
+      "verb_form": "ἔγνωσαν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "680318",
+      "antecedent_form": "",
+      "antecedent_lemma": "",
+      "antecedent_pos": "",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 525,
+      "verse_ref": "MARK 12.12",
+      "verb_form": "εἶπεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110800",
+      "antecedent_form": "αὐτὸν",
+      "antecedent_lemma": "αὐτός",
+      "antecedent_pos": "Pp",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 526,
+      "verse_ref": "MARK 12.12",
+      "verb_form": "ἀπῆλθον",
+      "difficulty_level": 2,
+      "antecedent_token_id": "680318",
+      "antecedent_form": "",
+      "antecedent_lemma": "",
+      "antecedent_pos": "",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 527,
+      "verse_ref": "MARK 12.13",
+      "verb_form": "ἀποστέλλουσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "680318",
+      "antecedent_form": "",
+      "antecedent_lemma": "",
+      "antecedent_pos": "",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 528,
+      "verse_ref": "MARK 12.13",
+      "verb_form": "ἀγρεύσωσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110826",
+      "antecedent_form": "τινας",
+      "antecedent_lemma": "τὶς",
+      "antecedent_pos": "Px",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 529,
+      "verse_ref": "MARK 12.14",
+      "verb_form": "λέγουσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110826",
+      "antecedent_form": "τινας",
+      "antecedent_lemma": "τὶς",
+      "antecedent_pos": "Px",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 530,
+      "verse_ref": "MARK 12.14",
+      "verb_form": "μέλει",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 531,
+      "verse_ref": "MARK 12.14",
+      "verb_form": "ἔξεστιν",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 532,
+      "verse_ref": "MARK 12.16",
+      "verb_form": "λέγει",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110800",
+      "antecedent_form": "αὐτὸν",
+      "antecedent_lemma": "αὐτός",
+      "antecedent_pos": "Pp",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 533,
+      "verse_ref": "MARK 12.17",
+      "verb_form": "ἐξεθαύμαζον",
+      "difficulty_level": 1,
+      "antecedent_token_id": "110826",
+      "antecedent_form": "τινας",
+      "antecedent_lemma": "τὶς",
+      "antecedent_pos": "Px",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 534,
+      "verse_ref": "MARK 12.18",
+      "verb_form": "ἐπηρώτων",
+      "difficulty_level": 1,
+      "antecedent_token_id": "110949",
+      "antecedent_form": "Σαδδουκαῖοι",
+      "antecedent_lemma": "Σαδδουκαῖος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 535,
+      "verse_ref": "MARK 12.19",
+      "verb_form": "καταλίπῃ",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110972",
+      "antecedent_form": "ἀδελφὸς",
+      "antecedent_lemma": "ἀδελφός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 536,
+      "verse_ref": "MARK 12.19",
+      "verb_form": "ἀφῇ",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110972",
+      "antecedent_form": "ἀδελφὸς",
+      "antecedent_lemma": "ἀδελφός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 537,
+      "verse_ref": "MARK 12.19",
+      "verb_form": "ἐξαναστήσῃ",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110985",
+      "antecedent_form": "ἀδελφὸς",
+      "antecedent_lemma": "ἀδελφός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 538,
+      "verse_ref": "MARK 12.20",
+      "verb_form": "ἀφῆκεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110997",
+      "antecedent_form": "ἀδελφοὶ",
+      "antecedent_lemma": "ἀδελφός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 539,
+      "verse_ref": "MARK 12.21",
+      "verb_form": "ἀπέθανεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110997",
+      "antecedent_form": "ἀδελφοὶ",
+      "antecedent_lemma": "ἀδελφός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 540,
+      "verse_ref": "MARK 12.23",
+      "verb_form": "ἀναστῶσιν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "111004",
+      "antecedent_form": "γυναῖκα",
+      "antecedent_lemma": "γυνή",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 541,
+      "verse_ref": "MARK 12.23",
+      "verb_form": "ἔσται",
+      "difficulty_level": 1,
+      "antecedent_token_id": "111004",
+      "antecedent_form": "γυναῖκα",
+      "antecedent_lemma": "γυνή",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 542,
+      "verse_ref": "MARK 12.25",
+      "verb_form": "ἀναστῶσιν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "111004",
+      "antecedent_form": "γυναῖκα",
+      "antecedent_lemma": "γυνή",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 543,
+      "verse_ref": "MARK 12.25",
+      "verb_form": "γαμοῦσιν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "111004",
+      "antecedent_form": "γυναῖκα",
+      "antecedent_lemma": "γυνή",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 544,
+      "verse_ref": "MARK 12.25",
+      "verb_form": "εἰσὶν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "111004",
+      "antecedent_form": "γυναῖκα",
+      "antecedent_lemma": "γυνή",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 545,
+      "verse_ref": "MARK 12.27",
+      "verb_form": "ἔστιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110938",
+      "antecedent_form": "θεοῦ",
+      "antecedent_lemma": "θεός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 546,
+      "verse_ref": "MARK 12.29",
+      "verb_form": "ἐστίν",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 547,
+      "verse_ref": "MARK 12.32",
+      "verb_form": "ἐστιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "111138",
+      "antecedent_form": "θεὸς",
+      "antecedent_lemma": "θεός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 548,
+      "verse_ref": "MARK 12.37",
+      "verb_form": "ἐστιν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "111355",
+      "antecedent_form": "κυρίῳ",
+      "antecedent_lemma": "κύριος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 549,
+      "verse_ref": "MARK 12.38",
+      "verb_form": "ἔλεγεν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "111355",
+      "antecedent_form": "κυρίῳ",
+      "antecedent_lemma": "κύριος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 550,
+      "verse_ref": "MARK 12.41",
+      "verb_form": "ἐθεώρει",
+      "difficulty_level": 1,
+      "antecedent_token_id": "111355",
+      "antecedent_form": "κυρίῳ",
+      "antecedent_lemma": "κύριος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 551,
+      "verse_ref": "MARK 12.43",
+      "verb_form": "εἶπεν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "111355",
+      "antecedent_form": "κυρίῳ",
+      "antecedent_lemma": "κύριος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 552,
+      "verse_ref": "MARK 13.6",
+      "verb_form": "πλανήσουσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "111627",
+      "antecedent_form": "πολλοὶ",
+      "antecedent_lemma": "πολύς",
+      "antecedent_pos": "A-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 553,
+      "verse_ref": "MARK 13.7",
+      "verb_form": "δεῖ",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 554,
+      "verse_ref": "MARK 13.9",
+      "verb_form": "παραδώσουσιν",
+      "difficulty_level": 1,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 555,
+      "verse_ref": "MARK 13.10",
+      "verb_form": "δεῖ",
+      "difficulty_level": 3,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 556,
+      "verse_ref": "MARK 13.11",
+      "verb_form": "ἄγωσιν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "680304",
+      "antecedent_form": "",
+      "antecedent_lemma": "",
+      "antecedent_pos": "",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 557,
+      "verse_ref": "MARK 13.12",
+      "verb_form": "θανατώσουσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "111770",
+      "antecedent_form": "τέκνα",
+      "antecedent_lemma": "τέκνον",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 558,
+      "verse_ref": "MARK 13.18",
+      "verb_form": "γένηται",
+      "difficulty_level": 1,
+      "antecedent_token_id": "111800",
+      "antecedent_form": "βδέλυγμα",
+      "antecedent_lemma": "βδέλυγμα",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 559,
+      "verse_ref": "MARK 13.19",
+      "verb_form": "γένηται",
+      "difficulty_level": 1,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 560,
+      "verse_ref": "MARK 13.20",
+      "verb_form": "ἐξελέξατο",
+      "difficulty_level": 2,
+      "antecedent_token_id": "111891",
+      "antecedent_form": "θεὸς",
+      "antecedent_lemma": "θεός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 561,
+      "verse_ref": "MARK 13.20",
+      "verb_form": "ἐκολόβωσεν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "111891",
+      "antecedent_form": "θεὸς",
+      "antecedent_lemma": "θεός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 562,
+      "verse_ref": "MARK 13.22",
+      "verb_form": "ποιήσουσιν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "111946",
+      "antecedent_form": "ψευδοπροφῆται",
+      "antecedent_lemma": "ψευδοπροφήτης",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 563,
+      "verse_ref": "MARK 13.26",
+      "verb_form": "ὄψονται",
+      "difficulty_level": 3,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 564,
+      "verse_ref": "MARK 13.27",
+      "verb_form": "ἀποστελεῖ",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 565,
+      "verse_ref": "MARK 13.27",
+      "verb_form": "ἐπισυνάξει",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 566,
+      "verse_ref": "MARK 13.28",
+      "verb_form": "ἐκφύῃ",
+      "difficulty_level": 3,
+      "antecedent_token_id": "112049",
+      "antecedent_form": "συκῆς",
+      "antecedent_lemma": "συκῆ",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 567,
+      "verse_ref": "MARK 13.29",
+      "verb_form": "ἐστιν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 568,
+      "verse_ref": "MARK 13.34",
+      "verb_form": "γρηγορῇ",
+      "difficulty_level": 2,
+      "antecedent_token_id": "112165",
+      "antecedent_form": "δούλοις",
+      "antecedent_lemma": "δοῦλος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 569,
+      "verse_ref": "MARK 13.36",
+      "verb_form": "εὕρῃ",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 570,
+      "verse_ref": "MARK 14.1",
+      "verb_form": "ἀποκτείνωσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "112238",
+      "antecedent_form": "γραμματεῖς",
+      "antecedent_lemma": "γραμματεύς",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 571,
+      "verse_ref": "MARK 14.2",
+      "verb_form": "ἔλεγον",
+      "difficulty_level": 2,
+      "antecedent_token_id": "112238",
+      "antecedent_form": "γραμματεῖς",
+      "antecedent_lemma": "γραμματεύς",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 572,
+      "verse_ref": "MARK 14.3",
+      "verb_form": "κατέχεεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "112275",
+      "antecedent_form": "γυνὴ",
+      "antecedent_lemma": "γυνή",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 573,
+      "verse_ref": "MARK 14.5",
+      "verb_form": "ἐνεβριμοῦντο",
+      "difficulty_level": 2,
+      "antecedent_token_id": "112293",
+      "antecedent_form": "τινες",
+      "antecedent_lemma": "τὶς",
+      "antecedent_pos": "Px",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 574,
+      "verse_ref": "MARK 14.6",
+      "verb_form": "ἠργάσατο",
+      "difficulty_level": 2,
+      "antecedent_token_id": "112275",
+      "antecedent_form": "γυνὴ",
+      "antecedent_lemma": "γυνή",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 575,
+      "verse_ref": "MARK 14.8",
+      "verb_form": "ἔσχεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "112275",
+      "antecedent_form": "γυνὴ",
+      "antecedent_lemma": "γυνή",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 576,
+      "verse_ref": "MARK 14.8",
+      "verb_form": "ἐποίησεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "112275",
+      "antecedent_form": "γυνὴ",
+      "antecedent_lemma": "γυνή",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 577,
+      "verse_ref": "MARK 14.8",
+      "verb_form": "προέλαβεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "112275",
+      "antecedent_form": "γυνὴ",
+      "antecedent_lemma": "γυνή",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 578,
+      "verse_ref": "MARK 14.10",
+      "verb_form": "παραδοῖ",
+      "difficulty_level": 2,
+      "antecedent_token_id": "112403",
+      "antecedent_form": "Ἰούδας",
+      "antecedent_lemma": "Ἰούδας",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "ἸΟΎΔΑΣ"
+    },
+    {
+      "instance_id": 579,
+      "verse_ref": "MARK 14.11",
+      "verb_form": "ἐπηγγείλαντο",
+      "difficulty_level": 2,
+      "antecedent_token_id": "112414",
+      "antecedent_form": "ἀρχιερεῖς",
+      "antecedent_lemma": "ἀρχιερεύς",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 580,
+      "verse_ref": "MARK 14.11",
+      "verb_form": "ἐζήτει",
+      "difficulty_level": 2,
+      "antecedent_token_id": "112403",
+      "antecedent_form": "Ἰούδας",
+      "antecedent_lemma": "Ἰούδας",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "ἸΟΎΔΑΣ"
+    },
+    {
+      "instance_id": 581,
+      "verse_ref": "MARK 14.11",
+      "verb_form": "παραδοῖ",
+      "difficulty_level": 3,
+      "antecedent_token_id": "112403",
+      "antecedent_form": "Ἰούδας",
+      "antecedent_lemma": "Ἰούδας",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "ἸΟΎΔΑΣ"
+    },
+    {
+      "instance_id": 582,
+      "verse_ref": "MARK 14.12",
+      "verb_form": "ἔθυον",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 583,
+      "verse_ref": "MARK 14.13",
+      "verb_form": "ἀποστέλλει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 584,
+      "verse_ref": "MARK 14.13",
+      "verb_form": "λέγει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 585,
+      "verse_ref": "MARK 14.14",
+      "verb_form": "εἰσέλθῃ",
+      "difficulty_level": 2,
+      "antecedent_token_id": "112482",
+      "antecedent_form": "ἄνθρωπος",
+      "antecedent_lemma": "ἄνθρωπος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 586,
+      "verse_ref": "MARK 14.16",
+      "verb_form": "ἦλθον",
+      "difficulty_level": 2,
+      "antecedent_token_id": "112466",
+      "antecedent_form": "δύο",
+      "antecedent_lemma": "δύο",
+      "antecedent_pos": "Ma",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 587,
+      "verse_ref": "MARK 14.16",
+      "verb_form": "εὗρον",
+      "difficulty_level": 2,
+      "antecedent_token_id": "112466",
+      "antecedent_form": "δύο",
+      "antecedent_lemma": "δύο",
+      "antecedent_pos": "Ma",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 588,
+      "verse_ref": "MARK 14.16",
+      "verb_form": "εἶπεν",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 589,
+      "verse_ref": "MARK 14.16",
+      "verb_form": "ἡτοίμασαν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "112466",
+      "antecedent_form": "δύο",
+      "antecedent_lemma": "δύο",
+      "antecedent_pos": "Ma",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 590,
+      "verse_ref": "MARK 14.17",
+      "verb_form": "ἔρχεται",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 591,
+      "verse_ref": "MARK 14.19",
+      "verb_form": "ἤρξαντο",
+      "difficulty_level": 1,
+      "antecedent_token_id": "112466",
+      "antecedent_form": "δύο",
+      "antecedent_lemma": "δύο",
+      "antecedent_pos": "Ma",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 592,
+      "verse_ref": "MARK 14.22",
+      "verb_form": "ἔκλασεν",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 593,
+      "verse_ref": "MARK 14.22",
+      "verb_form": "ἔδωκεν",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 594,
+      "verse_ref": "MARK 14.22",
+      "verb_form": "εἶπεν",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 595,
+      "verse_ref": "MARK 14.23",
+      "verb_form": "ἔδωκεν",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 596,
+      "verse_ref": "MARK 14.24",
+      "verb_form": "εἶπεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 597,
+      "verse_ref": "MARK 14.26",
+      "verb_form": "ἐξῆλθον",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 598,
+      "verse_ref": "MARK 14.31",
+      "verb_form": "δέῃ",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 599,
+      "verse_ref": "MARK 14.32",
+      "verb_form": "ἔρχονται",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 600,
+      "verse_ref": "MARK 14.32",
+      "verb_form": "λέγει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 601,
+      "verse_ref": "MARK 14.33",
+      "verb_form": "παραλαμβάνει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 602,
+      "verse_ref": "MARK 14.33",
+      "verb_form": "ἤρξατο",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 603,
+      "verse_ref": "MARK 14.34",
+      "verb_form": "λέγει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 604,
+      "verse_ref": "MARK 14.35",
+      "verb_form": "ἔπιπτεν",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 605,
+      "verse_ref": "MARK 14.35",
+      "verb_form": "προσηύχετο",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 606,
+      "verse_ref": "MARK 14.35",
+      "verb_form": "ἐστιν",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 607,
+      "verse_ref": "MARK 14.36",
+      "verb_form": "ἔλεγεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 608,
+      "verse_ref": "MARK 14.37",
+      "verb_form": "ἔρχεται",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 609,
+      "verse_ref": "MARK 14.37",
+      "verb_form": "εὑρίσκει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 610,
+      "verse_ref": "MARK 14.37",
+      "verb_form": "λέγει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 611,
+      "verse_ref": "MARK 14.39",
+      "verb_form": "προσηύξατο",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 612,
+      "verse_ref": "MARK 14.40",
+      "verb_form": "εὗρεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 613,
+      "verse_ref": "MARK 14.40",
+      "verb_form": "ᾔδεισαν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 614,
+      "verse_ref": "MARK 14.41",
+      "verb_form": "ἔρχεται",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 615,
+      "verse_ref": "MARK 14.41",
+      "verb_form": "λέγει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 616,
+      "verse_ref": "MARK 14.41",
+      "verb_form": "ἀπέχει",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 617,
+      "verse_ref": "MARK 14.44",
+      "verb_form": "ἐστιν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 618,
+      "verse_ref": "MARK 14.45",
+      "verb_form": "λέγει",
+      "difficulty_level": 2,
+      "antecedent_token_id": "113035",
+      "antecedent_form": "παραδιδούς",
+      "antecedent_lemma": "παραδίδωμι",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 619,
+      "verse_ref": "MARK 14.45",
+      "verb_form": "κατεφίλησεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "113035",
+      "antecedent_form": "παραδιδούς",
+      "antecedent_lemma": "παραδίδωμι",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 620,
+      "verse_ref": "MARK 14.46",
+      "verb_form": "ἐκράτησαν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "113055",
+      "antecedent_form": "ὄχλος",
+      "antecedent_lemma": "ὄχλος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 621,
+      "verse_ref": "MARK 14.47",
+      "verb_form": "ἀφεῖλεν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "113114",
+      "antecedent_form": "εἷς",
+      "antecedent_lemma": "εἷς",
+      "antecedent_pos": "Ma",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 622,
+      "verse_ref": "MARK 14.51",
+      "verb_form": "κρατοῦσιν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "113055",
+      "antecedent_form": "ὄχλος",
+      "antecedent_lemma": "ὄχλος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 623,
+      "verse_ref": "MARK 14.53",
+      "verb_form": "ἀπήγαγον",
+      "difficulty_level": 1,
+      "antecedent_token_id": "113055",
+      "antecedent_form": "ὄχλος",
+      "antecedent_lemma": "ὄχλος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 624,
+      "verse_ref": "MARK 14.54",
+      "verb_form": "ἦν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "113223",
+      "antecedent_form": "Πέτρος",
+      "antecedent_lemma": "Πέτρος",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "PETROS"
+    },
+    {
+      "instance_id": 625,
+      "verse_ref": "MARK 14.55",
+      "verb_form": "ηὕρισκον",
+      "difficulty_level": 2,
+      "antecedent_token_id": "113213",
+      "antecedent_form": "ἀρχιερεῖς",
+      "antecedent_lemma": "ἀρχιερεύς",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 626,
+      "verse_ref": "MARK 14.61",
+      "verb_form": "ἀπεκρίνατο",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 627,
+      "verse_ref": "MARK 14.61",
+      "verb_form": "λέγει",
+      "difficulty_level": 2,
+      "antecedent_token_id": "113062",
+      "antecedent_form": "ἀρχιερέων",
+      "antecedent_lemma": "ἀρχιερεύς",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 628,
+      "verse_ref": "MARK 14.67",
+      "verb_form": "λέγει",
+      "difficulty_level": 2,
+      "antecedent_token_id": "113458",
+      "antecedent_form": "μία",
+      "antecedent_lemma": "εἷς",
+      "antecedent_pos": "Ma",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 629,
+      "verse_ref": "MARK 14.68",
+      "verb_form": "ἐξῆλθεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "113452",
+      "antecedent_form": "Πέτρου",
+      "antecedent_lemma": "Πέτρος",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "PETROS"
+    },
+    {
+      "instance_id": 630,
+      "verse_ref": "MARK 14.72",
+      "verb_form": "ἔκλαιεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "113452",
+      "antecedent_form": "Πέτρου",
+      "antecedent_lemma": "Πέτρος",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "PETROS"
+    },
+    {
+      "instance_id": 631,
+      "verse_ref": "MARK 15.1",
+      "verb_form": "παρέδωκαν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "113599",
+      "antecedent_form": "ἀρχιερεῖς",
+      "antecedent_lemma": "ἀρχιερεύς",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 632,
+      "verse_ref": "MARK 15.4",
+      "verb_form": "κατηγοροῦσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "113599",
+      "antecedent_form": "ἀρχιερεῖς",
+      "antecedent_lemma": "ἀρχιερεύς",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 633,
+      "verse_ref": "MARK 15.6",
+      "verb_form": "ἀπέλυεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "113617",
+      "antecedent_form": "Πειλάτῳ",
+      "antecedent_lemma": "Πιλᾶτος",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "PILATOS"
+    },
+    {
+      "instance_id": 634,
+      "verse_ref": "MARK 15.6",
+      "verb_form": "παρῃτοῦντο",
+      "difficulty_level": 2,
+      "antecedent_token_id": "113678",
+      "antecedent_form": "ἑορτὴν",
+      "antecedent_lemma": "ἑορτή",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 635,
+      "verse_ref": "MARK 15.8",
+      "verb_form": "ἐποίει",
+      "difficulty_level": 3,
+      "antecedent_token_id": "113617",
+      "antecedent_form": "Πειλάτῳ",
+      "antecedent_lemma": "Πιλᾶτος",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "PILATOS"
+    },
+    {
+      "instance_id": 636,
+      "verse_ref": "MARK 15.10",
+      "verb_form": "ἐγίνωσκεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "113617",
+      "antecedent_form": "Πειλάτῳ",
+      "antecedent_lemma": "Πιλᾶτος",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "PILATOS"
+    },
+    {
+      "instance_id": 637,
+      "verse_ref": "MARK 15.11",
+      "verb_form": "ἀπολύσῃ",
+      "difficulty_level": 2,
+      "antecedent_token_id": "113617",
+      "antecedent_form": "Πειλάτῳ",
+      "antecedent_lemma": "Πιλᾶτος",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "PILATOS"
+    },
+    {
+      "instance_id": 638,
+      "verse_ref": "MARK 15.14",
+      "verb_form": "ἐποίησεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "113628",
+      "antecedent_form": "βασιλεὺς",
+      "antecedent_lemma": "βασιλεύς",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 639,
+      "verse_ref": "MARK 15.15",
+      "verb_form": "παρέδωκεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "113617",
+      "antecedent_form": "Πειλάτῳ",
+      "antecedent_lemma": "Πιλᾶτος",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "PILATOS"
+    },
+    {
+      "instance_id": 640,
+      "verse_ref": "MARK 15.16",
+      "verb_form": "συνκαλοῦσιν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 641,
+      "verse_ref": "MARK 15.17",
+      "verb_form": "ἐνδιδύσκουσιν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 642,
+      "verse_ref": "MARK 15.17",
+      "verb_form": "περιτιθέασιν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 643,
+      "verse_ref": "MARK 15.18",
+      "verb_form": "ἤρξαντο",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 644,
+      "verse_ref": "MARK 15.19",
+      "verb_form": "ἔτυπτον",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 645,
+      "verse_ref": "MARK 15.19",
+      "verb_form": "ἐνέπτυον",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 646,
+      "verse_ref": "MARK 15.19",
+      "verb_form": "προσεκύνουν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 647,
+      "verse_ref": "MARK 15.20",
+      "verb_form": "ἐνέπαιξαν",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 648,
+      "verse_ref": "MARK 15.20",
+      "verb_form": "ἐξέδυσαν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 649,
+      "verse_ref": "MARK 15.20",
+      "verb_form": "ἐνέδυσαν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 650,
+      "verse_ref": "MARK 15.20",
+      "verb_form": "ἐξάγουσιν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 651,
+      "verse_ref": "MARK 15.20",
+      "verb_form": "σταυρώσουσιν",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 652,
+      "verse_ref": "MARK 15.21",
+      "verb_form": "ἀγγαρεύουσιν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 653,
+      "verse_ref": "MARK 15.21",
+      "verb_form": "ἄρῃ",
+      "difficulty_level": 2,
+      "antecedent_token_id": "113903",
+      "antecedent_form": "Σίμωνα",
+      "antecedent_lemma": "Σίμων",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "PETROS"
+    },
+    {
+      "instance_id": 654,
+      "verse_ref": "MARK 15.22",
+      "verb_form": "φέρουσιν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 655,
+      "verse_ref": "MARK 15.23",
+      "verb_form": "ἐδίδουν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 656,
+      "verse_ref": "MARK 15.24",
+      "verb_form": "σταυροῦσιν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 657,
+      "verse_ref": "MARK 15.24",
+      "verb_form": "διαμερίζονται",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 658,
+      "verse_ref": "MARK 15.25",
+      "verb_form": "ἦν",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 659,
+      "verse_ref": "MARK 15.25",
+      "verb_form": "ἐσταύρωσαν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 660,
+      "verse_ref": "MARK 15.27",
+      "verb_form": "σταυροῦσιν",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 661,
+      "verse_ref": "MARK 15.39",
+      "verb_form": "ἐξέπνευσεν",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 662,
+      "verse_ref": "MARK 15.41",
+      "verb_form": "ἦν",
+      "difficulty_level": 3,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 663,
+      "verse_ref": "MARK 15.41",
+      "verb_form": "διηκόνουν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "114221",
+      "antecedent_form": "Σαλώμη",
+      "antecedent_lemma": "Σαλώμη",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "ΣΑΛΏΜΗ"
+    },
+    {
+      "instance_id": 664,
+      "verse_ref": "MARK 15.42",
+      "verb_form": "ἦν",
+      "difficulty_level": 3,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 665,
+      "verse_ref": "MARK 15.43",
+      "verb_form": "ᾐτήσατο",
+      "difficulty_level": 2,
+      "antecedent_token_id": "114258",
+      "antecedent_form": "Ἰωσὴφ",
+      "antecedent_lemma": "Ἰωσήφ",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "ἸΩΣΉΦ"
+    },
+    {
+      "instance_id": 666,
+      "verse_ref": "MARK 15.44",
+      "verb_form": "τέθνηκεν",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 667,
+      "verse_ref": "MARK 15.44",
+      "verb_form": "ἐπηρώτησεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "114279",
+      "antecedent_form": "Πειλᾶτον",
+      "antecedent_lemma": "Πιλᾶτος",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "PILATOS"
+    },
+    {
+      "instance_id": 668,
+      "verse_ref": "MARK 15.44",
+      "verb_form": "ἀπέθανεν",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 669,
+      "verse_ref": "MARK 15.45",
+      "verb_form": "ἐδωρήσατο",
+      "difficulty_level": 2,
+      "antecedent_token_id": "114279",
+      "antecedent_form": "Πειλᾶτον",
+      "antecedent_lemma": "Πιλᾶτος",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "PILATOS"
+    },
+    {
+      "instance_id": 670,
+      "verse_ref": "MARK 15.46",
+      "verb_form": "ἐνείλησεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "114258",
+      "antecedent_form": "Ἰωσὴφ",
+      "antecedent_lemma": "Ἰωσήφ",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "ἸΩΣΉΦ"
+    },
+    {
+      "instance_id": 671,
+      "verse_ref": "MARK 15.46",
+      "verb_form": "κατέθηκεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "114258",
+      "antecedent_form": "Ἰωσὴφ",
+      "antecedent_lemma": "Ἰωσήφ",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "ἸΩΣΉΦ"
+    },
+    {
+      "instance_id": 672,
+      "verse_ref": "MARK 15.46",
+      "verb_form": "προσεκύλισεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "114258",
+      "antecedent_form": "Ἰωσὴφ",
+      "antecedent_lemma": "Ἰωσήφ",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "ἸΩΣΉΦ"
+    },
+    {
+      "instance_id": 673,
+      "verse_ref": "MARK 16.1",
+      "verb_form": "ἀλείψωσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "114221",
+      "antecedent_form": "Σαλώμη",
+      "antecedent_lemma": "Σαλώμη",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "ΣΑΛΏΜΗ"
+    },
+    {
+      "instance_id": 674,
+      "verse_ref": "MARK 16.2",
+      "verb_form": "ἔρχονται",
+      "difficulty_level": 3,
+      "antecedent_token_id": "114221",
+      "antecedent_form": "Σαλώμη",
+      "antecedent_lemma": "Σαλώμη",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "ΣΑΛΏΜΗ"
+    },
+    {
+      "instance_id": 675,
+      "verse_ref": "MARK 16.3",
+      "verb_form": "ἔλεγον",
+      "difficulty_level": 2,
+      "antecedent_token_id": "114221",
+      "antecedent_form": "Σαλώμη",
+      "antecedent_lemma": "Σαλώμη",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "ΣΑΛΏΜΗ"
+    },
+    {
+      "instance_id": 676,
+      "verse_ref": "MARK 16.4",
+      "verb_form": "θεωροῦσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "114221",
+      "antecedent_form": "Σαλώμη",
+      "antecedent_lemma": "Σαλώμη",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "ΣΑΛΏΜΗ"
+    },
+    {
+      "instance_id": 677,
+      "verse_ref": "MARK 16.4",
+      "verb_form": "ἦν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "114338",
+      "antecedent_form": "λίθον",
+      "antecedent_lemma": "λίθος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 678,
+      "verse_ref": "MARK 16.5",
+      "verb_form": "εἶδον",
+      "difficulty_level": 2,
+      "antecedent_token_id": "114221",
+      "antecedent_form": "Σαλώμη",
+      "antecedent_lemma": "Σαλώμη",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "ΣΑΛΏΜΗ"
+    },
+    {
+      "instance_id": 679,
+      "verse_ref": "MARK 16.7",
+      "verb_form": "εἶπεν",
+      "difficulty_level": 3,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 680,
+      "verse_ref": "MARK 16.8",
+      "verb_form": "ἔφυγον",
+      "difficulty_level": 2,
+      "antecedent_token_id": "114221",
+      "antecedent_form": "Σαλώμη",
+      "antecedent_lemma": "Σαλώμη",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "ΣΑΛΏΜΗ"
+    },
+    {
+      "instance_id": 681,
+      "verse_ref": "MARK 16.8",
+      "verb_form": "εἶπον",
+      "difficulty_level": 2,
+      "antecedent_token_id": "114221",
+      "antecedent_form": "Σαλώμη",
+      "antecedent_lemma": "Σαλώμη",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "ΣΑΛΏΜΗ"
+    },
+    {
+      "instance_id": 682,
+      "verse_ref": "MARK 16.8",
+      "verb_form": "ἐφοβοῦντο",
+      "difficulty_level": 2,
+      "antecedent_token_id": "114221",
+      "antecedent_form": "Σαλώμη",
+      "antecedent_lemma": "Σαλώμη",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": "ΣΑΛΏΜΗ"
+    },
+    {
+      "instance_id": 683,
+      "verse_ref": "MARK 16.9",
+      "verb_form": "ἐκβεβλήκει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 684,
+      "verse_ref": "MARK 16.11",
+      "verb_form": "ζῇ",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 685,
+      "verse_ref": "MARK 16.13",
+      "verb_form": "ἐπίστευσαν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "114474",
+      "antecedent_form": "μαθηταῖς",
+      "antecedent_lemma": "μαθητής",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": "OI_MATHETAI"
+    },
+    {
+      "instance_id": 686,
+      "verse_ref": "MARK 16.14",
+      "verb_form": "ὠνείδισεν",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 687,
+      "verse_ref": "MARK 16.14",
+      "verb_form": "ἐπίστευσαν",
+      "difficulty_level": 1,
+      "antecedent_token_id": "114474",
+      "antecedent_form": "μαθηταῖς",
+      "antecedent_lemma": "μαθητής",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": "OI_MATHETAI"
+    },
+    {
+      "instance_id": 688,
+      "verse_ref": "MARK 16.15",
+      "verb_form": "εἶπεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 689,
+      "verse_ref": "MARK 16.19",
+      "verb_form": "ἐκάθισεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 690,
+      "verse_ref": "MARK 2.24",
+      "verb_form": "ποιοῦσιν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "102920",
+      "antecedent_form": "μαθηταὶ",
+      "antecedent_lemma": "μαθητής",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": "OI_MATHETAI"
+    },
+    {
+      "instance_id": 691,
+      "verse_ref": "MARK 2.24",
+      "verb_form": "ἔξεστιν",
+      "difficulty_level": 1,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 692,
+      "verse_ref": "MARK 4.34",
+      "verb_form": "ἐλάλει",
+      "difficulty_level": 2,
+      "antecedent_token_id": "104006",
+      "antecedent_form": "λέγει",
+      "antecedent_lemma": "λέγω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 693,
+      "verse_ref": "MARK 4.34",
+      "verb_form": "ἐπέλυεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "104006",
+      "antecedent_form": "λέγει",
+      "antecedent_lemma": "λέγω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 694,
+      "verse_ref": "MARK 9.18",
+      "verb_form": "καταλάβῃ",
+      "difficulty_level": 1,
+      "antecedent_token_id": "108249",
+      "antecedent_form": "πνεῦμα",
+      "antecedent_lemma": "πνεῦμα",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 695,
+      "verse_ref": "MARK 9.18",
+      "verb_form": "ῥήσσει",
+      "difficulty_level": 3,
+      "antecedent_token_id": "108249",
+      "antecedent_form": "πνεῦμα",
+      "antecedent_lemma": "πνεῦμα",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 696,
+      "verse_ref": "MARK 9.18",
+      "verb_form": "ἀφρίζει",
+      "difficulty_level": 1,
+      "antecedent_token_id": "108243",
+      "antecedent_form": "υἱόν",
+      "antecedent_lemma": "υἱός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 697,
+      "verse_ref": "MARK 9.18",
+      "verb_form": "τρίζει",
+      "difficulty_level": 1,
+      "antecedent_token_id": "108243",
+      "antecedent_form": "υἱόν",
+      "antecedent_lemma": "υἱός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 698,
+      "verse_ref": "MARK 9.39",
+      "verb_form": "δυνήσεται",
+      "difficulty_level": 3,
+      "antecedent_token_id": "108706",
+      "antecedent_form": "οὐδεὶς",
+      "antecedent_lemma": "οὐδείς",
+      "antecedent_pos": "Px",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 699,
+      "verse_ref": "MARK 10.14",
+      "verb_form": "εἶπεν",
+      "difficulty_level": 1,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 700,
+      "verse_ref": "MARK 10.30",
+      "verb_form": "λάβῃ",
+      "difficulty_level": 2,
+      "antecedent_token_id": "109433",
+      "antecedent_form": "οὐδείς",
+      "antecedent_lemma": "οὐδείς",
+      "antecedent_pos": "Px",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 701,
+      "verse_ref": "MARK 10.49",
+      "verb_form": "φωνεῖ",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 702,
+      "verse_ref": "MARK 11.18",
+      "verb_form": "ἐφοβοῦντο",
+      "difficulty_level": 1,
+      "antecedent_token_id": "110146",
+      "antecedent_form": "Ἱεροσόλυμα",
+      "antecedent_lemma": "Ἱεροσόλυμα",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 703,
+      "verse_ref": "MARK 11.23",
+      "verb_form": "πιστεύῃ",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 704,
+      "verse_ref": "MARK 11.23",
+      "verb_form": "λαλεῖ",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 705,
+      "verse_ref": "MARK 11.23",
+      "verb_form": "ἔσται",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110391",
+      "antecedent_form": "βλήθητι",
+      "antecedent_lemma": "βάλλω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 706,
+      "verse_ref": "MARK 11.24",
+      "verb_form": "ἔσται",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110419",
+      "antecedent_form": "πάντα",
+      "antecedent_lemma": "πᾶς",
+      "antecedent_pos": "Px",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 707,
+      "verse_ref": "MARK 12.6",
+      "verb_form": "ἀπέστειλεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110615",
+      "antecedent_form": "ἄνθρωπος",
+      "antecedent_lemma": "ἄνθρωπος",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 708,
+      "verse_ref": "MARK 12.6",
+      "verb_form": "ἐντραπήσονται",
+      "difficulty_level": 2,
+      "antecedent_token_id": "110631",
+      "antecedent_form": "γεωργοῖς",
+      "antecedent_lemma": "γεωργός",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 709,
+      "verse_ref": "MARK 12.44",
+      "verb_form": "εἶχεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "111465",
+      "antecedent_form": "χήρα",
+      "antecedent_lemma": "χήρα",
+      "antecedent_pos": "Nb",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 710,
+      "verse_ref": "MARK 13.14",
+      "verb_form": "δεῖ",
+      "difficulty_level": 3,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 711,
+      "verse_ref": "MARK 13.15",
+      "verb_form": "εἰσελθάτω",
+      "difficulty_level": 1,
+      "antecedent_token_id": "111824",
+      "antecedent_form": "ἐπὶ",
+      "antecedent_lemma": "ἐπί",
+      "antecedent_pos": "R-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 712,
+      "verse_ref": "MARK 15.31",
+      "verb_form": "ἔσωσεν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 713,
+      "verse_ref": "MARK 15.31",
+      "verb_form": "δύναται",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 714,
+      "verse_ref": "MARK 15.35",
+      "verb_form": "φωνεῖ",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 715,
+      "verse_ref": "MARK 16.6",
+      "verb_form": "ἔστιν",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 716,
+      "verse_ref": "MARK 16.6",
+      "verb_form": "ἔθηκαν",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 717,
+      "verse_ref": "MARK 16.7",
+      "verb_form": "προάγει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 718,
+      "verse_ref": "MARK 16.17",
+      "verb_form": "ἐκβαλοῦσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "114621",
+      "antecedent_form": "πιστεύσας",
+      "antecedent_lemma": "πιστεύω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 719,
+      "verse_ref": "MARK 16.17",
+      "verb_form": "λαλήσουσιν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "114621",
+      "antecedent_form": "πιστεύσας",
+      "antecedent_lemma": "πιστεύω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 720,
+      "verse_ref": "MARK 16.18",
+      "verb_form": "ἀροῦσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "114621",
+      "antecedent_form": "πιστεύσας",
+      "antecedent_lemma": "πιστεύω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 721,
+      "verse_ref": "MARK 16.18",
+      "verb_form": "πίωσιν",
+      "difficulty_level": 3,
+      "antecedent_token_id": "114621",
+      "antecedent_form": "πιστεύσας",
+      "antecedent_lemma": "πιστεύω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 722,
+      "verse_ref": "MARK 16.18",
+      "verb_form": "βλάψῃ",
+      "difficulty_level": 2,
+      "antecedent_token_id": "114654",
+      "antecedent_form": "τι",
+      "antecedent_lemma": "τίς",
+      "antecedent_pos": "Pi",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 723,
+      "verse_ref": "MARK 16.18",
+      "verb_form": "ἐπιθήσουσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "114621",
+      "antecedent_form": "πιστεύσας",
+      "antecedent_lemma": "πιστεύω",
+      "antecedent_pos": "V-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 724,
+      "verse_ref": "MARK 16.18",
+      "verb_form": "ἕξουσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "114662",
+      "antecedent_form": "ἀρρώστους",
+      "antecedent_lemma": "ἄρρωστος",
+      "antecedent_pos": "A-",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 725,
+      "verse_ref": "MARK 10.33",
+      "verb_form": "ἀναβαίνομεν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "733853",
+      "antecedent_form": "δώδεκα",
+      "antecedent_lemma": "δώδεκα",
+      "antecedent_pos": "Ma",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 726,
+      "verse_ref": "MARK 10.33",
+      "verb_form": "κατακρινοῦσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "109506",
+      "antecedent_form": "Ἱεροσόλυμα",
+      "antecedent_lemma": "Ἱεροσόλυμα",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 727,
+      "verse_ref": "MARK 10.33",
+      "verb_form": "παραδώσουσιν",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 728,
+      "verse_ref": "MARK 10.34",
+      "verb_form": "ἐμπαίξουσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "109506",
+      "antecedent_form": "Ἱεροσόλυμα",
+      "antecedent_lemma": "Ἱεροσόλυμα",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 729,
+      "verse_ref": "MARK 10.34",
+      "verb_form": "ἐμπτύσουσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "109506",
+      "antecedent_form": "Ἱεροσόλυμα",
+      "antecedent_lemma": "Ἱεροσόλυμα",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 730,
+      "verse_ref": "MARK 10.34",
+      "verb_form": "μαστιγώσουσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "109506",
+      "antecedent_form": "Ἱεροσόλυμα",
+      "antecedent_lemma": "Ἱεροσόλυμα",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 731,
+      "verse_ref": "MARK 10.34",
+      "verb_form": "ἀποκτενοῦσιν",
+      "difficulty_level": 2,
+      "antecedent_token_id": "109506",
+      "antecedent_form": "Ἱεροσόλυμα",
+      "antecedent_lemma": "Ἱεροσόλυμα",
+      "antecedent_pos": "Ne",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 732,
+      "verse_ref": "MARK 10.34",
+      "verb_form": "ἀναστήσεται",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 733,
+      "verse_ref": "MARK 11.3",
+      "verb_form": "ἀποστέλλει",
+      "difficulty_level": 2,
+      "antecedent_token_id": "109965",
+      "antecedent_form": "δύο",
+      "antecedent_lemma": "δύο",
+      "antecedent_pos": "Ma",
+      "antecedent_entity": null
+    },
+    {
+      "instance_id": 734,
+      "verse_ref": "MARK 2.16",
+      "verb_form": "ἐσθίει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 735,
+      "verse_ref": "MARK 2.16",
+      "verb_form": "πίνει",
+      "difficulty_level": 2,
+      "note": "CHAIN_BROKEN"
+    },
+    {
+      "instance_id": 736,
+      "verse_ref": "MARK 9.11",
+      "verb_form": "δεῖ",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 737,
+      "verse_ref": "MARK 6.18",
+      "verb_form": "ἔξεστίν",
+      "difficulty_level": 2,
+      "note": "NO_NULL_SUBJECT"
+    },
+    {
+      "instance_id": 738,
+      "verse_ref": "MARK 3.30",
+      "verb_form": "ἔλεγον",
+      "difficulty_level": 1,
+      "antecedent_token_id": "103504",
+      "antecedent_form": "παρ’",
+      "antecedent_lemma": "παρά",
+      "antecedent_pos": "R-",
+      "antecedent_entity": null
+    }
+  ]
+}

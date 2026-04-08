@@ -1,0 +1,1350 @@
+{
+  "llm_available": true,
+  "llm_results": [
+    {
+      "id": 0,
+      "verse_ref": "MARK 1.7",
+      "verb": "ἐκήρυσσεν",
+      "difficulty": 2,
+      "entities": [
+        "Ἰορδάνης",
+        "Ἰωάν(ν)ης"
+      ],
+      "llm_entity": "Ἰωάννης",
+      "llm_confidence": "high",
+      "llm_reasoning": null,
+      "needs_adjudication": false,
+      "raw_response": "Entity: Ἰωάννης\nConfidence: high\n"
+    },
+    {
+      "id": 1,
+      "verse_ref": "MARK 1.9",
+      "verb": "ἐγένετο",
+      "difficulty": 2,
+      "entities": [
+        "Ἰησοῦς",
+        "Ναζαρά",
+        "Ἰωάν(ν)ης",
+        "Γαλιλαία",
+        "Ἰορδάνης"
+      ],
+      "llm_entity": "NONE (Impersonal construction)",
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": false,
+      "raw_response": "Entity: NONE (Impersonal construction)\nConfidence:"
+    },
+    {
+      "id": 2,
+      "verse_ref": "MARK 1.10",
+      "verb": "εἶδεν",
+      "difficulty": 2,
+      "entities": [
+        "Ἰησοῦς",
+        "Ναζαρά",
+        "Ἰωάν(ν)ης",
+        "Γαλιλαία",
+        "Ἰορδάνης"
+      ],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": "\".\n   - The participle \""
+    },
+    {
+      "id": 5,
+      "verse_ref": "MARK 1.16",
+      "verb": "εἶδεν",
+      "difficulty": 3,
+      "entities": [
+        "Ἰησοῦς",
+        "Ἰωάν(ν)ης",
+        "Σίμων",
+        "Ἀνδρέας",
+        "Γαλιλαία"
+      ],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " (And passing by) παρὰ τὴν"
+    },
+    {
+      "id": 6,
+      "verse_ref": "MARK 1.16",
+      "verb": "ἦσαν",
+      "difficulty": 2,
+      "entities": [
+        "Ἰησοῦς",
+        "Ἰωάν(ν)ης",
+        "Σίμων",
+        "Ἀνδρέας",
+        "Γαλιλαία"
+      ],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " or UNKNOWN if truly ambiguous]\".\nSince it's"
+    },
+    {
+      "id": 7,
+      "verse_ref": "MARK 1.18",
+      "verb": "ἠκολούθησαν",
+      "difficulty": 2,
+      "entities": [
+        "Ἰησοῦς",
+        "Ἀνδρέας",
+        "Σίμων",
+        "Γαλιλαία"
+      ],
+      "llm_entity": "Σίμων καὶ Ἀνδρέ",
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": false,
+      "raw_response": "Entity: Σίμων καὶ Ἀνδρέ"
+    },
+    {
+      "id": 8,
+      "verse_ref": "MARK 1.19",
+      "verb": "εἶδεν",
+      "difficulty": 3,
+      "entities": [
+        "Ἰησοῦς",
+        "Ζεβεδαῖος",
+        "Ἰάκωβος",
+        "Ἰωάν(ν)ης"
+      ],
+      "llm_entity": "Ἰησοῦς",
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": false,
+      "raw_response": "Entity: Ἰησοῦς\n"
+    },
+    {
+      "id": 9,
+      "verse_ref": "MARK 1.20",
+      "verb": "ἐκάλεσεν",
+      "difficulty": 3,
+      "entities": [
+        "Ζεβεδαῖος",
+        "Ἰάκωβος",
+        "Ἰωάν(ν)ης"
+      ],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " masculine singular, referring to Jesus.\nThe subject of \""
+    },
+    {
+      "id": 10,
+      "verse_ref": "MARK 1.20",
+      "verb": "ἀπῆλθον",
+      "difficulty": 2,
+      "entities": [
+        "Ζεβεδαῖος",
+        "Ἰάκωβος",
+        "Ἰωάν(ν)ης"
+      ],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " (nominative plural masculine) agrees with the subject of"
+    },
+    {
+      "id": 11,
+      "verse_ref": "MARK 1.21",
+      "verb": "εἰσπορεύονται",
+      "difficulty": 2,
+      "entities": [
+        "Καφαρναούμ",
+        "Ζεβεδαῖος",
+        "Ἰάκωβος",
+        "Ἰωάν(ν)ης"
+      ],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": ") calls Simon and Andrew (Σίμωνα"
+    },
+    {
+      "id": 12,
+      "verse_ref": "MARK 1.21",
+      "verb": "ἐδίδασκεν",
+      "difficulty": 3,
+      "entities": [
+        "Καφαρναούμ",
+        "Ζεβεδαῖος",
+        "Ἰάκωβος",
+        "Ἰωάν(ν)ης"
+      ],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": "...\" (And they [Jesus and the disciples] go"
+    },
+    {
+      "id": 14,
+      "verse_ref": "MARK 1.27",
+      "verb": "ἐπιτάσσει",
+      "difficulty": 3,
+      "entities": [
+        "Ἰησοῦς"
+      ],
+      "llm_entity": "Ἰησοῦς",
+      "llm_confidence": "high",
+      "llm_reasoning": null,
+      "needs_adjudication": false,
+      "raw_response": "Entity: Ἰησοῦς\nConfidence: high"
+    },
+    {
+      "id": 16,
+      "verse_ref": "MARK 1.29",
+      "verb": "ἦλθον",
+      "difficulty": 2,
+      "entities": [
+        "Ἰωάν(ν)ης",
+        "Σίμων",
+        "Ἀνδρέας",
+        "Γαλιλαία",
+        "Ἰάκωβος"
+      ],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " τὴν συναγωγὴν ἐδίδασ"
+    },
+    {
+      "id": 17,
+      "verse_ref": "MARK 1.30",
+      "verb": "λέγουσιν",
+      "difficulty": 3,
+      "entities": [
+        "Ἰωάν(ν)ης",
+        "Σίμων",
+        "Ἀνδρέας",
+        "Γαλιλαία",
+        "Ἰάκωβος"
+      ],
+      "llm_entity": "Σίμων, Ἀνδρέας",
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": false,
+      "raw_response": "Entity: Σίμων, Ἀνδρέας"
+    },
+    {
+      "id": 18,
+      "verse_ref": "MARK 1.31",
+      "verb": "ἤγειρεν",
+      "difficulty": 2,
+      "entities": [
+        "Ἀνδρέας",
+        "Ἰωάν(ν)ης",
+        "Ἰάκωβος",
+        "Σίμων"
+      ],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " Person/Number: 3rd person singular (\"he/"
+    },
+    {
+      "id": 19,
+      "verse_ref": "MARK 1.31",
+      "verb": "διηκόνει",
+      "difficulty": 2,
+      "entities": [
+        "Ἀνδρέας",
+        "Ἰωάν(ν)ης",
+        "Ἰάκωβος",
+        "Σίμων"
+      ],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " ὁ πυρετός\" (the fever left her)."
+    },
+    {
+      "id": 21,
+      "verse_ref": "MARK 1.34",
+      "verb": "ἐθεράπευσεν",
+      "difficulty": 2,
+      "entities": [],
+      "llm_entity": "Ἰησοῦς",
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": false,
+      "raw_response": "Entity: Ἰησοῦς"
+    },
+    {
+      "id": 22,
+      "verse_ref": "MARK 1.34",
+      "verb": "ἐξέβαλεν",
+      "difficulty": 3,
+      "entities": [],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": "- Verse 33: \""
+    },
+    {
+      "id": 23,
+      "verse_ref": "MARK 1.34",
+      "verb": "ἤφιεν",
+      "difficulty": 2,
+      "entities": [],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " **him** all...). The 'α"
+    },
+    {
+      "id": 24,
+      "verse_ref": "MARK 1.34",
+      "verb": "ᾔδεισαν",
+      "difficulty": 3,
+      "entities": [],
+      "llm_entity": "τὰ δαιμόνια",
+      "llm_confidence": "high",
+      "llm_reasoning": null,
+      "needs_adjudication": false,
+      "raw_response": "Entity: τὰ δαιμόνια\nConfidence: high"
+    },
+    {
+      "id": 25,
+      "verse_ref": "MARK 1.35",
+      "verb": "ἐξῆλθεν",
+      "difficulty": 2,
+      "entities": [],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " ὅλη ἡ πόλις ἐπισ"
+    },
+    {
+      "id": 26,
+      "verse_ref": "MARK 1.35",
+      "verb": "ἀπῆλθεν",
+      "difficulty": 2,
+      "entities": [],
+      "llm_entity": "Ἰησοῦς",
+      "llm_confidence": "high",
+      "llm_reasoning": null,
+      "needs_adjudication": false,
+      "raw_response": "Entity: Ἰησοῦς\nConfidence: high"
+    },
+    {
+      "id": 27,
+      "verse_ref": "MARK 1.35",
+      "verb": "προσηύχετο",
+      "difficulty": 2,
+      "entities": [],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " πρὸς αὐτὸν πάντας"
+    },
+    {
+      "id": 34,
+      "verse_ref": "MARK 1.43",
+      "verb": "ἐξέβαλεν",
+      "difficulty": 3,
+      "entities": [],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " λεπρὸς, implied subject of ἀ"
+    },
+    {
+      "id": 41,
+      "verse_ref": "MARK 2.4",
+      "verb": "ἀπεστέγασαν",
+      "difficulty": 2,
+      "entities": [],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " \"ἀπεστέγασαν"
+    },
+    {
+      "id": 42,
+      "verse_ref": "MARK 2.4",
+      "verb": "ἦν",
+      "difficulty": 3,
+      "entities": [],
+      "llm_entity": "Ἰησοῦς",
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": false,
+      "raw_response": "Entity: Ἰησοῦς\nConfidence"
+    },
+    {
+      "id": 43,
+      "verse_ref": "MARK 2.4",
+      "verb": "χαλῶσι",
+      "difficulty": 2,
+      "entities": [],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " ὅπου ἦν...\" (..."
+    },
+    {
+      "id": 45,
+      "verse_ref": "MARK 2.8",
+      "verb": "διαλογίζονται",
+      "difficulty": 3,
+      "entities": [
+        "Ἰησοῦς"
+      ],
+      "llm_entity": "τινες τῶν γραμματέων",
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": false,
+      "raw_response": "Entity: τινες τῶν γραμματέων\n"
+    },
+    {
+      "id": 47,
+      "verse_ref": "MARK 2.12",
+      "verb": "ἐξῆλθεν",
+      "difficulty": 2,
+      "entities": [],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": "\" (the paralytic) mentioned in verse"
+    },
+    {
+      "id": 48,
+      "verse_ref": "MARK 2.13",
+      "verb": "ἐξῆλθεν",
+      "difficulty": 2,
+      "entities": [],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " αὐτόν καὶ ἐδίδ"
+    },
+    {
+      "id": 3,
+      "verse_ref": "MARK 1.13",
+      "verb": "ἦν",
+      "difficulty": 1,
+      "entities": [
+        "Σατανᾶς"
+      ],
+      "llm_entity": "Ἰησοῦς",
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": false,
+      "raw_response": "Entity: Ἰησοῦς"
+    },
+    {
+      "id": 4,
+      "verse_ref": "MARK 1.13",
+      "verb": "ἦν",
+      "difficulty": 1,
+      "entities": [
+        "Σατανᾶς"
+      ],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": "...)\n\"...καὶ ἐβαπτίσθη"
+    },
+    {
+      "id": 13,
+      "verse_ref": "MARK 1.23",
+      "verb": "ἀνέκραξεν",
+      "difficulty": 1,
+      "entities": [
+        "Καφαρναούμ"
+      ],
+      "llm_entity": "ἄνθρωπος",
+      "llm_confidence": "high",
+      "llm_reasoning": null,
+      "needs_adjudication": false,
+      "raw_response": "Entity: ἄνθρωπος\nConfidence: high\n"
+    },
+    {
+      "id": 15,
+      "verse_ref": "MARK 1.27",
+      "verb": "ὑπακούουσιν",
+      "difficulty": 1,
+      "entities": [
+        "Ἰησοῦς"
+      ],
+      "llm_entity": "τὰ πνεύματα τὰ ἀκάθαρ",
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": false,
+      "raw_response": "Entity: τὰ πνεύματα τὰ ἀκάθαρ"
+    },
+    {
+      "id": 20,
+      "verse_ref": "MARK 1.32",
+      "verb": "ἔφερον",
+      "difficulty": 1,
+      "entities": [
+        "Σίμων"
+      ],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " look at the preceding verses:\n\"καὶ ἐ"
+    },
+    {
+      "id": 28,
+      "verse_ref": "MARK 1.37",
+      "verb": "εὗρον",
+      "difficulty": 1,
+      "entities": [
+        "Σίμων"
+      ],
+      "llm_entity": "Σίμων καὶ οἱ μετ’ αὐ",
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": false,
+      "raw_response": "Entity: Σίμων καὶ οἱ μετ’ αὐ"
+    },
+    {
+      "id": 29,
+      "verse_ref": "MARK 1.37",
+      "verb": "λέγουσιν",
+      "difficulty": 1,
+      "entities": [
+        "Σίμων"
+      ],
+      "llm_entity": "Σίμων καὶ οἱ με",
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": false,
+      "raw_response": "Entity: Σίμων καὶ οἱ με"
+    },
+    {
+      "id": 30,
+      "verse_ref": "MARK 1.38",
+      "verb": "λέγει",
+      "difficulty": 1,
+      "entities": [
+        "Σίμων"
+      ],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": ")\nKnown Entities: Σί"
+    },
+    {
+      "id": 31,
+      "verse_ref": "MARK 1.39",
+      "verb": "ἦλθεν",
+      "difficulty": 1,
+      "entities": [
+        "Γαλιλαία"
+      ],
+      "llm_entity": "Ἰησοῦς",
+      "llm_confidence": "high",
+      "llm_reasoning": null,
+      "needs_adjudication": false,
+      "raw_response": "Entity: Ἰησοῦς\nConfidence: high"
+    },
+    {
+      "id": 32,
+      "verse_ref": "MARK 1.41",
+      "verb": "ἥψατο",
+      "difficulty": 1,
+      "entities": [
+        "Γαλιλαία"
+      ],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " ἔρχεται, παρακαλῶν, γονυ"
+    }
+  ],
+  "pending_adjudication": [
+    {
+      "id": 2,
+      "verse_ref": "MARK 1.10",
+      "verb": "εἶδεν",
+      "difficulty": 2,
+      "entities": [
+        "Ἰησοῦς",
+        "Ναζαρά",
+        "Ἰωάν(ν)ης",
+        "Γαλιλαία",
+        "Ἰορδάνης"
+      ],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": "\".\n   - The participle \""
+    },
+    {
+      "id": 5,
+      "verse_ref": "MARK 1.16",
+      "verb": "εἶδεν",
+      "difficulty": 3,
+      "entities": [
+        "Ἰησοῦς",
+        "Ἰωάν(ν)ης",
+        "Σίμων",
+        "Ἀνδρέας",
+        "Γαλιλαία"
+      ],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " (And passing by) παρὰ τὴν"
+    },
+    {
+      "id": 6,
+      "verse_ref": "MARK 1.16",
+      "verb": "ἦσαν",
+      "difficulty": 2,
+      "entities": [
+        "Ἰησοῦς",
+        "Ἰωάν(ν)ης",
+        "Σίμων",
+        "Ἀνδρέας",
+        "Γαλιλαία"
+      ],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " or UNKNOWN if truly ambiguous]\".\nSince it's"
+    },
+    {
+      "id": 9,
+      "verse_ref": "MARK 1.20",
+      "verb": "ἐκάλεσεν",
+      "difficulty": 3,
+      "entities": [
+        "Ζεβεδαῖος",
+        "Ἰάκωβος",
+        "Ἰωάν(ν)ης"
+      ],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " masculine singular, referring to Jesus.\nThe subject of \""
+    },
+    {
+      "id": 10,
+      "verse_ref": "MARK 1.20",
+      "verb": "ἀπῆλθον",
+      "difficulty": 2,
+      "entities": [
+        "Ζεβεδαῖος",
+        "Ἰάκωβος",
+        "Ἰωάν(ν)ης"
+      ],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " (nominative plural masculine) agrees with the subject of"
+    },
+    {
+      "id": 11,
+      "verse_ref": "MARK 1.21",
+      "verb": "εἰσπορεύονται",
+      "difficulty": 2,
+      "entities": [
+        "Καφαρναούμ",
+        "Ζεβεδαῖος",
+        "Ἰάκωβος",
+        "Ἰωάν(ν)ης"
+      ],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": ") calls Simon and Andrew (Σίμωνα"
+    },
+    {
+      "id": 12,
+      "verse_ref": "MARK 1.21",
+      "verb": "ἐδίδασκεν",
+      "difficulty": 3,
+      "entities": [
+        "Καφαρναούμ",
+        "Ζεβεδαῖος",
+        "Ἰάκωβος",
+        "Ἰωάν(ν)ης"
+      ],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": "...\" (And they [Jesus and the disciples] go"
+    },
+    {
+      "id": 16,
+      "verse_ref": "MARK 1.29",
+      "verb": "ἦλθον",
+      "difficulty": 2,
+      "entities": [
+        "Ἰωάν(ν)ης",
+        "Σίμων",
+        "Ἀνδρέας",
+        "Γαλιλαία",
+        "Ἰάκωβος"
+      ],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " τὴν συναγωγὴν ἐδίδασ"
+    },
+    {
+      "id": 18,
+      "verse_ref": "MARK 1.31",
+      "verb": "ἤγειρεν",
+      "difficulty": 2,
+      "entities": [
+        "Ἀνδρέας",
+        "Ἰωάν(ν)ης",
+        "Ἰάκωβος",
+        "Σίμων"
+      ],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " Person/Number: 3rd person singular (\"he/"
+    },
+    {
+      "id": 19,
+      "verse_ref": "MARK 1.31",
+      "verb": "διηκόνει",
+      "difficulty": 2,
+      "entities": [
+        "Ἀνδρέας",
+        "Ἰωάν(ν)ης",
+        "Ἰάκωβος",
+        "Σίμων"
+      ],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " ὁ πυρετός\" (the fever left her)."
+    },
+    {
+      "id": 22,
+      "verse_ref": "MARK 1.34",
+      "verb": "ἐξέβαλεν",
+      "difficulty": 3,
+      "entities": [],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": "- Verse 33: \""
+    },
+    {
+      "id": 23,
+      "verse_ref": "MARK 1.34",
+      "verb": "ἤφιεν",
+      "difficulty": 2,
+      "entities": [],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " **him** all...). The 'α"
+    },
+    {
+      "id": 25,
+      "verse_ref": "MARK 1.35",
+      "verb": "ἐξῆλθεν",
+      "difficulty": 2,
+      "entities": [],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " ὅλη ἡ πόλις ἐπισ"
+    },
+    {
+      "id": 27,
+      "verse_ref": "MARK 1.35",
+      "verb": "προσηύχετο",
+      "difficulty": 2,
+      "entities": [],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " πρὸς αὐτὸν πάντας"
+    },
+    {
+      "id": 34,
+      "verse_ref": "MARK 1.43",
+      "verb": "ἐξέβαλεν",
+      "difficulty": 3,
+      "entities": [],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " λεπρὸς, implied subject of ἀ"
+    },
+    {
+      "id": 41,
+      "verse_ref": "MARK 2.4",
+      "verb": "ἀπεστέγασαν",
+      "difficulty": 2,
+      "entities": [],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " \"ἀπεστέγασαν"
+    },
+    {
+      "id": 43,
+      "verse_ref": "MARK 2.4",
+      "verb": "χαλῶσι",
+      "difficulty": 2,
+      "entities": [],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " ὅπου ἦν...\" (..."
+    },
+    {
+      "id": 47,
+      "verse_ref": "MARK 2.12",
+      "verb": "ἐξῆλθεν",
+      "difficulty": 2,
+      "entities": [],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": "\" (the paralytic) mentioned in verse"
+    },
+    {
+      "id": 48,
+      "verse_ref": "MARK 2.13",
+      "verb": "ἐξῆλθεν",
+      "difficulty": 2,
+      "entities": [],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " αὐτόν καὶ ἐδίδ"
+    },
+    {
+      "id": 4,
+      "verse_ref": "MARK 1.13",
+      "verb": "ἦν",
+      "difficulty": 1,
+      "entities": [
+        "Σατανᾶς"
+      ],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": "...)\n\"...καὶ ἐβαπτίσθη"
+    },
+    {
+      "id": 20,
+      "verse_ref": "MARK 1.32",
+      "verb": "ἔφερον",
+      "difficulty": 1,
+      "entities": [
+        "Σίμων"
+      ],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " look at the preceding verses:\n\"καὶ ἐ"
+    },
+    {
+      "id": 30,
+      "verse_ref": "MARK 1.38",
+      "verb": "λέγει",
+      "difficulty": 1,
+      "entities": [
+        "Σίμων"
+      ],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": ")\nKnown Entities: Σί"
+    },
+    {
+      "id": 32,
+      "verse_ref": "MARK 1.41",
+      "verb": "ἥψατο",
+      "difficulty": 1,
+      "entities": [
+        "Γαλιλαία"
+      ],
+      "llm_entity": null,
+      "llm_confidence": null,
+      "llm_reasoning": null,
+      "needs_adjudication": true,
+      "raw_response": " ἔρχεται, παρακαλῶν, γονυ"
+    }
+  ],
+  "comparison": [
+    {
+      "id": 0,
+      "verse_ref": "MARK 1.7",
+      "verb": "ἐκήρυσσεν",
+      "difficulty": 2,
+      "rules_correct": false,
+      "llm_entity": "Ἰωάννης",
+      "llm_confidence": "high",
+      "needs_adjudication": false
+    },
+    {
+      "id": 1,
+      "verse_ref": "MARK 1.9",
+      "verb": "ἐγένετο",
+      "difficulty": 2,
+      "rules_correct": false,
+      "llm_entity": "NONE (Impersonal construction)",
+      "llm_confidence": null,
+      "needs_adjudication": false
+    },
+    {
+      "id": 2,
+      "verse_ref": "MARK 1.10",
+      "verb": "εἶδεν",
+      "difficulty": 2,
+      "rules_correct": false,
+      "llm_entity": null,
+      "llm_confidence": null,
+      "needs_adjudication": true
+    },
+    {
+      "id": 5,
+      "verse_ref": "MARK 1.16",
+      "verb": "εἶδεν",
+      "difficulty": 3,
+      "rules_correct": true,
+      "llm_entity": null,
+      "llm_confidence": null,
+      "needs_adjudication": true
+    },
+    {
+      "id": 6,
+      "verse_ref": "MARK 1.16",
+      "verb": "ἦσαν",
+      "difficulty": 2,
+      "rules_correct": false,
+      "llm_entity": null,
+      "llm_confidence": null,
+      "needs_adjudication": true
+    },
+    {
+      "id": 7,
+      "verse_ref": "MARK 1.18",
+      "verb": "ἠκολούθησαν",
+      "difficulty": 2,
+      "rules_correct": false,
+      "llm_entity": "Σίμων καὶ Ἀνδρέ",
+      "llm_confidence": null,
+      "needs_adjudication": false
+    },
+    {
+      "id": 8,
+      "verse_ref": "MARK 1.19",
+      "verb": "εἶδεν",
+      "difficulty": 3,
+      "rules_correct": true,
+      "llm_entity": "Ἰησοῦς",
+      "llm_confidence": null,
+      "needs_adjudication": false
+    },
+    {
+      "id": 9,
+      "verse_ref": "MARK 1.20",
+      "verb": "ἐκάλεσεν",
+      "difficulty": 3,
+      "rules_correct": true,
+      "llm_entity": null,
+      "llm_confidence": null,
+      "needs_adjudication": true
+    },
+    {
+      "id": 10,
+      "verse_ref": "MARK 1.20",
+      "verb": "ἀπῆλθον",
+      "difficulty": 2,
+      "rules_correct": true,
+      "llm_entity": null,
+      "llm_confidence": null,
+      "needs_adjudication": true
+    },
+    {
+      "id": 11,
+      "verse_ref": "MARK 1.21",
+      "verb": "εἰσπορεύονται",
+      "difficulty": 2,
+      "rules_correct": false,
+      "llm_entity": null,
+      "llm_confidence": null,
+      "needs_adjudication": true
+    },
+    {
+      "id": 12,
+      "verse_ref": "MARK 1.21",
+      "verb": "ἐδίδασκεν",
+      "difficulty": 3,
+      "rules_correct": true,
+      "llm_entity": null,
+      "llm_confidence": null,
+      "needs_adjudication": true
+    },
+    {
+      "id": 14,
+      "verse_ref": "MARK 1.27",
+      "verb": "ἐπιτάσσει",
+      "difficulty": 3,
+      "rules_correct": true,
+      "llm_entity": "Ἰησοῦς",
+      "llm_confidence": "high",
+      "needs_adjudication": false
+    },
+    {
+      "id": 16,
+      "verse_ref": "MARK 1.29",
+      "verb": "ἦλθον",
+      "difficulty": 2,
+      "rules_correct": false,
+      "llm_entity": null,
+      "llm_confidence": null,
+      "needs_adjudication": true
+    },
+    {
+      "id": 17,
+      "verse_ref": "MARK 1.30",
+      "verb": "λέγουσιν",
+      "difficulty": 3,
+      "rules_correct": true,
+      "llm_entity": "Σίμων, Ἀνδρέας",
+      "llm_confidence": null,
+      "needs_adjudication": false
+    },
+    {
+      "id": 18,
+      "verse_ref": "MARK 1.31",
+      "verb": "ἤγειρεν",
+      "difficulty": 2,
+      "rules_correct": true,
+      "llm_entity": null,
+      "llm_confidence": null,
+      "needs_adjudication": true
+    },
+    {
+      "id": 19,
+      "verse_ref": "MARK 1.31",
+      "verb": "διηκόνει",
+      "difficulty": 2,
+      "rules_correct": true,
+      "llm_entity": null,
+      "llm_confidence": null,
+      "needs_adjudication": true
+    },
+    {
+      "id": 21,
+      "verse_ref": "MARK 1.34",
+      "verb": "ἐθεράπευσεν",
+      "difficulty": 2,
+      "rules_correct": false,
+      "llm_entity": "Ἰησοῦς",
+      "llm_confidence": null,
+      "needs_adjudication": false
+    },
+    {
+      "id": 22,
+      "verse_ref": "MARK 1.34",
+      "verb": "ἐξέβαλεν",
+      "difficulty": 3,
+      "rules_correct": false,
+      "llm_entity": null,
+      "llm_confidence": null,
+      "needs_adjudication": true
+    },
+    {
+      "id": 23,
+      "verse_ref": "MARK 1.34",
+      "verb": "ἤφιεν",
+      "difficulty": 2,
+      "rules_correct": false,
+      "llm_entity": null,
+      "llm_confidence": null,
+      "needs_adjudication": true
+    },
+    {
+      "id": 24,
+      "verse_ref": "MARK 1.34",
+      "verb": "ᾔδεισαν",
+      "difficulty": 3,
+      "rules_correct": false,
+      "llm_entity": "τὰ δαιμόνια",
+      "llm_confidence": "high",
+      "needs_adjudication": false
+    },
+    {
+      "id": 25,
+      "verse_ref": "MARK 1.35",
+      "verb": "ἐξῆλθεν",
+      "difficulty": 2,
+      "rules_correct": false,
+      "llm_entity": null,
+      "llm_confidence": null,
+      "needs_adjudication": true
+    },
+    {
+      "id": 26,
+      "verse_ref": "MARK 1.35",
+      "verb": "ἀπῆλθεν",
+      "difficulty": 2,
+      "rules_correct": false,
+      "llm_entity": "Ἰησοῦς",
+      "llm_confidence": "high",
+      "needs_adjudication": false
+    },
+    {
+      "id": 27,
+      "verse_ref": "MARK 1.35",
+      "verb": "προσηύχετο",
+      "difficulty": 2,
+      "rules_correct": false,
+      "llm_entity": null,
+      "llm_confidence": null,
+      "needs_adjudication": true
+    },
+    {
+      "id": 34,
+      "verse_ref": "MARK 1.43",
+      "verb": "ἐξέβαλεν",
+      "difficulty": 3,
+      "rules_correct": false,
+      "llm_entity": null,
+      "llm_confidence": null,
+      "needs_adjudication": true
+    },
+    {
+      "id": 41,
+      "verse_ref": "MARK 2.4",
+      "verb": "ἀπεστέγασαν",
+      "difficulty": 2,
+      "rules_correct": false,
+      "llm_entity": null,
+      "llm_confidence": null,
+      "needs_adjudication": true
+    },
+    {
+      "id": 42,
+      "verse_ref": "MARK 2.4",
+      "verb": "ἦν",
+      "difficulty": 3,
+      "rules_correct": false,
+      "llm_entity": "Ἰησοῦς",
+      "llm_confidence": null,
+      "needs_adjudication": false
+    },
+    {
+      "id": 43,
+      "verse_ref": "MARK 2.4",
+      "verb": "χαλῶσι",
+      "difficulty": 2,
+      "rules_correct": false,
+      "llm_entity": null,
+      "llm_confidence": null,
+      "needs_adjudication": true
+    },
+    {
+      "id": 45,
+      "verse_ref": "MARK 2.8",
+      "verb": "διαλογίζονται",
+      "difficulty": 3,
+      "rules_correct": true,
+      "llm_entity": "τινες τῶν γραμματέων",
+      "llm_confidence": null,
+      "needs_adjudication": false
+    },
+    {
+      "id": 47,
+      "verse_ref": "MARK 2.12",
+      "verb": "ἐξῆλθεν",
+      "difficulty": 2,
+      "rules_correct": false,
+      "llm_entity": null,
+      "llm_confidence": null,
+      "needs_adjudication": true
+    },
+    {
+      "id": 48,
+      "verse_ref": "MARK 2.13",
+      "verb": "ἐξῆλθεν",
+      "difficulty": 2,
+      "rules_correct": false,
+      "llm_entity": null,
+      "llm_confidence": null,
+      "needs_adjudication": true
+    },
+    {
+      "id": 3,
+      "verse_ref": "MARK 1.13",
+      "verb": "ἦν",
+      "difficulty": 1,
+      "rules_correct": true,
+      "llm_entity": "Ἰησοῦς",
+      "llm_confidence": null,
+      "needs_adjudication": false
+    },
+    {
+      "id": 4,
+      "verse_ref": "MARK 1.13",
+      "verb": "ἦν",
+      "difficulty": 1,
+      "rules_correct": true,
+      "llm_entity": null,
+      "llm_confidence": null,
+      "needs_adjudication": true
+    },
+    {
+      "id": 13,
+      "verse_ref": "MARK 1.23",
+      "verb": "ἀνέκραξεν",
+      "difficulty": 1,
+      "rules_correct": true,
+      "llm_entity": "ἄνθρωπος",
+      "llm_confidence": "high",
+      "needs_adjudication": false
+    },
+    {
+      "id": 15,
+      "verse_ref": "MARK 1.27",
+      "verb": "ὑπακούουσιν",
+      "difficulty": 1,
+      "rules_correct": true,
+      "llm_entity": "τὰ πνεύματα τὰ ἀκάθαρ",
+      "llm_confidence": null,
+      "needs_adjudication": false
+    },
+    {
+      "id": 20,
+      "verse_ref": "MARK 1.32",
+      "verb": "ἔφερον",
+      "difficulty": 1,
+      "rules_correct": true,
+      "llm_entity": null,
+      "llm_confidence": null,
+      "needs_adjudication": true
+    },
+    {
+      "id": 28,
+      "verse_ref": "MARK 1.37",
+      "verb": "εὗρον",
+      "difficulty": 1,
+      "rules_correct": true,
+      "llm_entity": "Σίμων καὶ οἱ μετ’ αὐ",
+      "llm_confidence": null,
+      "needs_adjudication": false
+    },
+    {
+      "id": 29,
+      "verse_ref": "MARK 1.37",
+      "verb": "λέγουσιν",
+      "difficulty": 1,
+      "rules_correct": true,
+      "llm_entity": "Σίμων καὶ οἱ με",
+      "llm_confidence": null,
+      "needs_adjudication": false
+    },
+    {
+      "id": 30,
+      "verse_ref": "MARK 1.38",
+      "verb": "λέγει",
+      "difficulty": 1,
+      "rules_correct": true,
+      "llm_entity": null,
+      "llm_confidence": null,
+      "needs_adjudication": true
+    },
+    {
+      "id": 31,
+      "verse_ref": "MARK 1.39",
+      "verb": "ἦλθεν",
+      "difficulty": 1,
+      "rules_correct": true,
+      "llm_entity": "Ἰησοῦς",
+      "llm_confidence": "high",
+      "needs_adjudication": false
+    },
+    {
+      "id": 32,
+      "verse_ref": "MARK 1.41",
+      "verb": "ἥψατο",
+      "difficulty": 1,
+      "rules_correct": true,
+      "llm_entity": null,
+      "llm_confidence": null,
+      "needs_adjudication": true
+    }
+  ],
+  "metrics": {
+    "llm_total": 40,
+    "llm_correct_by_level": {
+      "2": 5,
+      "3": 6,
+      "1": 6
+    },
+    "llm_total_by_level": {
+      "2": 19,
+      "3": 11,
+      "1": 10
+    },
+    "rules_correct_by_level": {
+      "3": 7,
+      "2": 3,
+      "1": 10
+    },
+    "rules_total_by_level": {
+      "2": 19,
+      "3": 11,
+      "1": 10
+    },
+    "pending_adjudication": 23
+  }
+}

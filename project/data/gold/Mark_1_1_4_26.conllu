@@ -1,0 +1,531 @@
+
+# sent_id = 6500
+# text = Ἀρχὴ τοῦ εὐαγγελίου Ἰησοῦ Χριστοῦ καθὼς γέγραπται ἐν τῷ Ἡσαΐᾳ τῷ προφήτῃ
+1	Ἀρχὴ	ἀρχή	Nb	_	-s---fn--i	677708.0	xobj	_	Ref=MARK 1.1
+2	τοῦ	ὁ	S-	_	-s---ng--i	101747.0	aux	_	Ref=MARK 1.1
+3	εὐαγγελίου	εὐαγγέλιον	Nb	_	-s---ng--i	101745.0	atr	_	Ref=MARK 1.1
+4	Ἰησοῦ	Ἰησοῦς	Ne	_	-s---mg--i	101747.0	narg	_	Ref=MARK 1.1
+5	Χριστοῦ	Χριστός	Ne	_	-s---mg--i	101748.0	apos	_	Ref=MARK 1.1
+6	καθὼς	καθώς	Dq	_	---------n	101752.0	adv	_	Ref=MARK 1.2
+7	γέγραπται	γράφω	V-	_	3srip----i	677708.0	adv	_	Ref=MARK 1.2
+8	ἐν	ἐν	R-	_	---------n	101752.0	adv	_	Ref=MARK 1.2
+9	τῷ	ὁ	S-	_	-s---md--i	101755.0	aux	_	Ref=MARK 1.2
+10	Ἡσαΐᾳ	Ἠσαΐας	Ne	_	-s---md--i	101753.0	obl	_	Ref=MARK 1.2
+11	τῷ	ὁ	S-	_	-s---md--i	101757.0	aux	_	Ref=MARK 1.2
+12	προφήτῃ	προφήτης	Nb	_	-s---md--i	101755.0	apos	_	Ref=MARK 1.2
+
+# sent_id = 6501
+# text = ἰδοὺ ἐγὼ ἀποστέλλω τὸν ἄγγελόν μου πρὸ προσώπου σου ὃς κατασκευάσει τὴν ὁδόν σου
+1	ἰδοὺ	ἰδοὺ	I-	_	---------n	nan	voc	_	Ref=MARK 1.2
+2	ἐγὼ	ἐγώ	Pp	_	1s---pn--i	101761.0	sub	_	Ref=MARK 1.2
+3	ἀποστέλλω	ἀποστέλλω	V-	_	1spia----i	nan	pred	_	Ref=MARK 1.2
+4	τὸν	ὁ	S-	_	-s---ma--i	101763.0	aux	_	Ref=MARK 1.2
+5	ἄγγελόν	ἄγγελος	Nb	_	-s---ma--i	101761.0	obj	_	Ref=MARK 1.2
+6	μου	ἐγώ	Pp	_	1s---pg--i	101763.0	atr	_	Ref=MARK 1.2|AntId=101760
+7	πρὸ	πρό	R-	_	---------n	101761.0	obl	_	Ref=MARK 1.2
+8	προσώπου	πρόσωπον	Nb	_	-s---ng--i	101765.0	obl	_	Ref=MARK 1.2
+9	σου	σύ	Pp	_	2s---pg--i	101766.0	atr	_	Ref=MARK 1.2
+10	ὃς	ὅς	Pr	_	-s---mn--i	101770.0	sub	_	Ref=MARK 1.2
+11	κατασκευάσει	κατασκευάζω	V-	_	3sfia----i	101763.0	apos	_	Ref=MARK 1.2
+12	τὴν	ὁ	S-	_	-s---fa--i	101772.0	aux	_	Ref=MARK 1.2
+13	ὁδόν	ὁδός	Nb	_	-s---fa--i	101770.0	obj	_	Ref=MARK 1.2
+14	σου	σύ	Pp	_	2s---pg--i	101772.0	atr	_	Ref=MARK 1.2|AntId=101767
+
+# sent_id = 6502
+# text = φωνὴ βοῶντος ἐν τῇ ἐρήμῳ
+1	φωνὴ	φωνή	Nb	_	-s---fn--i	168222.0	sub	_	Ref=MARK 1.3
+2	βοῶντος	βοάω	V-	_	-sppamg--i	101775.0	atr	_	Ref=MARK 1.3
+3	ἐν	ἐν	R-	_	---------n	101776.0	adv	_	Ref=MARK 1.3
+4	τῇ	ὁ	S-	_	-s---fd--i	101779.0	aux	_	Ref=MARK 1.3
+5	ἐρήμῳ	ἔρημος	A-	_	-s---fdp-i	101777.0	obl	_	Ref=MARK 1.3
+
+# sent_id = 47268
+# text = ἑτοιμάσατε τὴν ὁδὸν κυρίου
+1	ἑτοιμάσατε	ἑτοιμάζω	V-	_	2pama----i	nan	pred	_	Ref=MARK 1.3
+2	τὴν	ὁ	S-	_	-s---fa--i	101783.0	aux	_	Ref=MARK 1.3
+3	ὁδὸν	ὁδός	Nb	_	-s---fa--i	101781.0	obj	_	Ref=MARK 1.3
+4	κυρίου	κύριος	Nb	_	-s---mg--i	101783.0	atr	_	Ref=MARK 1.3
+
+# sent_id = 47269
+# text = εὐθείας ποιεῖτε τὰς τρίβους αὐτοῦ
+1	εὐθείας	εὐθύς	A-	_	-p---fap-i	101787.0	xobj	_	Ref=MARK 1.3
+2	ποιεῖτε	ποιέω	V-	_	2ppma----i	nan	pred	_	Ref=MARK 1.3
+3	τὰς	ὁ	S-	_	-p---fa--i	101789.0	aux	_	Ref=MARK 1.3
+4	τρίβους	τρίβος	Nb	_	-p---fa--i	101787.0	obj	_	Ref=MARK 1.3
+5	αὐτοῦ	αὐτός	Pp	_	3s---mg--i	101789.0	atr	_	Ref=MARK 1.3|AntId=101784
+
+# sent_id = 6504
+# text = ἐγένετο Ἰωάννης ὁ βαπτίζων ἐν τῇ ἐρήμῳ καὶ κηρύσσων βάπτισμα μετανοίας εἰς ἄφεσιν ἁμαρτιῶν
+1	ἐγένετο	γίγνομαι	V-	_	3saim----i	101799.0	pred	_	Ref=MARK 1.4
+2	Ἰωάννης	Ἰωάν(ν)ης	Ne	_	-s---mn--i	101792.0	sub	_	Ref=MARK 1.4
+3	ὁ	ὁ	S-	_	-s---mn--i	101795.0	aux	_	Ref=MARK 1.4
+4	βαπτίζων	βαπτίζω	V-	_	-sppamn--i	101793.0	apos	_	Ref=MARK 1.4
+5	ἐν	ἐν	R-	_	---------n	101792.0	xobj	_	Ref=MARK 1.4
+6	τῇ	ὁ	S-	_	-s---fd--i	101798.0	aux	_	Ref=MARK 1.4
+7	ἐρήμῳ	ἔρημος	A-	_	-s---fdp-i	101796.0	obl	_	Ref=MARK 1.4
+8	καὶ	καί	C-	_	---------n	nan	pred	_	Ref=MARK 1.4
+9	κηρύσσων	κηρύσσω	V-	_	-sppamn--i	101799.0	pred	_	Ref=MARK 1.4
+10	βάπτισμα	βάπτισμα	Nb	_	-s---na--i	101800.0	obj	_	Ref=MARK 1.4
+11	μετανοίας	μετάνοια	Nb	_	-s---fg--i	101801.0	atr	_	Ref=MARK 1.4
+12	εἰς	εἰς	R-	_	---------n	101801.0	atr	_	Ref=MARK 1.4
+13	ἄφεσιν	ἄφεσις	Nb	_	-s---fa--i	101803.0	obl	_	Ref=MARK 1.4
+14	ἁμαρτιῶν	ἁμαρτία	Nb	_	-p---fg--i	101804.0	narg	_	Ref=MARK 1.4
+
+# sent_id = 6505
+# text = καὶ ἐξεπορεύετο πρὸς αὐτὸν πᾶσα ἡ Ἰουδαία χώρα καὶ οἱ Ἱεροσολυμεῖται πάντες καὶ ἐβαπτίζοντο ὑπ’ αὐτοῦ ἐν τῷ Ἰορδάνῃ ποταμῷ ἐξομολογούμενοι τὰς ἁμαρτίας αὐτῶν
+1	καὶ	καί	C-	_	---------n	101808.0	aux	_	Ref=MARK 1.5
+2	ἐξεπορεύετο	ἐκπορεύομαι	V-	_	3siim----i	101820.0	pred	_	Ref=MARK 1.5
+3	πρὸς	πρός	R-	_	---------n	101808.0	obl	_	Ref=MARK 1.5
+4	αὐτὸν	αὐτός	Pp	_	3s---ma--i	101809.0	obl	_	Ref=MARK 1.5|AntId=101793
+5	πᾶσα	πᾶς	Px	_	-s---fn--i	101814.0	atr	_	Ref=MARK 1.5
+6	ἡ	ὁ	S-	_	-s---fn--i	101814.0	aux	_	Ref=MARK 1.5
+7	Ἰουδαία	Ἰουδαῖος	A-	_	-s---fnp-i	101814.0	atr	_	Ref=MARK 1.5
+8	χώρα	χώρα	Nb	_	-s---fn--i	101815.0	sub	_	Ref=MARK 1.5
+9	καὶ	καί	C-	_	---------n	101808.0	sub	_	Ref=MARK 1.5
+10	οἱ	ὁ	S-	_	-p---mn--i	101817.0	aux	_	Ref=MARK 1.5
+11	Ἱεροσολυμεῖται	Ἱεροσολυμίτης	Nb	_	-p---mn--i	101815.0	sub	_	Ref=MARK 1.5
+12	πάντες	πᾶς	Px	_	-p---mn--i	101817.0	atr	_	Ref=MARK 1.5
+13	καὶ	καί	C-	_	---------n	nan	pred	_	Ref=MARK 1.5
+14	ἐβαπτίζοντο	βαπτίζω	V-	_	3piip----i	101820.0	pred	_	Ref=MARK 1.5
+15	ὑπ’	ὑπό	R-	_	---------n	101821.0	ag	_	Ref=MARK 1.5
+16	αὐτοῦ	αὐτός	Pp	_	3s---mg--i	101822.0	obl	_	Ref=MARK 1.5|AntId=101810
+17	ἐν	ἐν	R-	_	---------n	101821.0	adv	_	Ref=MARK 1.5
+18	τῷ	ὁ	S-	_	-s---md--i	101826.0	aux	_	Ref=MARK 1.5
+19	Ἰορδάνῃ	Ἰορδάνης	Ne	_	-s---md--i	101824.0	obl	_	Ref=MARK 1.5
+20	ποταμῷ	ποταμός	Nb	_	-s---md--i	101826.0	apos	_	Ref=MARK 1.5
+21	ἐξομολογούμενοι	ἐξομολογέω	V-	_	-pppmmn--i	101821.0	xadv	_	Ref=MARK 1.5
+22	τὰς	ὁ	S-	_	-p---fa--i	101830.0	aux	_	Ref=MARK 1.5
+23	ἁμαρτίας	ἁμαρτία	Nb	_	-p---fa--i	101828.0	obj	_	Ref=MARK 1.5
+24	αὐτῶν	αὐτός	Pp	_	3p---mg--i	101830.0	atr	_	Ref=MARK 1.5|AntId=679264
+
+# sent_id = 6506
+# text = καὶ ἦν ὁ Ἰωάννης ἐνδεδυμένος τρίχας καμήλου καὶ ζώνην δερματίνην περὶ τὴν ὀσφὺν αὐτοῦ καὶ ἐσθίων ἀκρίδας καὶ μέλι ἄγριον
+1	καὶ	καί	C-	_	---------n	101834.0	aux	_	Ref=MARK 1.6
+2	ἦν	εἰμί#1	V-	_	3siia----i	nan	pred	_	Ref=MARK 1.6
+3	ὁ	ὁ	S-	_	-s---mn--i	101836.0	aux	_	Ref=MARK 1.6
+4	Ἰωάννης	Ἰωάν(ν)ης	Ne	_	-s---mn--i	101834.0	sub	_	Ref=MARK 1.6|AntId=101823
+5	ἐνδεδυμένος	ἐνδύω	V-	_	-srppmn--i	101848.0	xobj	_	Ref=MARK 1.6
+6	τρίχας	θρίξ	Nb	_	-p---fa--i	101840.0	obj	_	Ref=MARK 1.6
+7	καμήλου	κάμηλος	Nb	_	-s---mg--i	101838.0	atr	_	Ref=MARK 1.6
+8	καὶ	καί	C-	_	---------n	101837.0	obj	_	Ref=MARK 1.6
+9	ζώνην	ζώνη	Nb	_	-s---fa--i	101840.0	obj	_	Ref=MARK 1.6
+10	δερματίνην	δερμάτινος	A-	_	-s---fap-i	101841.0	atr	_	Ref=MARK 1.6
+11	περὶ	περί	R-	_	---------n	101841.0	atr	_	Ref=MARK 1.6
+12	τὴν	ὁ	S-	_	-s---fa--i	101845.0	aux	_	Ref=MARK 1.6
+13	ὀσφὺν	ὀσφῦς	Nb	_	-s---fa--i	101843.0	obl	_	Ref=MARK 1.6
+14	αὐτοῦ	αὐτός	Pp	_	3s---mg--i	101845.0	atr	_	Ref=MARK 1.6|AntId=101836
+15	καὶ	καί	C-	_	---------n	101834.0	xobj	_	Ref=MARK 1.6
+16	ἐσθίων	ἐσθίω	V-	_	-sppamn--i	101848.0	xobj	_	Ref=MARK 1.6
+17	ἀκρίδας	ἀκρίς	Nb	_	-p---fa--i	101851.0	obj	_	Ref=MARK 1.6
+18	καὶ	καί	C-	_	---------n	101849.0	obj	_	Ref=MARK 1.6
+19	μέλι	μέλι	Nb	_	-s---na--i	101851.0	obj	_	Ref=MARK 1.6
+20	ἄγριον	ἄγριος	A-	_	-s---nap-i	101852.0	atr	_	Ref=MARK 1.6
+
+# sent_id = 6507
+# text = καὶ ἐκήρυσσεν λέγων
+1	καὶ	καί	C-	_	---------n	101856.0	aux	_	Ref=MARK 1.7
+2	ἐκήρυσσεν	κηρύσσω	V-	_	3siia----i	nan	pred	_	Ref=MARK 1.7
+3	λέγων	λέγω	V-	_	-sppamn--i	101856.0	xadv	_	Ref=MARK 1.7
+
+# sent_id = 6508
+# text = ἔρχεται ὁ ἰσχυρότερός μου ὀπίσω μου οὗ οὐκ εἰμὶ ἱκανὸς κύψας λῦσαι τὸν ἱμάντα τῶν ὑποδημάτων αὐτοῦ
+1	ἔρχεται	ἔρχομαι	V-	_	3spim----i	nan	pred	_	Ref=MARK 1.7
+2	ὁ	ὁ	S-	_	-s---mn--i	101861.0	aux	_	Ref=MARK 1.7
+3	ἰσχυρότερός	ἰσχυρός	A-	_	-s---mnc-i	101859.0	sub	_	Ref=MARK 1.7
+4	μου	ἐγώ	Pp	_	1s---mg--i	101861.0	obl	_	Ref=MARK 1.7|AntId=679265
+5	ὀπίσω	ὀπίσω	R-	_	---------n	101859.0	adv	_	Ref=MARK 1.7
+6	μου	ἐγώ	Pp	_	1s---mg--i	101863.0	obl	_	Ref=MARK 1.7|AntId=101862
+7	οὗ	ὅς	Pr	_	-s---mg--i	101876.0	apos	_	Ref=MARK 1.7
+8	οὐκ	οὐ	Df	_	---------n	101868.0	aux	_	Ref=MARK 1.7
+9	εἰμὶ	εἰμί#1	V-	_	1spia----i	101861.0	atr	_	Ref=MARK 1.7
+10	ἱκανὸς	ἱκανός	A-	_	-s---mnp-i	101868.0	xobj	_	Ref=MARK 1.7
+11	κύψας	κύπτω	V-	_	-sapamn--i	101871.0	xadv	_	Ref=MARK 1.7
+12	λῦσαι	λύω	V-	_	--ana----i	101869.0	comp	_	Ref=MARK 1.7
+13	τὸν	ὁ	S-	_	-s---ma--i	101873.0	aux	_	Ref=MARK 1.7
+14	ἱμάντα	ἱμάς	Nb	_	-s---ma--i	101871.0	obj	_	Ref=MARK 1.7
+15	τῶν	ὁ	S-	_	-p---ng--i	101875.0	aux	_	Ref=MARK 1.7
+16	ὑποδημάτων	ὑπόδημα	Nb	_	-p---ng--i	101873.0	atr	_	Ref=MARK 1.7
+17	αὐτοῦ	αὐτός	Pp	_	3s---mg--i	101875.0	atr	_	Ref=MARK 1.7|AntId=101861
+
+# sent_id = 47270
+# text = ἐγὼ ἐβάπτισα ὑμᾶς ὕδατι
+1	ἐγὼ	ἐγώ	Pp	_	1s---mn--i	101879.0	sub	_	Ref=MARK 1.8|AntId=679266
+2	ἐβάπτισα	βαπτίζω	V-	_	1saia----i	nan	pred	_	Ref=MARK 1.8
+3	ὑμᾶς	ὑμεῖς	Pp	_	2p---pa--i	101879.0	obj	_	Ref=MARK 1.8|AntId=101831
+4	ὕδατι	ὕδωρ	Nb	_	-s---nd--i	101879.0	adv	_	Ref=MARK 1.8
+
+# sent_id = 47271
+# text = αὐτὸς δὲ βαπτίσει ὑμᾶς ἐν πνεύματι ἁγίῳ
+1	αὐτὸς	αὐτός	Pd	_	-s---mn--i	101885.0	sub	_	Ref=MARK 1.8|AntId=101876
+2	δὲ	δέ	Df	_	---------n	101885.0	aux	_	Ref=MARK 1.8
+3	βαπτίσει	βαπτίζω	V-	_	3sfia----i	nan	pred	_	Ref=MARK 1.8
+4	ὑμᾶς	ὑμεῖς	Pp	_	2p---pa--i	101885.0	obj	_	Ref=MARK 1.8|AntId=101880
+5	ἐν	ἐν	R-	_	---------n	101885.0	adv	_	Ref=MARK 1.8
+6	πνεύματι	πνεῦμα	Nb	_	-s---nd--i	101887.0	obl	_	Ref=MARK 1.8
+7	ἁγίῳ	ἅγιος	A-	_	-s---ndp-i	101888.0	atr	_	Ref=MARK 1.8
+
+# sent_id = 6510
+# text = Καὶ ἐγένετο ἐν ἐκείναις ταῖς ἡμέραις ἦλθεν Ἰησοῦς ἀπὸ Ναζαρὲτ τῆς Γαλιλαίας καὶ ἐβαπτίσθη εἰς τὸν Ἰορδάνην ὑπὸ Ἰωάννου
+1	Καὶ	καί	C-	_	---------n	101892.0	aux	_	Ref=MARK 1.9
+2	ἐγένετο	γίγνομαι	V-	_	3saim----i	nan	pred	_	Ref=MARK 1.9
+3	ἐν	ἐν	R-	_	---------n	101892.0	adv	_	Ref=MARK 1.9
+4	ἐκείναις	ἐκεῖνος	Pd	_	-p---fd--i	101896.0	atr	_	Ref=MARK 1.9
+5	ταῖς	ὁ	S-	_	-p---fd--i	101896.0	aux	_	Ref=MARK 1.9
+6	ἡμέραις	ἡμέρα	Nb	_	-p---fd--i	101893.0	obl	_	Ref=MARK 1.9
+7	ἦλθεν	ἔρχομαι	V-	_	3saia----i	101903.0	comp	_	Ref=MARK 1.9
+8	Ἰησοῦς	Ἰησοῦς	Ne	_	-s---mn--i	101897.0	sub	_	Ref=MARK 1.9
+9	ἀπὸ	ἀπό	R-	_	---------n	101897.0	obl	_	Ref=MARK 1.9
+10	Ναζαρὲτ	Ναζαρά	Ne	_	---------n	101899.0	obl	_	Ref=MARK 1.9
+11	τῆς	ὁ	S-	_	-s---fg--i	101902.0	aux	_	Ref=MARK 1.9
+12	Γαλιλαίας	Γαλιλαία	Ne	_	-s---fg--i	101900.0	atr	_	Ref=MARK 1.9
+13	καὶ	καί	C-	_	---------n	101892.0	comp	_	Ref=MARK 1.9
+14	ἐβαπτίσθη	βαπτίζω	V-	_	3saip----i	101903.0	comp	_	Ref=MARK 1.9
+15	εἰς	εἰς	R-	_	---------n	101904.0	adv	_	Ref=MARK 1.9
+16	τὸν	ὁ	S-	_	-s---ma--i	101907.0	aux	_	Ref=MARK 1.9
+17	Ἰορδάνην	Ἰορδάνης	Ne	_	-s---ma--i	101905.0	obl	_	Ref=MARK 1.9|AntId=101826
+18	ὑπὸ	ὑπό	R-	_	---------n	101904.0	ag	_	Ref=MARK 1.9
+19	Ἰωάννου	Ἰωάν(ν)ης	Ne	_	-s---mg--i	101908.0	obl	_	Ref=MARK 1.9|AntId=101878
+
+# sent_id = 6511
+# text = καὶ εὐθὺς ἀναβαίνων ἐκ τοῦ ὕδατος εἶδεν σχιζομένους τοὺς οὐρανοὺς καὶ τὸ πνεῦμα ὡς περιστερὰν καταβαῖνον εἰς αὐτόν
+1	καὶ	καί	C-	_	---------n	101917.0	aux	_	Ref=MARK 1.10
+2	εὐθὺς	εὐθύς	Df	_	---------n	101917.0	adv	_	Ref=MARK 1.10
+3	ἀναβαίνων	ἀναβαίνω	V-	_	-sppamn--i	101917.0	xadv	_	Ref=MARK 1.10
+4	ἐκ	ἐκ	R-	_	---------n	101913.0	obl	_	Ref=MARK 1.10
+5	τοῦ	ὁ	S-	_	-s---ng--i	101916.0	aux	_	Ref=MARK 1.10
+6	ὕδατος	ὕδωρ	Nb	_	-s---ng--i	101914.0	obl	_	Ref=MARK 1.10|AntId=101907
+7	εἶδεν	ὁράω	V-	_	3saia----i	101921.0	pred	_	Ref=MARK 1.10
+8	σχιζομένους	σχίζω	V-	_	-ppppma--i	101917.0	xobj	_	Ref=MARK 1.10
+9	τοὺς	ὁ	S-	_	-p---ma--i	101920.0	aux	_	Ref=MARK 1.10
+10	οὐρανοὺς	οὐρανός	Nb	_	-p---ma--i	101917.0	obj	_	Ref=MARK 1.10
+11	καὶ	καί	C-	_	---------n	nan	pred	_	Ref=MARK 1.10
+12	τὸ	ὁ	S-	_	-s---na--i	101923.0	aux	_	Ref=MARK 1.10
+13	πνεῦμα	πνεῦμα	Nb	_	-s---na--i	785034.0	obj	_	Ref=MARK 1.10|AntId=101888
+14	ὡς	ὡς	Df	_	---------n	101926.0	adv	_	Ref=MARK 1.10
+15	περιστερὰν	περιστερά	Nb	_	-s---fa--i	101924.0	sub	_	Ref=MARK 1.10
+16	καταβαῖνον	καταβαίνω	V-	_	-sppana--i	785034.0	xobj	_	Ref=MARK 1.10
+17	εἰς	εἰς	R-	_	---------n	101926.0	obl	_	Ref=MARK 1.10
+18	αὐτόν	αὐτός	Pp	_	3s---ma--i	101927.0	obl	_	Ref=MARK 1.10|AntId=679268
+
+# sent_id = 6512
+# text = καὶ φωνὴ ἐκ τῶν οὐρανῶν
+1	καὶ	καί	C-	_	---------n	233027.0	aux	_	Ref=MARK 1.11
+2	φωνὴ	φωνή	Nb	_	-s---fn--i	233027.0	sub	_	Ref=MARK 1.11
+3	ἐκ	ἐκ	R-	_	---------n	233027.0	obl	_	Ref=MARK 1.11
+4	τῶν	ὁ	S-	_	-p---mg--i	101934.0	aux	_	Ref=MARK 1.11
+5	οὐρανῶν	οὐρανός	Nb	_	-p---mg--i	101932.0	obl	_	Ref=MARK 1.11|AntId=101920
+
+# sent_id = 47272
+# text = σὺ εἶ ὁ υἱός μου ὁ ἀγαπητός
+1	σὺ	σύ	Pp	_	2s---pn--i	101937.0	sub	_	Ref=MARK 1.11|AntId=101928
+2	εἶ	εἰμί#1	V-	_	2spia----i	nan	pred	_	Ref=MARK 1.11
+3	ὁ	ὁ	S-	_	-s---mn--i	101939.0	aux	_	Ref=MARK 1.11
+4	υἱός	υἱός	Nb	_	-s---mn--i	101937.0	xobj	_	Ref=MARK 1.11
+5	μου	ἐγώ	Pp	_	1s---mg--i	101939.0	atr	_	Ref=MARK 1.11
+6	ὁ	ὁ	S-	_	-s---mn--i	101942.0	aux	_	Ref=MARK 1.11
+7	ἀγαπητός	ἀγαπητός	A-	_	-s---mnp-i	101939.0	atr	_	Ref=MARK 1.11
+
+# sent_id = 47273
+# text = ἐν σοὶ εὐδόκησα
+1	ἐν	ἐν	R-	_	---------n	101946.0	obl	_	Ref=MARK 1.11
+2	σοὶ	σύ	Pp	_	2s---pd--i	101944.0	obl	_	Ref=MARK 1.11|AntId=101936
+3	εὐδόκησα	εὐδοκέω	V-	_	1saia----i	nan	pred	_	Ref=MARK 1.11
+
+# sent_id = 6514
+# text = Καὶ εὐθὺς τὸ πνεῦμα αὐτὸν ἐκβάλλει εἰς τὴν ἔρημον
+1	Καὶ	καί	C-	_	---------n	101953.0	aux	_	Ref=MARK 1.12
+2	εὐθὺς	εὐθύς	Df	_	---------n	101953.0	adv	_	Ref=MARK 1.12
+3	τὸ	ὁ	S-	_	-s---nn--i	101951.0	aux	_	Ref=MARK 1.12
+4	πνεῦμα	πνεῦμα	Nb	_	-s---nn--i	101953.0	sub	_	Ref=MARK 1.12|AntId=101923
+5	αὐτὸν	αὐτός	Pp	_	3s---ma--i	101953.0	obj	_	Ref=MARK 1.12|AntId=101945
+6	ἐκβάλλει	ἐκβάλλω	V-	_	3spia----i	nan	pred	_	Ref=MARK 1.12
+7	εἰς	εἰς	R-	_	---------n	101953.0	obl	_	Ref=MARK 1.12
+8	τὴν	ὁ	S-	_	-s---fa--i	101956.0	aux	_	Ref=MARK 1.12
+9	ἔρημον	ἔρημος	Nb	_	-s---fa--i	101954.0	obl	_	Ref=MARK 1.12|AntId=101798
+
+# sent_id = 6515
+# text = καὶ ἦν ἐν τῇ ἐρήμῳ τεσσεράκοντα ἡμέρας πειραζόμενος ὑπὸ τοῦ σατανᾶ καὶ ἦν μετὰ τῶν θηρίων καὶ οἱ ἄγγελοι διηκόνουν αὐτῷ
+1	καὶ	καί	C-	_	---------n	101970.0	aux	_	Ref=MARK 1.13
+2	ἦν	εἰμί#1	V-	_	3siia----i	101970.0	pred	_	Ref=MARK 1.13
+3	ἐν	ἐν	R-	_	---------n	101959.0	xobj	_	Ref=MARK 1.13
+4	τῇ	ὁ	S-	_	-s---fd--i	101962.0	aux	_	Ref=MARK 1.13
+5	ἐρήμῳ	ἔρημος	Nb	_	-s---fd--i	101960.0	obl	_	Ref=MARK 1.13|AntId=101956
+6	τεσσεράκοντα	τεσσεράκοντα	Ma	_	---------n	101964.0	atr	_	Ref=MARK 1.13
+7	ἡμέρας	ἡμέρα	Nb	_	-p---fa--i	101959.0	adv	_	Ref=MARK 1.13
+8	πειραζόμενος	πειράζω	V-	_	-spppmn--i	101959.0	xadv	_	Ref=MARK 1.13
+9	ὑπὸ	ὑπό	R-	_	---------n	101965.0	ag	_	Ref=MARK 1.13
+10	τοῦ	ὁ	S-	_	-s---mg--i	101968.0	aux	_	Ref=MARK 1.13
+11	σατανᾶ	Σατανᾶς	Ne	_	-s---mg--i	101966.0	obl	_	Ref=MARK 1.13
+12	καὶ	καί	C-	_	---------n	nan	pred	_	Ref=MARK 1.13
+13	ἦν	εἰμί#1	V-	_	3siia----i	101970.0	pred	_	Ref=MARK 1.13
+14	μετὰ	μετά	R-	_	---------n	101971.0	xobj	_	Ref=MARK 1.13
+15	τῶν	ὁ	S-	_	-p---ng--i	101974.0	aux	_	Ref=MARK 1.13
+16	θηρίων	θηρίον	Nb	_	-p---ng--i	101972.0	obl	_	Ref=MARK 1.13|AntId=101962
+17	καὶ	καί	C-	_	---------n	101970.0	aux	_	Ref=MARK 1.13
+18	οἱ	ὁ	S-	_	-p---mn--i	101978.0	aux	_	Ref=MARK 1.13
+19	ἄγγελοι	ἄγγελος	Nb	_	-p---mn--i	101979.0	sub	_	Ref=MARK 1.13
+20	διηκόνουν	διακονέω	V-	_	3piia----i	101970.0	pred	_	Ref=MARK 1.13
+21	αὐτῷ	αὐτός	Pp	_	3s---md--i	101979.0	obl	_	Ref=MARK 1.13|AntId=679271
+
+# sent_id = 6516
+# text = Μετὰ δὲ τὸ παραδοθῆναι τὸν Ἰωάννην ἦλθεν ὁ Ἰησοῦς εἰς τὴν Γαλιλαίαν κηρύσσων τὸ εὐαγγέλιον τοῦ θεοῦ ὅτι πεπλήρωται ὁ καιρὸς καὶ ἤγγικεν ἡ βασιλεία τοῦ θεοῦ
+1	Μετὰ	μετά	R-	_	---------n	101988.0	adv	_	Ref=MARK 1.14
+2	δὲ	δέ	Df	_	---------n	101988.0	aux	_	Ref=MARK 1.14
+3	τὸ	ὁ	S-	_	-s---na--i	101985.0	aux	_	Ref=MARK 1.14
+4	παραδοθῆναι	παραδίδωμι	V-	_	--anp----i	101982.0	obl	_	Ref=MARK 1.14
+5	τὸν	ὁ	S-	_	-s---ma--i	101987.0	aux	_	Ref=MARK 1.14
+6	Ἰωάννην	Ἰωάν(ν)ης	Ne	_	-s---ma--i	101985.0	sub	_	Ref=MARK 1.14|AntId=101909
+7	ἦλθεν	ἔρχομαι	V-	_	3saia----i	nan	pred	_	Ref=MARK 1.14
+8	ὁ	ὁ	S-	_	-s---mn--i	101990.0	aux	_	Ref=MARK 1.14
+9	Ἰησοῦς	Ἰησοῦς	Ne	_	-s---mn--i	101988.0	sub	_	Ref=MARK 1.14|AntId=101980
+10	εἰς	εἰς	R-	_	---------n	101988.0	obl	_	Ref=MARK 1.14
+11	τὴν	ὁ	S-	_	-s---fa--i	101993.0	aux	_	Ref=MARK 1.14
+12	Γαλιλαίαν	Γαλιλαία	Ne	_	-s---fa--i	101991.0	obl	_	Ref=MARK 1.14|AntId=101902
+13	κηρύσσων	κηρύσσω	V-	_	-sppamn--i	101988.0	xadv	_	Ref=MARK 1.14
+14	τὸ	ὁ	S-	_	-s---na--i	101997.0	aux	_	Ref=MARK 1.14
+15	εὐαγγέλιον	εὐαγγέλιον	Nb	_	-s---na--i	101995.0	obj	_	Ref=MARK 1.14
+16	τοῦ	ὁ	S-	_	-s---mg--i	101999.0	aux	_	Ref=MARK 1.14
+17	θεοῦ	θεός	Nb	_	-s---mg--i	101997.0	atr	_	Ref=MARK 1.14|AntId=679269
+18	ὅτι	ὅτι	G-	_	---------n	101997.0	comp	_	Ref=MARK 1.15
+19	πεπλήρωται	πληρόω	V-	_	3srip----i	102005.0	pred	_	Ref=MARK 1.15
+20	ὁ	ὁ	S-	_	-s---mn--i	102004.0	aux	_	Ref=MARK 1.15
+21	καιρὸς	καιρός	Nb	_	-s---mn--i	102002.0	sub	_	Ref=MARK 1.15
+22	καὶ	καί	C-	_	---------n	102001.0	pred	_	Ref=MARK 1.15
+23	ἤγγικεν	ἐγγίζω	V-	_	3sria----i	102005.0	pred	_	Ref=MARK 1.15
+24	ἡ	ὁ	S-	_	-s---fn--i	102008.0	aux	_	Ref=MARK 1.15
+25	βασιλεία	βασιλεία	Nb	_	-s---fn--i	102006.0	sub	_	Ref=MARK 1.15
+26	τοῦ	ὁ	S-	_	-s---mg--i	102010.0	aux	_	Ref=MARK 1.15
+27	θεοῦ	θεός	Nb	_	-s---mg--i	102008.0	atr	_	Ref=MARK 1.15|AntId=101999
+
+# sent_id = 6517
+# text = μετανοεῖτε καὶ πιστεύετε ἐν τῷ εὐαγγελίῳ
+1	μετανοεῖτε	μετανοέω	V-	_	2ppma----i	102013.0	pred	_	Ref=MARK 1.15
+2	καὶ	καί	C-	_	---------n	nan	pred	_	Ref=MARK 1.15
+3	πιστεύετε	πιστεύω	V-	_	2ppma----i	102013.0	pred	_	Ref=MARK 1.15
+4	ἐν	ἐν	R-	_	---------n	102014.0	obl	_	Ref=MARK 1.15
+5	τῷ	ὁ	S-	_	-s---nd--i	102017.0	aux	_	Ref=MARK 1.15
+6	εὐαγγελίῳ	εὐαγγέλιον	Nb	_	-s---nd--i	102015.0	obl	_	Ref=MARK 1.15|AntId=101997
+
+# sent_id = 6518
+# text = Καὶ παράγων παρὰ τὴν θάλασσαν τῆς Γαλιλαίας εἶδεν Σίμωνα καὶ Ἀνδρέαν τὸν ἀδελφὸν Σίμωνος ἀμφιβάλλοντας ἐν τῇ θαλάσσῃ
+1	Καὶ	καί	C-	_	---------n	102026.0	aux	_	Ref=MARK 1.16
+2	παράγων	παράγω	V-	_	-sppamn--i	102026.0	xadv	_	Ref=MARK 1.16
+3	παρὰ	παρά	R-	_	---------n	102020.0	obl	_	Ref=MARK 1.16
+4	τὴν	ὁ	S-	_	-s---fa--i	102023.0	aux	_	Ref=MARK 1.16
+5	θάλασσαν	θάλασσα	Nb	_	-s---fa--i	102021.0	obl	_	Ref=MARK 1.16
+6	τῆς	ὁ	S-	_	-s---fg--i	102025.0	aux	_	Ref=MARK 1.16
+7	Γαλιλαίας	Γαλιλαία	Ne	_	-s---fg--i	102023.0	atr	_	Ref=MARK 1.16|AntId=101993
+8	εἶδεν	ὁράω	V-	_	3saia----i	nan	pred	_	Ref=MARK 1.16
+9	Σίμωνα	Σίμων	Ne	_	-s---ma--i	102028.0	obj	_	Ref=MARK 1.16
+10	καὶ	καί	C-	_	---------n	102026.0	obj	_	Ref=MARK 1.16
+11	Ἀνδρέαν	Ἀνδρέας	Ne	_	-s---ma--i	102028.0	obj	_	Ref=MARK 1.16
+12	τὸν	ὁ	S-	_	-s---ma--i	102031.0	aux	_	Ref=MARK 1.16
+13	ἀδελφὸν	ἀδελφός	Nb	_	-s---ma--i	102029.0	apos	_	Ref=MARK 1.16
+14	Σίμωνος	Σίμων	Ne	_	-s---mg--i	102031.0	atr	_	Ref=MARK 1.16|AntId=102027
+15	ἀμφιβάλλοντας	βάλλω	V-	_	-pppama--i	102026.0	xobj	_	Ref=MARK 1.16
+16	ἐν	ἐν	R-	_	---------n	102033.0	adv	_	Ref=MARK 1.16
+17	τῇ	ὁ	S-	_	-s---fd--i	102036.0	aux	_	Ref=MARK 1.16
+18	θαλάσσῃ	θάλασσα	Nb	_	-s---fd--i	102034.0	obl	_	Ref=MARK 1.16|AntId=102023
+
+# sent_id = 6519
+# text = ἦσαν γὰρ ἁλεεῖς
+1	ἦσαν	εἰμί#1	V-	_	3piia----i	nan	pred	_	Ref=MARK 1.16
+2	γὰρ	γάρ	Df	_	---------n	102038.0	aux	_	Ref=MARK 1.16
+3	ἁλεεῖς	ἁλιεύς	Nb	_	-p---mn--i	102038.0	xobj	_	Ref=MARK 1.16
+
+# sent_id = 6520
+# text = καὶ εἶπεν αὐτοῖς ὁ Ἰησοῦς
+1	καὶ	καί	C-	_	---------n	102043.0	aux	_	Ref=MARK 1.17
+2	εἶπεν	λέγω	V-	_	3saia----i	nan	pred	_	Ref=MARK 1.17
+3	αὐτοῖς	αὐτός	Pp	_	3p---md--i	102043.0	obl	_	Ref=MARK 1.17|AntId=679275
+4	ὁ	ὁ	S-	_	-s---mn--i	102046.0	aux	_	Ref=MARK 1.17
+5	Ἰησοῦς	Ἰησοῦς	Ne	_	-s---mn--i	102043.0	sub	_	Ref=MARK 1.17|AntId=679274
+
+# sent_id = 6521
+# text = δεῦτε ὀπίσω μου καὶ ποιήσω ὑμᾶς γενέσθαι ἁλεεῖς ἀνθρώπων
+1	δεῦτε	δεῦτε	I-	_	---------n	nan	voc	_	Ref=MARK 1.17
+2	ὀπίσω	ὀπίσω	R-	_	---------n	102048.0	obl	_	Ref=MARK 1.17
+3	μου	ἐγώ	Pp	_	1s---mg--i	102049.0	obl	_	Ref=MARK 1.17|AntId=102046
+4	καὶ	καί	C-	_	---------n	102053.0	aux	_	Ref=MARK 1.17
+5	ποιήσω	ποιέω	V-	_	1sfia----i	nan	pred	_	Ref=MARK 1.17
+6	ὑμᾶς	ὑμεῖς	Pp	_	2p---pa--i	102055.0	sub	_	Ref=MARK 1.17|AntId=102044
+7	γενέσθαι	γίγνομαι	V-	_	--anm----i	102053.0	comp	_	Ref=MARK 1.17
+8	ἁλεεῖς	ἁλιεύς	Nb	_	-p---ma--i	102055.0	xobj	_	Ref=MARK 1.17
+9	ἀνθρώπων	ἄνθρωπος	Nb	_	-p---mg--i	102056.0	narg	_	Ref=MARK 1.17
+
+# sent_id = 6522
+# text = καὶ εὐθὺς ἀφέντες τὰ δίκτυα ἠκολούθησαν αὐτῷ
+1	καὶ	καί	C-	_	---------n	102064.0	aux	_	Ref=MARK 1.18
+2	εὐθὺς	εὐθύς	Df	_	---------n	102061.0	adv	_	Ref=MARK 1.18
+3	ἀφέντες	ἀφίημι	V-	_	-papamn--i	102064.0	xadv	_	Ref=MARK 1.18
+4	τὰ	ὁ	S-	_	-p---na--i	102063.0	aux	_	Ref=MARK 1.18
+5	δίκτυα	δίκτυον	Nb	_	-p---na--i	102061.0	obj	_	Ref=MARK 1.18|AntId=102040
+6	ἠκολούθησαν	ἀκολουθέω	V-	_	3paia----i	nan	pred	_	Ref=MARK 1.18
+7	αὐτῷ	αὐτός	Pp	_	3s---md--i	102064.0	obl	_	Ref=MARK 1.18|AntId=679276
+
+# sent_id = 6523
+# text = καὶ προβὰς ὀλίγον εἶδεν Ἰάκωβον τὸν τοῦ Ζεβεδαίου καὶ Ἰωάννην τὸν ἀδελφὸν αὐτοῦ καὶ αὐτοὺς ἐν τῷ πλοίῳ καταρτίζοντας τὰ δίκτυα καὶ εὐθὺς ἐκάλεσεν αὐτούς
+1	καὶ	καί	C-	_	---------n	102070.0	aux	_	Ref=MARK 1.19
+2	προβὰς	προβαίνω	V-	_	-sapamn--i	102070.0	xadv	_	Ref=MARK 1.19
+3	ὀλίγον	ὀλίγος	A-	_	-s---nap-i	102068.0	adv	_	Ref=MARK 1.19
+4	εἶδεν	ὁράω	V-	_	3saia----i	102081.0	pred	_	Ref=MARK 1.19
+5	Ἰάκωβον	Ἰάκωβος	Ne	_	-s---ma--i	102075.0	obj	_	Ref=MARK 1.19
+6	τὸν	ὁ	S-	_	-s---ma--i	102074.0	aux	_	Ref=MARK 1.19
+7	τοῦ	ὁ	S-	_	-s---mg--i	102074.0	aux	_	Ref=MARK 1.19
+8	Ζεβεδαίου	Ζεβεδαῖος	Ne	_	-s---mg--i	102071.0	atr	_	Ref=MARK 1.19
+9	καὶ	καί	C-	_	---------n	102070.0	obj	_	Ref=MARK 1.19
+10	Ἰωάννην	Ἰωάν(ν)ης	Ne	_	-s---ma--i	102075.0	obj	_	Ref=MARK 1.19
+11	τὸν	ὁ	S-	_	-s---ma--i	102078.0	aux	_	Ref=MARK 1.19
+12	ἀδελφὸν	ἀδελφός	Nb	_	-s---ma--i	102076.0	apos	_	Ref=MARK 1.19
+13	αὐτοῦ	αὐτός	Pp	_	3s---mg--i	102078.0	atr	_	Ref=MARK 1.19|AntId=102071
+14	καὶ	καί	C-	_	---------n	102090.0	pred	_	Ref=MARK 1.19
+15	αὐτοὺς	αὐτός	Pp	_	3p---ma--i	621604.0	obj	_	Ref=MARK 1.19|AntId=102076
+16	ἐν	ἐν	R-	_	---------n	102086.0	adv	_	Ref=MARK 1.19
+17	τῷ	ὁ	S-	_	-s---nd--i	102085.0	aux	_	Ref=MARK 1.19
+18	πλοίῳ	πλοῖον	Nb	_	-s---nd--i	102083.0	obl	_	Ref=MARK 1.19|AntId=102036
+19	καταρτίζοντας	καταρτίζω	V-	_	-pppama--i	621604.0	xobj	_	Ref=MARK 1.19
+20	τὰ	ὁ	S-	_	-p---na--i	102088.0	aux	_	Ref=MARK 1.19
+21	δίκτυα	δίκτυον	Nb	_	-p---na--i	102086.0	obj	_	Ref=MARK 1.19|AntId=102085
+22	καὶ	καί	C-	_	---------n	nan	pred	_	Ref=MARK 1.20
+23	εὐθὺς	εὐθύς	Df	_	---------n	102092.0	adv	_	Ref=MARK 1.20
+24	ἐκάλεσεν	καλέω	V-	_	3saia----i	102090.0	pred	_	Ref=MARK 1.20
+25	αὐτούς	αὐτός	Pp	_	3p---ma--i	102092.0	obj	_	Ref=MARK 1.20|AntId=102082
+
+# sent_id = 6524
+# text = καὶ ἀφέντες τὸν πατέρα αὐτῶν Ζεβεδαῖον ἐν τῷ πλοίῳ μετὰ τῶν μισθωτῶν ἀπῆλθον ὀπίσω αὐτοῦ
+1	καὶ	καί	C-	_	---------n	102107.0	aux	_	Ref=MARK 1.20
+2	ἀφέντες	ἀφίημι	V-	_	-papamn--i	102107.0	xadv	_	Ref=MARK 1.20
+3	τὸν	ὁ	S-	_	-s---ma--i	102098.0	aux	_	Ref=MARK 1.20
+4	πατέρα	πατήρ	Nb	_	-s---ma--i	102096.0	obj	_	Ref=MARK 1.20|AntId=102074
+5	αὐτῶν	αὐτός	Pp	_	3p---mg--i	102098.0	atr	_	Ref=MARK 1.20|AntId=102093
+6	Ζεβεδαῖον	Ζεβεδαῖος	Ne	_	-s---ma--i	102098.0	apos	_	Ref=MARK 1.20
+7	ἐν	ἐν	R-	_	---------n	102096.0	adv	_	Ref=MARK 1.20
+8	τῷ	ὁ	S-	_	-s---nd--i	102103.0	aux	_	Ref=MARK 1.20
+9	πλοίῳ	πλοῖον	Nb	_	-s---nd--i	102101.0	obl	_	Ref=MARK 1.20|AntId=102085
+10	μετὰ	μετά	R-	_	---------n	102096.0	adv	_	Ref=MARK 1.20
+11	τῶν	ὁ	S-	_	-p---mg--i	102106.0	aux	_	Ref=MARK 1.20
+12	μισθωτῶν	μισθωτός	Nb	_	-p---mg--i	102104.0	obl	_	Ref=MARK 1.20|AntId=102103
+13	ἀπῆλθον	ἀπέρχομαι	V-	_	3paia----i	nan	pred	_	Ref=MARK 1.20
+14	ὀπίσω	ὀπίσω	R-	_	---------n	102107.0	adv	_	Ref=MARK 1.20
+15	αὐτοῦ	αὐτός	Pp	_	3s---mg--i	102108.0	obl	_	Ref=MARK 1.20|AntId=679279
+
+# sent_id = 6525
+# text = Καὶ εἰσπορεύονται εἰς Καφαρναούμ
+1	Καὶ	καί	C-	_	---------n	102112.0	aux	_	Ref=MARK 1.21
+2	εἰσπορεύονται	εἰσπορεύομαι	V-	_	3ppim----i	nan	pred	_	Ref=MARK 1.21
+3	εἰς	εἰς	R-	_	---------n	102112.0	obl	_	Ref=MARK 1.21
+4	Καφαρναούμ	Καφαρναούμ	Ne	_	---------n	102113.0	obl	_	Ref=MARK 1.21
+
+# sent_id = 6526
+# text = καὶ εὐθὺς τοῖς σάββασιν ἐδίδασκεν εἰς τὴν συναγωγήν
+1	καὶ	καί	C-	_	---------n	102120.0	aux	_	Ref=MARK 1.21
+2	εὐθὺς	εὐθύς	Df	_	---------n	102120.0	adv	_	Ref=MARK 1.21
+3	τοῖς	ὁ	S-	_	-p---nd--i	102119.0	aux	_	Ref=MARK 1.21
+4	σάββασιν	σάββατον	Nb	_	-p---nd--i	102120.0	adv	_	Ref=MARK 1.21
+5	ἐδίδασκεν	διδάσκω	V-	_	3siia----i	nan	pred	_	Ref=MARK 1.21
+6	εἰς	εἰς	R-	_	---------n	102120.0	adv	_	Ref=MARK 1.21
+7	τὴν	ὁ	S-	_	-s---fa--i	102123.0	aux	_	Ref=MARK 1.21
+8	συναγωγήν	συναγωγή	Nb	_	-s---fa--i	102121.0	obl	_	Ref=MARK 1.21|AntId=102114
+
+# sent_id = 6527
+# text = καὶ ἐξεπλήσσοντο ἐπὶ τῇ διδαχῇ αὐτοῦ
+1	καὶ	καί	C-	_	---------n	102126.0	aux	_	Ref=MARK 1.22
+2	ἐξεπλήσσοντο	ἐκπλήσσω	V-	_	3piip----i	nan	pred	_	Ref=MARK 1.22
+3	ἐπὶ	ἐπί	R-	_	---------n	102126.0	obl	_	Ref=MARK 1.22
+4	τῇ	ὁ	S-	_	-s---fd--i	102129.0	aux	_	Ref=MARK 1.22
+5	διδαχῇ	διδαχή	Nb	_	-s---fd--i	102127.0	obl	_	Ref=MARK 1.22|AntId=102120
+6	αὐτοῦ	αὐτός	Pp	_	3s---mg--i	102129.0	atr	_	Ref=MARK 1.22|AntId=679282
+
+# sent_id = 6528
+# text = ἦν γὰρ διδάσκων αὐτοὺς ὡς ἐξουσίαν ἔχων καὶ οὐχ ὡς οἱ γραμματεῖς
+1	ἦν	εἰμί#1	V-	_	3siia----i	nan	pred	_	Ref=MARK 1.22
+2	γὰρ	γάρ	Df	_	---------n	102132.0	aux	_	Ref=MARK 1.22
+3	διδάσκων	διδάσκω	V-	_	-sppamn--i	102132.0	xobj	_	Ref=MARK 1.22
+4	αὐτοὺς	αὐτός	Pp	_	3p---ma--i	102134.0	obj	_	Ref=MARK 1.22|AntId=679283
+5	ὡς	ὡς	Dq	_	---------n	102140.0	sub	_	Ref=MARK 1.22
+6	ἐξουσίαν	ἐξουσία	Nb	_	-s---fa--i	102138.0	obj	_	Ref=MARK 1.22
+7	ἔχων	ἔχω	V-	_	-sppamn--i	102136.0	sub	_	Ref=MARK 1.22
+8	καὶ	καί	C-	_	---------n	102132.0	sub	_	Ref=MARK 1.22
+9	οὐχ	οὐ	Df	_	---------n	102142.0	sub	_	Ref=MARK 1.22
+10	ὡς	ὡς	Dq	_	---------n	102140.0	sub	_	Ref=MARK 1.22
+11	οἱ	ὁ	S-	_	-p---mn--i	102144.0	aux	_	Ref=MARK 1.22
+12	γραμματεῖς	γραμματεύς	Nb	_	-p---mn--i	102142.0	obl	_	Ref=MARK 1.22
+
+# sent_id = 6529
+# text = Καὶ εὐθὺς ἦν ἐν τῇ συναγωγῇ αὐτῶν ἄνθρωπος ἐν πνεύματι ἀκαθάρτῳ καὶ ἀνέκραξεν λέγων
+1	Καὶ	καί	C-	_	---------n	102148.0	aux	_	Ref=MARK 1.23
+2	εὐθὺς	εὐθύς	Df	_	---------n	102148.0	adv	_	Ref=MARK 1.23
+3	ἦν	εἰμί#1	V-	_	3siia----i	102158.0	pred	_	Ref=MARK 1.23
+4	ἐν	ἐν	R-	_	---------n	102148.0	adv	_	Ref=MARK 1.23
+5	τῇ	ὁ	S-	_	-s---fd--i	102151.0	aux	_	Ref=MARK 1.23
+6	συναγωγῇ	συναγωγή	Nb	_	-s---fd--i	102149.0	obl	_	Ref=MARK 1.23|AntId=102123
+7	αὐτῶν	αὐτός	Pp	_	3p---mg--i	102151.0	atr	_	Ref=MARK 1.23|AntId=102135
+8	ἄνθρωπος	ἄνθρωπος	Nb	_	-s---mn--i	102148.0	sub	_	Ref=MARK 1.23
+9	ἐν	ἐν	R-	_	---------n	102153.0	atr	_	Ref=MARK 1.23
+10	πνεύματι	πνεῦμα	Nb	_	-s---nd--i	102154.0	obl	_	Ref=MARK 1.23
+11	ἀκαθάρτῳ	ἀκάθαρτος	A-	_	-s---ndp-i	102155.0	atr	_	Ref=MARK 1.23
+12	καὶ	καί	C-	_	---------n	nan	pred	_	Ref=MARK 1.23
+13	ἀνέκραξεν	ἀνακράζω	V-	_	3saia----i	102158.0	pred	_	Ref=MARK 1.23
+14	λέγων	λέγω	V-	_	-sppamn--i	102159.0	xadv	_	Ref=MARK 1.24
+
+# sent_id = 6530
+# text = τί ἡμῖν καὶ σοί Ἰησοῦ Ναζαρηνέ
+1	τί	τίς	Pi	_	-s---nn--i	233120.0	sub	_	Ref=MARK 1.24
+2	ἡμῖν	ἡμεῖς	Pp	_	1p---md--i	102164.0	obl	_	Ref=MARK 1.24|AntId=102152
+3	καὶ	καί	C-	_	---------n	233120.0	obl	_	Ref=MARK 1.24
+4	σοί	σύ	Pp	_	2s---pd--i	102164.0	obl	_	Ref=MARK 1.24|AntId=679284
+5	Ἰησοῦ	Ἰησοῦς	Ne	_	-s---mv--i	nan	voc	_	Ref=MARK 1.24|AntId=102165
+6	Ναζαρηνέ	Ναζαρηνός	Nb	_	-s---mv--i	102167.0	atr	_	Ref=MARK 1.24
+
+# sent_id = 6531
+# text = ἦλθες ἀπολέσαι ἡμᾶς
+1	ἦλθες	ἔρχομαι	V-	_	2saia----i	nan	pred	_	Ref=MARK 1.24
+2	ἀπολέσαι	ἀπόλλυμι	V-	_	--ana----i	102170.0	xadv	_	Ref=MARK 1.24
+3	ἡμᾶς	ἡμεῖς	Pp	_	1p---ma--i	102171.0	obj	_	Ref=MARK 1.24|AntId=102163
+
+# sent_id = 47274
+# text = οἴδαμέν σε τίς εἶ
+1	οἴδαμέν	οἶδα	V-	_	1pria----i	nan	pred	_	Ref=MARK 1.24
+2	σε	σύ	Pp	_	2s---pa--i	102174.0	obj	_	Ref=MARK 1.24|AntId=679286
+3	τίς	τίς	Pi	_	-s---mn--i	102177.0	xobj	_	Ref=MARK 1.24
+4	εἶ	εἰμί#1	V-	_	2spia----i	102174.0	comp	_	Ref=MARK 1.24
+
+# sent_id = 47275
+# text = ὁ ἅγιος τοῦ θεοῦ
+1	ὁ	ὁ	S-	_	-s---mn--i	102180.0	aux	_	Ref=MARK 1.24
+2	ἅγιος	ἅγιος	A-	_	-s---mnp-i	360891.0	xobj	_	Ref=MARK 1.24
+3	τοῦ	ὁ	S-	_	-s---mg--i	102182.0	aux	_	Ref=MARK 1.24
+4	θεοῦ	θεός	Nb	_	-s---mg--i	102180.0	atr	_	Ref=MARK 1.24
+
+# sent_id = 6533
+# text = καὶ ἐπετίμησεν αὐτῷ ὁ Ἰησοῦς
+1	καὶ	καί	C-	_	---------n	102185.0	aux	_	Ref=MARK 1.25
+2	ἐπετίμησεν	ἐπιτιμέω	V-	_	3saia----i	nan	pred	_	Ref=MARK 1.25
+3	αὐτῷ	αὐτός	Pp	_	3s---md--i	102185.0	obl	_	Ref=MARK 1.25|AntId=679287
+4	ὁ	ὁ	S-	_	-s---mn--i	102188.0	aux	_	Ref=MARK 1.25
+5	Ἰησοῦς	Ἰησοῦς	Ne	_	-s---mn--i	102185.0	sub	_	Ref=MARK 1.25|AntId=679288
+
+# sent_id = 6534
+# text = φιμώθητι καὶ ἔξελθε ἐξ αὐτοῦ
+1	φιμώθητι	φιμόω	V-	_	2samp----i	102191.0	pred	_	Ref=MARK 1.25
+2	καὶ	καί	C-	_	---------n	nan	pred	_	Ref=MARK 1.25
+3	ἔξελθε	ἐξέρχομαι	V-	_	2sama----i	102191.0	pred	_	Ref=MARK 1.25
+4	ἐξ	ἐκ	R-	_	---------n	102192.0	obl	_	Ref=MARK 1.25
+5	αὐτοῦ	αὐτός	Pp	_	3s---mg--i	102193.0	obl	_	Ref=MARK 1.25|AntId=102153
+
+# sent_id = 6535
+# text = καὶ σπαράξαν αὐτὸν τὸ πνεῦμα τὸ ἀκάθαρτον καὶ φωνῆσαν φωνῇ μεγάλῃ ἐξῆλθεν ἐξ αὐτοῦ
+1	καὶ	καί	C-	_	---------n	102207.0	aux	_	Ref=MARK 1.26
+2	σπαράξαν	σπαράσσω	V-	_	-sapann--i	102203.0	xadv	_	Ref=MARK 1.26
+3	αὐτὸν	αὐτός	Pp	_	3s---ma--i	102197.0	obj	_	Ref=MARK 1.26|AntId=102194
+4	τὸ	ὁ	S-	_	-s---nn--i	102200.0	aux	_	Ref=MARK 1.26
+5	πνεῦμα	πνεῦμα	Nb	_	-s---nn--i	102207.0	sub	_	Ref=MARK 1.26|AntId=679290
+6	τὸ	ὁ	S-	_	-s---nn--i	102202.0	aux	_	Ref=MARK 1.26
+7	ἀκάθαρτον	ἀκάθαρτος	A-	_	-s---nnp-i	102200.0	atr	_	Ref=MARK 1.26
+8	καὶ	καί	C-	_	---------n	102207.0	xadv	_	Ref=MARK 1.26
+9	φωνῆσαν	φωνέω	V-	_	-sapann--i	102203.0	xadv	_	Ref=MARK 1.26
+10	φωνῇ	φωνή	Nb	_	-s---fd--i	102204.0	adv	_	Ref=MARK 1.26
+11	μεγάλῃ	μέγας	A-	_	-s---fdp-i	102205.0	atr	_	Ref=MARK 1.26
+12	ἐξῆλθεν	ἐξέρχομαι	V-	_	3saia----i	nan	pred	_	Ref=MARK 1.26
+13	ἐξ	ἐκ	R-	_	---------n	102207.0	obl	_	Ref=MARK 1.26
+14	αὐτοῦ	αὐτός	Pp	_	3s---mg--i	102208.0	obl	_	Ref=MARK 1.26|AntId=102198

@@ -1,0 +1,483 @@
+
+# sent_id = 22058
+# text = ἔρχεται γυνὴ ἐκ τῆς Σαμαρίας ἀντλῆσαι ὕδωρ
+1	ἔρχεται	ἔρχομαι	V-	_	3spim----i	nan	pred	_	Ref=JOHN 4.7
+2	γυνὴ	γυνή	Nb	_	-s---fn--i	344742.0	sub	_	Ref=JOHN 4.7
+3	ἐκ	ἐκ	R-	_	---------n	344743.0	atr	_	Ref=JOHN 4.7
+4	τῆς	ὁ	S-	_	-s---fg--i	344746.0	aux	_	Ref=JOHN 4.7
+5	Σαμαρίας	Σαμάρεια	Ne	_	-s---fg--i	344744.0	obl	_	Ref=JOHN 4.7|AntId=344702
+6	ἀντλῆσαι	ἀντλέω	V-	_	--ana----i	344742.0	xadv	_	Ref=JOHN 4.7
+7	ὕδωρ	ὕδωρ	Nb	_	-s---na--i	344747.0	obj	_	Ref=JOHN 4.7
+
+# sent_id = 48631
+# text = λέγει αὐτῇ ὁ Ἰησοῦς
+1	λέγει	λέγω	V-	_	3spia----i	nan	pred	_	Ref=JOHN 4.7
+2	αὐτῇ	αὐτός	Pp	_	3s---fd--i	344750.0	obl	_	Ref=JOHN 4.7|AntId=344743
+3	ὁ	ὁ	S-	_	-s---mn--i	344753.0	aux	_	Ref=JOHN 4.7
+4	Ἰησοῦς	Ἰησοῦς	Ne	_	-s---mn--i	344750.0	sub	_	Ref=JOHN 4.7|AntId=344726
+
+# sent_id = 48632
+# text = δός μοι πεῖν
+1	δός	δίδωμι	V-	_	2sama----i	nan	pred	_	Ref=JOHN 4.7
+2	μοι	ἐγώ	Pp	_	1s---md--i	344755.0	obl	_	Ref=JOHN 4.7|AntId=344753
+3	πεῖν	πίνω	V-	_	--ana----i	344755.0	xobj	_	Ref=JOHN 4.7
+
+# sent_id = 22060
+# text = οἱ γὰρ μαθηταὶ αὐτοῦ ἀπεληλύθεισαν εἰς τὴν πόλιν ἵνα τροφὰς ἀγοράσωσιν
+1	οἱ	ὁ	S-	_	-p---mn--i	344761.0	aux	_	Ref=JOHN 4.8
+2	γὰρ	γάρ	Df	_	---------n	344763.0	aux	_	Ref=JOHN 4.8
+3	μαθηταὶ	μαθητής	Nb	_	-p---mn--i	344763.0	sub	_	Ref=JOHN 4.8|AntId=344676
+4	αὐτοῦ	αὐτός	Pp	_	3s---mg--i	344761.0	atr	_	Ref=JOHN 4.8|AntId=344756
+5	ἀπεληλύθεισαν	ἀπέρχομαι	V-	_	3plia----i	nan	pred	_	Ref=JOHN 4.8
+6	εἰς	εἰς	R-	_	---------n	344763.0	obl	_	Ref=JOHN 4.8
+7	τὴν	ὁ	S-	_	-s---fa--i	344766.0	aux	_	Ref=JOHN 4.8
+8	πόλιν	πόλις	Nb	_	-s---fa--i	344764.0	obl	_	Ref=JOHN 4.8|AntId=344700
+9	ἵνα	ἵνα	G-	_	---------n	344763.0	adv	_	Ref=JOHN 4.8
+10	τροφὰς	τροφή	Nb	_	-p---fa--i	344770.0	obj	_	Ref=JOHN 4.8
+11	ἀγοράσωσιν	ἀγοράζω	V-	_	3pasa----i	344768.0	pred	_	Ref=JOHN 4.8
+
+# sent_id = 22061
+# text = λέγει αὐτῷ ἡ γυνὴ ἡ Σαμαρῖτις
+1	λέγει	λέγω	V-	_	3spia----i	nan	pred	_	Ref=JOHN 4.9
+2	αὐτῷ	αὐτός	Pp	_	3s---md--i	344772.0	obl	_	Ref=JOHN 4.9|AntId=344762
+3	ἡ	ὁ	S-	_	-s---fn--i	344775.0	aux	_	Ref=JOHN 4.9
+4	γυνὴ	γυνή	Nb	_	-s---fn--i	344772.0	sub	_	Ref=JOHN 4.9|AntId=860993
+5	ἡ	ὁ	S-	_	-s---fn--i	344777.0	aux	_	Ref=JOHN 4.9
+6	Σαμαρῖτις	Σαμαρῖτις	Nb	_	-s---fn--i	344775.0	atr	_	Ref=JOHN 4.9
+
+# sent_id = 22062
+# text = πῶς σὺ Ἰουδαῖος ὢν παρ’ ἐμοῦ πεῖν αἰτεῖς γυναικὸς Σαμαρίτιδος οὔσης
+1	πῶς	πῶς	Du	_	---------n	344786.0	adv	_	Ref=JOHN 4.9
+2	σὺ	σύ	Pp	_	2s---pn--i	344786.0	sub	_	Ref=JOHN 4.9|AntId=344773
+3	Ἰουδαῖος	Ἰουδαῖος	A-	_	-s---mnp-i	344782.0	xobj	_	Ref=JOHN 4.9
+4	ὢν	εἰμί#1	V-	_	-sppamn--i	344786.0	xadv	_	Ref=JOHN 4.9
+5	παρ’	παρά	R-	_	---------n	344786.0	obl	_	Ref=JOHN 4.9
+6	ἐμοῦ	ἐγώ	Pp	_	1s---fg--i	344783.0	obl	_	Ref=JOHN 4.9|AntId=344775
+7	πεῖν	πίνω	V-	_	--ana----i	344786.0	xobj	_	Ref=JOHN 4.9
+8	αἰτεῖς	αἰτέω	V-	_	2spia----i	nan	pred	_	Ref=JOHN 4.9
+9	γυναικὸς	γυνή	Nb	_	-s---fg--i	344789.0	xobj	_	Ref=JOHN 4.9
+10	Σαμαρίτιδος	Σαμαρῖτις	Nb	_	-s---fg--i	344787.0	atr	_	Ref=JOHN 4.9
+11	οὔσης	εἰμί#1	V-	_	-sppafg--i	344786.0	xadv	_	Ref=JOHN 4.9
+
+# sent_id = 22063
+# text = ἀπεκρίθη Ἰησοῦς καὶ εἶπεν αὐτῇ
+1	ἀπεκρίθη	ἀποκρίνω	V-	_	3saip----i	344793.0	pred	_	Ref=JOHN 4.10
+2	Ἰησοῦς	Ἰησοῦς	Ne	_	-s---mn--i	344791.0	sub	_	Ref=JOHN 4.10|AntId=344780
+3	καὶ	καί	C-	_	---------n	nan	pred	_	Ref=JOHN 4.10
+4	εἶπεν	λέγω	V-	_	3saia----i	344793.0	pred	_	Ref=JOHN 4.10
+5	αὐτῇ	αὐτός	Pp	_	3s---fd--i	344794.0	obl	_	Ref=JOHN 4.10|AntId=344784
+
+# sent_id = 22064
+# text = εἰ ᾔδεις τὴν δωρεὰν τοῦ θεοῦ καὶ τίς ἐστιν ὁ λέγων σοι δός μοι πεῖν σὺ ἂν ᾔτησας αὐτὸν καὶ ἔδωκεν ἄν σοι ὕδωρ ζῶν
+1	εἰ	εἰ	G-	_	---------n	344817.0	adv	_	Ref=JOHN 4.10
+2	ᾔδεις	οἶδα	V-	_	2slia----i	344797.0	pred	_	Ref=JOHN 4.10
+3	τὴν	ὁ	S-	_	-s---fa--i	344800.0	aux	_	Ref=JOHN 4.10
+4	δωρεὰν	δωρεά	Nb	_	-s---fa--i	344804.0	obj	_	Ref=JOHN 4.10
+5	τοῦ	ὁ	S-	_	-s---mg--i	344802.0	aux	_	Ref=JOHN 4.10
+6	θεοῦ	θεός	Nb	_	-s---mg--i	344800.0	atr	_	Ref=JOHN 4.10
+7	καὶ	καί	C-	_	---------n	344798.0	obj	_	Ref=JOHN 4.10
+8	τίς	τίς	Pi	_	-s---mn--i	344806.0	xobj	_	Ref=JOHN 4.10
+9	ἐστιν	εἰμί#1	V-	_	3spia----i	344804.0	comp	_	Ref=JOHN 4.10
+10	ὁ	ὁ	S-	_	-s---mn--i	344808.0	aux	_	Ref=JOHN 4.10
+11	λέγων	λέγω	V-	_	-sppamn--i	344806.0	sub	_	Ref=JOHN 4.10|AntId=861258
+12	σοι	σύ	Pp	_	2s---pd--i	344808.0	obl	_	Ref=JOHN 4.10|AntId=861512
+13	δός	δίδωμι	V-	_	2sama----i	nan	parpred	_	Ref=JOHN 4.10
+14	μοι	ἐγώ	Pp	_	1s---md--i	344811.0	obl	_	Ref=JOHN 4.10|AntId=344808
+15	πεῖν	πίνω	V-	_	--ana----i	344811.0	xobj	_	Ref=JOHN 4.10
+16	σὺ	σύ	Pp	_	2s---pn--i	344817.0	sub	_	Ref=JOHN 4.10|AntId=860994
+17	ἂν	ἄν	Df	_	---------n	344817.0	aux	_	Ref=JOHN 4.10
+18	ᾔτησας	αἰτέω	V-	_	2saia----i	344819.0	pred	_	Ref=JOHN 4.10
+19	αὐτὸν	αὐτός	Pp	_	3s---ma--i	344817.0	obj	_	Ref=JOHN 4.10|AntId=344812
+20	καὶ	καί	C-	_	---------n	nan	pred	_	Ref=JOHN 4.10
+21	ἔδωκεν	δίδωμι	V-	_	3saia----i	344819.0	pred	_	Ref=JOHN 4.10
+22	ἄν	ἄν	Df	_	---------n	344820.0	aux	_	Ref=JOHN 4.10
+23	σοι	σύ	Pp	_	2s---pd--i	344820.0	obl	_	Ref=JOHN 4.10|AntId=344815
+24	ὕδωρ	ὕδωρ	Nb	_	-s---na--i	344820.0	obj	_	Ref=JOHN 4.10
+25	ζῶν	ζῶ	V-	_	-sppana--i	344823.0	atr	_	Ref=JOHN 4.10
+
+# sent_id = 22066
+# text = λέγει αὐτῷ ἡ γυνή
+1	λέγει	λέγω	V-	_	3spia----i	nan	pred	_	Ref=JOHN 4.11
+2	αὐτῷ	αὐτός	Pp	_	3s---md--i	344826.0	obl	_	Ref=JOHN 4.11|AntId=860995
+3	ἡ	ὁ	S-	_	-s---fn--i	344829.0	aux	_	Ref=JOHN 4.11
+4	γυνή	γυνή	Nb	_	-s---fn--i	344826.0	sub	_	Ref=JOHN 4.11|AntId=344822
+
+# sent_id = 22067
+# text = κύριε οὔτε ἄντλημα ἔχεις καὶ τὸ φρέαρ ἐστὶν βαθύ
+1	κύριε	κύριος	Nb	_	-s---mv--i	nan	voc	_	Ref=JOHN 4.11|AntId=344827
+2	οὔτε	οὔτε	C-	_	---------n	344835.0	aux	_	Ref=JOHN 4.11
+3	ἄντλημα	ἄντλημα	Nb	_	-s---na--i	344835.0	obj	_	Ref=JOHN 4.11
+4	ἔχεις	ἔχω	V-	_	2spia----i	344836.0	pred	_	Ref=JOHN 4.11
+5	καὶ	καί	C-	_	---------n	nan	pred	_	Ref=JOHN 4.11
+6	τὸ	ὁ	S-	_	-s---nn--i	344838.0	aux	_	Ref=JOHN 4.11
+7	φρέαρ	φρέαρ	Nb	_	-s---nn--i	344839.0	sub	_	Ref=JOHN 4.11|AntId=344735
+8	ἐστὶν	εἰμί#1	V-	_	3spia----i	344836.0	pred	_	Ref=JOHN 4.11
+9	βαθύ	βαθύς	A-	_	-s---nnp-i	344839.0	xobj	_	Ref=JOHN 4.11
+
+# sent_id = 22068
+# text = πόθεν ἔχεις τὸ ὕδωρ τὸ ζῶν
+1	πόθεν	πόθεν	Du	_	---------n	344843.0	adv	_	Ref=JOHN 4.11
+2	ἔχεις	ἔχω	V-	_	2spia----i	nan	pred	_	Ref=JOHN 4.11
+3	τὸ	ὁ	S-	_	-s---na--i	344845.0	aux	_	Ref=JOHN 4.11
+4	ὕδωρ	ὕδωρ	Nb	_	-s---na--i	344843.0	obj	_	Ref=JOHN 4.11|AntId=344823
+5	τὸ	ὁ	S-	_	-s---na--i	344847.0	aux	_	Ref=JOHN 4.11
+6	ζῶν	ζῶ	V-	_	-sppana--i	344845.0	atr	_	Ref=JOHN 4.11
+
+# sent_id = 22069
+# text = μὴ σὺ μείζων εἶ τοῦ πατρὸς ἡμῶν Ἰακώβ ὃς ἔδωκεν ἡμῖν τὸ φρέαρ καὶ αὐτὸς ἐξ αὐτοῦ ἔπιεν καὶ οἱ υἱοὶ αὐτοῦ καὶ τὰ θρέμματα αὐτοῦ
+1	μὴ	μή	Df	_	---------n	344852.0	aux	_	Ref=JOHN 4.12
+2	σὺ	σύ	Pp	_	2s---pn--i	344852.0	sub	_	Ref=JOHN 4.12|AntId=862270
+3	μείζων	μέγας	A-	_	-s---mnc-i	344852.0	xobj	_	Ref=JOHN 4.12
+4	εἶ	εἰμί#1	V-	_	2spia----i	nan	pred	_	Ref=JOHN 4.12
+5	τοῦ	ὁ	S-	_	-s---mg--i	344854.0	aux	_	Ref=JOHN 4.12
+6	πατρὸς	πατήρ	Nb	_	-s---mg--i	344851.0	obl	_	Ref=JOHN 4.12
+7	ἡμῶν	ἡμεῖς	Pp	_	1p---pg--i	344854.0	atr	_	Ref=JOHN 4.12|AntId=344850
+8	Ἰακώβ	Ἰακώβ	Ne	_	---------n	344854.0	apos	_	Ref=JOHN 4.12
+9	ὃς	ὅς	Pr	_	-s---mn--i	344859.0	sub	_	Ref=JOHN 4.12
+10	ἔδωκεν	δίδωμι	V-	_	3saia----i	344864.0	apos	_	Ref=JOHN 4.12
+11	ἡμῖν	ἡμεῖς	Pp	_	1p---pd--i	344859.0	obl	_	Ref=JOHN 4.12|AntId=344855
+12	τὸ	ὁ	S-	_	-s---na--i	344862.0	aux	_	Ref=JOHN 4.12
+13	φρέαρ	φρέαρ	Nb	_	-s---na--i	344859.0	obj	_	Ref=JOHN 4.12|AntId=344838
+14	καὶ	καί	C-	_	---------n	344854.0	apos	_	Ref=JOHN 4.12
+15	αὐτὸς	αὐτός	Pd	_	-s---mn--i	344869.0	sub	_	Ref=JOHN 4.12|AntId=344854
+16	ἐξ	ἐκ	R-	_	---------n	344868.0	obl	_	Ref=JOHN 4.12
+17	αὐτοῦ	αὐτός	Pp	_	3s---ng--i	344866.0	obl	_	Ref=JOHN 4.12|AntId=344862
+18	ἔπιεν	πίνω	V-	_	3saia----i	344864.0	apos	_	Ref=JOHN 4.12
+19	καὶ	καί	C-	_	---------n	344868.0	sub	_	Ref=JOHN 4.12
+20	οἱ	ὁ	S-	_	-p---mn--i	344871.0	aux	_	Ref=JOHN 4.12
+21	υἱοὶ	υἱός	Nb	_	-p---mn--i	344869.0	sub	_	Ref=JOHN 4.12
+22	αὐτοῦ	αὐτός	Pp	_	3s---mg--i	344871.0	atr	_	Ref=JOHN 4.12|AntId=344865
+23	καὶ	καί	C-	_	---------n	344869.0	aux	_	Ref=JOHN 4.12
+24	τὰ	ὁ	S-	_	-p---nn--i	344875.0	aux	_	Ref=JOHN 4.12
+25	θρέμματα	θρέμμα	Nb	_	-p---nn--i	344869.0	sub	_	Ref=JOHN 4.12
+26	αὐτοῦ	αὐτός	Pp	_	3s---mg--i	344875.0	atr	_	Ref=JOHN 4.12|AntId=344872
+
+# sent_id = 22070
+# text = ἀπεκρίθη Ἰησοῦς καὶ εἶπεν αὐτῇ
+1	ἀπεκρίθη	ἀποκρίνω	V-	_	3saip----i	344880.0	pred	_	Ref=JOHN 4.13
+2	Ἰησοῦς	Ἰησοῦς	Ne	_	-s---mn--i	344878.0	sub	_	Ref=JOHN 4.13|AntId=344850
+3	καὶ	καί	C-	_	---------n	nan	pred	_	Ref=JOHN 4.13
+4	εἶπεν	λέγω	V-	_	3saia----i	344880.0	pred	_	Ref=JOHN 4.13
+5	αὐτῇ	αὐτός	Pp	_	3s---fd--i	344881.0	obl	_	Ref=JOHN 4.13|AntId=344829
+
+# sent_id = 22071
+# text = πᾶς ὁ πίνων ἐκ τοῦ ὕδατος τούτου διψήσει πάλιν
+1	πᾶς	πᾶς	Px	_	-s---mn--i	344886.0	atr	_	Ref=JOHN 4.13
+2	ὁ	ὁ	S-	_	-s---mn--i	344886.0	aux	_	Ref=JOHN 4.13
+3	πίνων	πίνω	V-	_	-sppamn--i	344891.0	sub	_	Ref=JOHN 4.13
+4	ἐκ	ἐκ	R-	_	---------n	344886.0	obl	_	Ref=JOHN 4.13
+5	τοῦ	ὁ	S-	_	-s---ng--i	344889.0	aux	_	Ref=JOHN 4.13
+6	ὕδατος	ὕδωρ	Nb	_	-s---ng--i	344887.0	obl	_	Ref=JOHN 4.13
+7	τούτου	οὗτος	Pd	_	-s---ng--i	344889.0	atr	_	Ref=JOHN 4.13
+8	διψήσει	διψάω	V-	_	3sfia----i	nan	pred	_	Ref=JOHN 4.13
+9	πάλιν	πάλιν	Df	_	---------n	344891.0	adv	_	Ref=JOHN 4.13
+
+# sent_id = 22072
+# text = ὃς δ’ ἂν πίῃ ἐκ τοῦ ὕδατος οὗ ἐγὼ δώσω αὐτῷ οὐ μὴ διψήσει εἰς τὸν αἰῶνα ἀλλὰ τὸ ὕδωρ ὃ ἐγὼ δώσω αὐτῷ γενήσεται ἐν αὐτῷ πηγὴ ὕδατος ἁλλομένου εἰς ζωὴν αἰώνιον
+1	ὃς	ὅς	Pr	_	-s---mn--i	344897.0	sub	_	Ref=JOHN 4.14
+2	δ’	δέ	Df	_	---------n	344897.0	aux	_	Ref=JOHN 4.14
+3	ἂν	ἄν	Df	_	---------n	344897.0	aux	_	Ref=JOHN 4.14
+4	πίῃ	πίνω	V-	_	3sasa----i	344908.0	sub	_	Ref=JOHN 4.14
+5	ἐκ	ἐκ	R-	_	---------n	344897.0	obl	_	Ref=JOHN 4.14
+6	τοῦ	ὁ	S-	_	-s---ng--i	344900.0	aux	_	Ref=JOHN 4.14
+7	ὕδατος	ὕδωρ	Nb	_	-s---ng--i	344898.0	obl	_	Ref=JOHN 4.14|AntId=344845
+8	οὗ	ὅς	Pr	_	-s---ng--i	344903.0	obj	_	Ref=JOHN 4.14
+9	ἐγὼ	ἐγώ	Pp	_	1s---mn--i	344903.0	sub	_	Ref=JOHN 4.14|AntId=861259
+10	δώσω	δίδωμι	V-	_	1sfia----i	344900.0	atr	_	Ref=JOHN 4.14
+11	αὐτῷ	αὐτός	Pp	_	3s---md--i	344903.0	obl	_	Ref=JOHN 4.14|AntId=344897
+12	οὐ	οὐ	Df	_	---------n	344908.0	aux	_	Ref=JOHN 4.14
+13	μὴ	μή	Df	_	---------n	344908.0	aux	_	Ref=JOHN 4.14
+14	διψήσει	διψάω	V-	_	3sfia----i	344913.0	pred	_	Ref=JOHN 4.14
+15	εἰς	εἰς	R-	_	---------n	344908.0	adv	_	Ref=JOHN 4.14
+16	τὸν	ὁ	S-	_	-s---ma--i	344911.0	aux	_	Ref=JOHN 4.14
+17	αἰῶνα	αἰών	Nb	_	-s---ma--i	344909.0	obl	_	Ref=JOHN 4.14
+18	ἀλλὰ	ἀλλά	C-	_	---------n	nan	pred	_	Ref=JOHN 4.14
+19	τὸ	ὁ	S-	_	-s---nn--i	344915.0	aux	_	Ref=JOHN 4.14
+20	ὕδωρ	ὕδωρ	Nb	_	-s---nn--i	344920.0	sub	_	Ref=JOHN 4.14|AntId=344900
+21	ὃ	ὅς	Pr	_	-s---na--i	344918.0	obj	_	Ref=JOHN 4.14
+22	ἐγὼ	ἐγώ	Pp	_	1s---pn--i	344918.0	sub	_	Ref=JOHN 4.14|AntId=344902
+23	δώσω	δίδωμι	V-	_	1sfia----i	344915.0	atr	_	Ref=JOHN 4.14
+24	αὐτῷ	αὐτός	Pp	_	3s---md--i	344918.0	obl	_	Ref=JOHN 4.14|AntId=344904
+25	γενήσεται	γίγνομαι	V-	_	3sfim----i	344913.0	pred	_	Ref=JOHN 4.14
+26	ἐν	ἐν	R-	_	---------n	344920.0	adv	_	Ref=JOHN 4.14
+27	αὐτῷ	αὐτός	Pp	_	3s---md--i	344921.0	obl	_	Ref=JOHN 4.14|AntId=344919
+28	πηγὴ	πηγή	Nb	_	-s---fn--i	344920.0	xobj	_	Ref=JOHN 4.14
+29	ὕδατος	ὕδωρ	Nb	_	-s---ng--i	344923.0	atr	_	Ref=JOHN 4.14
+30	ἁλλομένου	ἅλλομαι	V-	_	-sppmng--i	344924.0	atr	_	Ref=JOHN 4.14
+31	εἰς	εἰς	R-	_	---------n	344925.0	obl	_	Ref=JOHN 4.14
+32	ζωὴν	ζωή	Nb	_	-s---fa--i	344926.0	obl	_	Ref=JOHN 4.14
+33	αἰώνιον	αἰώνιος	A-	_	-s---fap-i	344927.0	atr	_	Ref=JOHN 4.14
+
+# sent_id = 22073
+# text = λέγει πρὸς αὐτὸν ἡ γυνή
+1	λέγει	λέγω	V-	_	3spia----i	nan	pred	_	Ref=JOHN 4.15
+2	πρὸς	πρός	R-	_	---------n	344930.0	obl	_	Ref=JOHN 4.15
+3	αὐτὸν	αὐτός	Pp	_	3s---ma--i	344931.0	obl	_	Ref=JOHN 4.15|AntId=344917
+4	ἡ	ὁ	S-	_	-s---fn--i	344934.0	aux	_	Ref=JOHN 4.15
+5	γυνή	γυνή	Nb	_	-s---fn--i	344930.0	sub	_	Ref=JOHN 4.15|AntId=344882
+
+# sent_id = 22074
+# text = κύριε δός μοι τοῦτο τὸ ὕδωρ ἵνα μὴ διψῶ μηδὲ διέρχωμαι ἐνθάδε ἀντλεῖν
+1	κύριε	κύριος	Nb	_	-s---mv--i	nan	voc	_	Ref=JOHN 4.15|AntId=344932
+2	δός	δίδωμι	V-	_	2sama----i	nan	pred	_	Ref=JOHN 4.15
+3	μοι	ἐγώ	Pp	_	1s---fd--i	344938.0	obl	_	Ref=JOHN 4.15|AntId=344934
+4	τοῦτο	οὗτος	Pd	_	-s---na--i	344942.0	atr	_	Ref=JOHN 4.15
+5	τὸ	ὁ	S-	_	-s---na--i	344942.0	aux	_	Ref=JOHN 4.15
+6	ὕδωρ	ὕδωρ	Nb	_	-s---na--i	344938.0	obj	_	Ref=JOHN 4.15|AntId=344915
+7	ἵνα	ἵνα	G-	_	---------n	344938.0	adv	_	Ref=JOHN 4.15
+8	μὴ	μή	Df	_	---------n	344946.0	aux	_	Ref=JOHN 4.15
+9	διψῶ	διψάω	V-	_	1spsa----i	344947.0	pred	_	Ref=JOHN 4.15
+10	μηδὲ	μηδέ	C-	_	---------n	344944.0	pred	_	Ref=JOHN 4.15
+11	διέρχωμαι	διέρχομαι	V-	_	1spsm----i	344947.0	pred	_	Ref=JOHN 4.15
+12	ἐνθάδε	ἐνθάδε	Df	_	---------n	344948.0	obl	_	Ref=JOHN 4.15
+13	ἀντλεῖν	ἀντλέω	V-	_	--pna----i	344948.0	xadv	_	Ref=JOHN 4.15
+
+# sent_id = 22075
+# text = λέγει αὐτῇ
+1	λέγει	λέγω	V-	_	3spia----i	nan	pred	_	Ref=JOHN 4.16
+2	αὐτῇ	αὐτός	Pp	_	3s---fd--i	344952.0	obl	_	Ref=JOHN 4.16|AntId=862950
+
+# sent_id = 22076
+# text = ὕπαγε φώνησον τὸν ἄνδρα σου καὶ ἐλθὲ ἐνθάδε
+1	ὕπαγε	ὑπάγω	V-	_	2spma----i	nan	voc	_	Ref=JOHN 4.16
+2	φώνησον	φωνέω	V-	_	2sama----i	344960.0	pred	_	Ref=JOHN 4.16
+3	τὸν	ὁ	S-	_	-s---ma--i	344958.0	aux	_	Ref=JOHN 4.16
+4	ἄνδρα	ἀνήρ	Nb	_	-s---ma--i	344956.0	obj	_	Ref=JOHN 4.16
+5	σου	σύ	Pp	_	2s---pg--i	344958.0	atr	_	Ref=JOHN 4.16|AntId=863581
+6	καὶ	καί	C-	_	---------n	nan	pred	_	Ref=JOHN 4.16
+7	ἐλθὲ	ἔρχομαι	V-	_	2sama----i	344960.0	pred	_	Ref=JOHN 4.16
+8	ἐνθάδε	ἐνθάδε	Df	_	---------n	344961.0	obl	_	Ref=JOHN 4.16
+
+# sent_id = 22077
+# text = ἀπεκρίθη ἡ γυνὴ καὶ εἶπεν
+1	ἀπεκρίθη	ἀποκρίνω	V-	_	3saip----i	344967.0	pred	_	Ref=JOHN 4.17
+2	ἡ	ὁ	S-	_	-s---fn--i	344966.0	aux	_	Ref=JOHN 4.17
+3	γυνὴ	γυνή	Nb	_	-s---fn--i	344964.0	sub	_	Ref=JOHN 4.17|AntId=861910
+4	καὶ	καί	C-	_	---------n	nan	pred	_	Ref=JOHN 4.17
+5	εἶπεν	λέγω	V-	_	3saia----i	344967.0	pred	_	Ref=JOHN 4.17
+
+# sent_id = 22078
+# text = ἄνδρα οὐκ ἔχω
+1	ἄνδρα	ἀνήρ	Nb	_	-s---ma--i	344972.0	obj	_	Ref=JOHN 4.17
+2	οὐκ	οὐ	Df	_	---------n	344972.0	aux	_	Ref=JOHN 4.17
+3	ἔχω	ἔχω	V-	_	1spia----i	nan	pred	_	Ref=JOHN 4.17
+
+# sent_id = 22079
+# text = λέγει αὐτῇ ὁ Ἰησοῦς
+1	λέγει	λέγω	V-	_	3spia----i	nan	pred	_	Ref=JOHN 4.17
+2	αὐτῇ	αὐτός	Pp	_	3s---fd--i	344974.0	obl	_	Ref=JOHN 4.17|AntId=862271
+3	ὁ	ὁ	S-	_	-s---mn--i	344977.0	aux	_	Ref=JOHN 4.17
+4	Ἰησοῦς	Ἰησοῦς	Ne	_	-s---mn--i	344974.0	sub	_	Ref=JOHN 4.17|AntId=861260
+
+# sent_id = 22080
+# text = καλῶς εἶπες ὅτι
+1	καλῶς	καλῶς	Df	_	-------p-i	344980.0	adv	_	Ref=JOHN 4.17
+2	εἶπες	λέγω	V-	_	2saia----i	nan	pred	_	Ref=JOHN 4.17
+3	ὅτι	ὅτι	G-	_	---------n	344980.0	comp	_	Ref=JOHN 4.17
+
+# sent_id = 59955
+# text = ἄνδρα οὐκ ἔχω
+1	ἄνδρα	ἀνήρ	Nb	_	-s---ma--i	344984.0	obj	_	Ref=JOHN 4.17
+2	οὐκ	οὐ	Df	_	---------n	344984.0	aux	_	Ref=JOHN 4.17
+3	ἔχω	ἔχω	V-	_	1spia----i	nan	pred	_	Ref=JOHN 4.17
+
+# sent_id = 22081
+# text = πέντε γὰρ ἄνδρας ἔσχες καὶ νῦν ὃν ἔχεις οὐκ ἔστιν σου ἀνήρ
+1	πέντε	πέντε	Ma	_	---------n	344988.0	atr	_	Ref=JOHN 4.18
+2	γὰρ	γάρ	Df	_	---------n	344989.0	aux	_	Ref=JOHN 4.18
+3	ἄνδρας	ἀνήρ	Nb	_	-p---ma--i	344989.0	obj	_	Ref=JOHN 4.18
+4	ἔσχες	ἔχω	V-	_	2saia----i	344991.0	pred	_	Ref=JOHN 4.18
+5	καὶ	καί	C-	_	---------n	nan	pred	_	Ref=JOHN 4.18
+6	νῦν	νῦν#1	Df	_	---------n	344996.0	aux	_	Ref=JOHN 4.18
+7	ὃν	ὅς	Pr	_	-s---ma--i	344994.0	obj	_	Ref=JOHN 4.18
+8	ἔχεις	ἔχω	V-	_	2spia----i	344996.0	sub	_	Ref=JOHN 4.18
+9	οὐκ	οὐ	Df	_	---------n	344996.0	aux	_	Ref=JOHN 4.18
+10	ἔστιν	εἰμί#1	V-	_	3spia----i	344991.0	pred	_	Ref=JOHN 4.18
+11	σου	σύ	Pp	_	2s---pg--i	344998.0	atr	_	Ref=JOHN 4.18|AntId=862274
+12	ἀνήρ	ἀνήρ	Nb	_	-s---mn--i	344996.0	xobj	_	Ref=JOHN 4.18
+
+# sent_id = 22082
+# text = τοῦτο ἀληθὲς εἴρηκας
+1	τοῦτο	οὗτος	Pd	_	-s---na--i	345002.0	obj	_	Ref=JOHN 4.18|AntId=344972
+2	ἀληθὲς	ἀληθής	A-	_	-s---nap-i	345002.0	adv	_	Ref=JOHN 4.18
+3	εἴρηκας	λέγω	V-	_	2sria----i	nan	pred	_	Ref=JOHN 4.18
+
+# sent_id = 22083
+# text = λέγει αὐτῷ ἡ γυνή
+1	λέγει	λέγω	V-	_	3spia----i	nan	pred	_	Ref=JOHN 4.19
+2	αὐτῷ	αὐτός	Pp	_	3s---md--i	345004.0	obl	_	Ref=JOHN 4.19|AntId=344977
+3	ἡ	ὁ	S-	_	-s---fn--i	345007.0	aux	_	Ref=JOHN 4.19
+4	γυνή	γυνή	Nb	_	-s---fn--i	345004.0	sub	_	Ref=JOHN 4.19|AntId=861263
+
+# sent_id = 22084
+# text = κύριε θεωρῶ ὅτι προφήτης εἶ σύ
+1	κύριε	κύριος	Nb	_	-s---mv--i	nan	voc	_	Ref=JOHN 4.19|AntId=345005
+2	θεωρῶ	θεωρέω	V-	_	1spia----i	nan	pred	_	Ref=JOHN 4.19
+3	ὅτι	ὅτι	G-	_	---------n	345011.0	comp	_	Ref=JOHN 4.19
+4	προφήτης	προφήτης	Nb	_	-s---mn--i	345014.0	xobj	_	Ref=JOHN 4.19
+5	εἶ	εἰμί#1	V-	_	2spia----i	345012.0	pred	_	Ref=JOHN 4.19
+6	σύ	σύ	Pp	_	2s---pn--i	345014.0	sub	_	Ref=JOHN 4.19|AntId=345009
+
+# sent_id = 22085
+# text = οἱ πατέρες ἡμῶν ἐν τῷ ὄρει τούτῳ προσεκύνησαν
+1	οἱ	ὁ	S-	_	-p---mn--i	345018.0	aux	_	Ref=JOHN 4.20
+2	πατέρες	πατήρ	Nb	_	-p---mn--i	345024.0	sub	_	Ref=JOHN 4.20
+3	ἡμῶν	ἡμεῖς	Pp	_	1p---pg--i	345018.0	atr	_	Ref=JOHN 4.20|AntId=345015
+4	ἐν	ἐν	R-	_	---------n	345024.0	adv	_	Ref=JOHN 4.20
+5	τῷ	ὁ	S-	_	-s---nd--i	345022.0	aux	_	Ref=JOHN 4.20
+6	ὄρει	ὄρος#1	Nb	_	-s---nd--i	345020.0	obl	_	Ref=JOHN 4.20
+7	τούτῳ	οὗτος	Pd	_	-s---nd--i	345022.0	atr	_	Ref=JOHN 4.20
+8	προσεκύνησαν	προσκυνέω	V-	_	3paia----i	nan	pred	_	Ref=JOHN 4.20
+
+# sent_id = 22086
+# text = καὶ ὑμεῖς λέγετε ὅτι ἐν Ἱεροσολύμοις ἐστὶν ὁ τόπος ὅπου προσκυνεῖν δεῖ
+1	καὶ	καί	C-	_	---------n	345028.0	aux	_	Ref=JOHN 4.20
+2	ὑμεῖς	ὑμεῖς	Pp	_	2p---pn--i	345028.0	sub	_	Ref=JOHN 4.20
+3	λέγετε	λέγω	V-	_	2ppia----i	nan	pred	_	Ref=JOHN 4.20
+4	ὅτι	ὅτι	G-	_	---------n	345028.0	comp	_	Ref=JOHN 4.20
+5	ἐν	ἐν	R-	_	---------n	345032.0	adv	_	Ref=JOHN 4.20
+6	Ἱεροσολύμοις	Ἱεροσόλυμα	Ne	_	-p---nd--i	345030.0	obl	_	Ref=JOHN 4.20
+7	ἐστὶν	εἰμί#1	V-	_	3spia----i	345029.0	pred	_	Ref=JOHN 4.20
+8	ὁ	ὁ	S-	_	-s---mn--i	345034.0	aux	_	Ref=JOHN 4.20
+9	τόπος	τόπος	Nb	_	-s---mn--i	345032.0	sub	_	Ref=JOHN 4.20
+10	ὅπου	ὅπου	Dq	_	---------n	345036.0	adv	_	Ref=JOHN 4.20
+11	προσκυνεῖν	προσκυνέω	V-	_	--pna----i	345037.0	comp	_	Ref=JOHN 4.20
+12	δεῖ	δεῖ	V-	_	3spia----i	345034.0	atr	_	Ref=JOHN 4.20
+
+# sent_id = 22087
+# text = λέγει αὐτῇ ὁ Ἰησοῦς
+1	λέγει	λέγω	V-	_	3spia----i	nan	pred	_	Ref=JOHN 4.21
+2	αὐτῇ	αὐτός	Pp	_	3s---fd--i	345039.0	obl	_	Ref=JOHN 4.21|AntId=863224
+3	ὁ	ὁ	S-	_	-s---mn--i	345042.0	aux	_	Ref=JOHN 4.21
+4	Ἰησοῦς	Ἰησοῦς	Ne	_	-s---mn--i	345039.0	sub	_	Ref=JOHN 4.21|AntId=345015
+
+# sent_id = 22088
+# text = πίστευέ μοι γύναι ὅτι ἔρχεται ὥρα ὅτε οὔτε ἐν τῷ ὄρει τούτῳ οὔτε ἐν Ἱεροσολύμοις προσκυνήσετε τῷ πατρί
+1	πίστευέ	πιστεύω	V-	_	2spma----i	nan	pred	_	Ref=JOHN 4.21
+2	μοι	ἐγώ	Pp	_	1s---md--i	345044.0	obl	_	Ref=JOHN 4.21|AntId=345042
+3	γύναι	γυνή	Nb	_	-s---fv--i	nan	voc	_	Ref=JOHN 4.21|AntId=861672
+4	ὅτι	ὅτι	G-	_	---------n	345044.0	comp	_	Ref=JOHN 4.21
+5	ἔρχεται	ἔρχομαι	V-	_	3spim----i	345049.0	pred	_	Ref=JOHN 4.21
+6	ὥρα	ὥρα	Nb	_	-s---fn--i	345050.0	sub	_	Ref=JOHN 4.21
+7	ὅτε	ὅτε	Dq	_	---------n	345061.0	adv	_	Ref=JOHN 4.21
+8	οὔτε	οὔτε	C-	_	---------n	345058.0	aux	_	Ref=JOHN 4.21
+9	ἐν	ἐν	R-	_	---------n	345058.0	adv	_	Ref=JOHN 4.21
+10	τῷ	ὁ	S-	_	-s---md--i	345056.0	aux	_	Ref=JOHN 4.21
+11	ὄρει	ὄρος#1	Nb	_	-s---nd--i	345054.0	obl	_	Ref=JOHN 4.21|AntId=345022
+12	τούτῳ	οὗτος	Pd	_	-s---nd--i	345056.0	atr	_	Ref=JOHN 4.21
+13	οὔτε	οὔτε	C-	_	---------n	345061.0	adv	_	Ref=JOHN 4.21
+14	ἐν	ἐν	R-	_	---------n	345058.0	adv	_	Ref=JOHN 4.21
+15	Ἱεροσολύμοις	Ἱεροσόλυμα	Ne	_	-p---nd--i	345059.0	obl	_	Ref=JOHN 4.21|AntId=345031
+16	προσκυνήσετε	προσκυνέω	V-	_	2pfia----i	345051.0	atr	_	Ref=JOHN 4.21
+17	τῷ	ὁ	S-	_	-s---md--i	345063.0	aux	_	Ref=JOHN 4.21
+18	πατρί	πατήρ	Nb	_	-s---md--i	345061.0	obl	_	Ref=JOHN 4.21
+
+# sent_id = 48633
+# text = ὑμεῖς προσκυνεῖτε ὃ οὐκ οἴδατε
+1	ὑμεῖς	ὑμεῖς	Pp	_	2p---pn--i	345066.0	sub	_	Ref=JOHN 4.22|AntId=863102
+2	προσκυνεῖτε	προσκυνέω	V-	_	2ppia----i	nan	pred	_	Ref=JOHN 4.22
+3	ὃ	ὅς	Pr	_	-s---na--i	345069.0	obj	_	Ref=JOHN 4.22
+4	οὐκ	οὐ	Df	_	---------n	345069.0	aux	_	Ref=JOHN 4.22
+5	οἴδατε	οἶδα	V-	_	2pria----i	345066.0	obj	_	Ref=JOHN 4.22
+
+# sent_id = 48634
+# text = ἡμεῖς προσκυνοῦμεν ὃ οἴδαμεν ὅτι ἡ σωτηρία ἐκ τῶν Ἰουδαίων ἐστίν
+1	ἡμεῖς	ἡμεῖς	Pp	_	1p---pn--i	345072.0	sub	_	Ref=JOHN 4.22|AntId=345045
+2	προσκυνοῦμεν	προσκυνέω	V-	_	1ppia----i	nan	pred	_	Ref=JOHN 4.22
+3	ὃ	ὅς	Pr	_	-s---na--i	345074.0	obj	_	Ref=JOHN 4.22
+4	οἴδαμεν	οἶδα	V-	_	1pria----i	345072.0	obj	_	Ref=JOHN 4.22
+5	ὅτι	ὅτι	G-	_	---------n	345072.0	adv	_	Ref=JOHN 4.22
+6	ἡ	ὁ	S-	_	-s---fn--i	345078.0	aux	_	Ref=JOHN 4.22
+7	σωτηρία	σωτηρία	Nb	_	-s---fn--i	345082.0	sub	_	Ref=JOHN 4.22
+8	ἐκ	ἐκ	R-	_	---------n	345082.0	xobj	_	Ref=JOHN 4.22
+9	τῶν	ὁ	S-	_	-p---mg--i	345081.0	aux	_	Ref=JOHN 4.22
+10	Ἰουδαίων	Ἰουδαῖος	A-	_	-p---mgp-i	345079.0	obl	_	Ref=JOHN 4.22
+11	ἐστίν	εἰμί#1	V-	_	3spia----i	345076.0	pred	_	Ref=JOHN 4.22
+
+# sent_id = 22090
+# text = ἀλλὰ ἔρχεται ὥρα καὶ νῦν ἐστιν ὅτε οἱ ἀληθινοὶ προσκυνηταὶ προσκυνήσουσιν τῷ πατρὶ ἐν πνεύματι καὶ ἀληθείᾳ
+1	ἀλλὰ	ἀλλά	C-	_	---------n	345085.0	aux	_	Ref=JOHN 4.23
+2	ἔρχεται	ἔρχομαι	V-	_	3spim----i	345087.0	pred	_	Ref=JOHN 4.23
+3	ὥρα	ὥρα	Nb	_	-s---fn--i	345085.0	sub	_	Ref=JOHN 4.23
+4	καὶ	καί	C-	_	---------n	nan	pred	_	Ref=JOHN 4.23
+5	νῦν	νῦν#1	Df	_	---------n	345089.0	adv	_	Ref=JOHN 4.23
+6	ἐστιν	εἰμί#1	V-	_	3spia----i	345087.0	pred	_	Ref=JOHN 4.23
+7	ὅτε	ὅτε	Dq	_	---------n	345095.0	adv	_	Ref=JOHN 4.23
+8	οἱ	ὁ	S-	_	-p---mn--i	345094.0	aux	_	Ref=JOHN 4.23
+9	ἀληθινοὶ	ἀληθινός	A-	_	-p---mnp-i	345094.0	atr	_	Ref=JOHN 4.23
+10	προσκυνηταὶ	προσκυνητής	Nb	_	-p---mn--i	345095.0	sub	_	Ref=JOHN 4.23
+11	προσκυνήσουσιν	προσκυνέω	V-	_	3pfia----i	345086.0	apos	_	Ref=JOHN 4.23
+12	τῷ	ὁ	S-	_	-s---md--i	345097.0	aux	_	Ref=JOHN 4.23
+13	πατρὶ	πατήρ	Nb	_	-s---md--i	345095.0	obl	_	Ref=JOHN 4.23|AntId=345063
+14	ἐν	ἐν	R-	_	---------n	345095.0	adv	_	Ref=JOHN 4.23
+15	πνεύματι	πνεῦμα	Nb	_	-s---nd--i	345100.0	obl	_	Ref=JOHN 4.23
+16	καὶ	καί	C-	_	---------n	345098.0	obl	_	Ref=JOHN 4.23
+17	ἀληθείᾳ	ἀλήθεια	Nb	_	-s---fd--i	345100.0	obl	_	Ref=JOHN 4.23
+
+# sent_id = 22091
+# text = καὶ γὰρ ὁ πατὴρ τοιούτους ζητεῖ τοὺς προσκυνοῦντας αὐτόν
+1	καὶ	καί	C-	_	---------n	345108.0	aux	_	Ref=JOHN 4.23
+2	γὰρ	γάρ	Df	_	---------n	345108.0	aux	_	Ref=JOHN 4.23
+3	ὁ	ὁ	S-	_	-s---mn--i	345106.0	aux	_	Ref=JOHN 4.23
+4	πατὴρ	πατήρ	Nb	_	-s---mn--i	345108.0	sub	_	Ref=JOHN 4.23|AntId=345097
+5	τοιούτους	τοιοῦτος	Pd	_	-p---ma--i	345108.0	obj	_	Ref=JOHN 4.23
+6	ζητεῖ	ζητέω	V-	_	3spia----i	nan	pred	_	Ref=JOHN 4.23
+7	τοὺς	ὁ	S-	_	-p---ma--i	345110.0	aux	_	Ref=JOHN 4.23
+8	προσκυνοῦντας	προσκυνέω	V-	_	-pppama--i	345108.0	xadv	_	Ref=JOHN 4.23
+9	αὐτόν	αὐτός	Pp	_	3s---ma--i	345110.0	obj	_	Ref=JOHN 4.23|AntId=345106
+
+# sent_id = 22092
+# text = πνεῦμα ὁ θεός καὶ τοὺς προσκυνοῦντας ἐν πνεύματι καὶ ἀληθείᾳ προσκυνεῖν δεῖ
+1	πνεῦμα	πνεῦμα	Nb	_	-s---nn--i	398711.0	xobj	_	Ref=JOHN 4.24
+2	ὁ	ὁ	S-	_	-s---mn--i	345115.0	aux	_	Ref=JOHN 4.24
+3	θεός	θεός	Nb	_	-s---mn--i	398711.0	sub	_	Ref=JOHN 4.24|AntId=345106
+4	καὶ	καί	C-	_	---------n	nan	pred	_	Ref=JOHN 4.24
+5	τοὺς	ὁ	S-	_	-p---ma--i	345119.0	aux	_	Ref=JOHN 4.24
+6	προσκυνοῦντας	προσκυνέω	V-	_	-pppama--i	345124.0	sub	_	Ref=JOHN 4.24
+7	ἐν	ἐν	R-	_	---------n	345124.0	adv	_	Ref=JOHN 4.24
+8	πνεύματι	πνεῦμα	Nb	_	-s---nd--i	345122.0	obl	_	Ref=JOHN 4.24
+9	καὶ	καί	C-	_	---------n	345120.0	obl	_	Ref=JOHN 4.24
+10	ἀληθείᾳ	ἀλήθεια	Nb	_	-s---fd--i	345122.0	obl	_	Ref=JOHN 4.24
+11	προσκυνεῖν	προσκυνέω	V-	_	--pna----i	345125.0	comp	_	Ref=JOHN 4.24
+12	δεῖ	δεῖ	V-	_	3spia----i	345117.0	pred	_	Ref=JOHN 4.24
+
+# sent_id = 22093
+# text = λέγει αὐτῷ ἡ γυνή
+1	λέγει	λέγω	V-	_	3spia----i	nan	pred	_	Ref=JOHN 4.25
+2	αὐτῷ	αὐτός	Pp	_	3s---md--i	345127.0	obl	_	Ref=JOHN 4.25|AntId=345045
+3	ἡ	ὁ	S-	_	-s---fn--i	345130.0	aux	_	Ref=JOHN 4.25
+4	γυνή	γυνή	Nb	_	-s---fn--i	345127.0	sub	_	Ref=JOHN 4.25|AntId=345047
+
+# sent_id = 22094
+# text = οἶδα ὅτι Μεσσίας ἔρχεται ὁ λεγόμενος Χριστός
+1	οἶδα	οἶδα	V-	_	1sria----i	nan	pred	_	Ref=JOHN 4.25
+2	ὅτι	ὅτι	G-	_	---------n	345132.0	comp	_	Ref=JOHN 4.25
+3	Μεσσίας	Μεσσίας	Ne	_	-s---mn--i	345135.0	sub	_	Ref=JOHN 4.25
+4	ἔρχεται	ἔρχομαι	V-	_	3spim----i	345133.0	pred	_	Ref=JOHN 4.25
+5	ὁ	ὁ	S-	_	-s---mn--i	345138.0	aux	_	Ref=JOHN 4.25
+6	λεγόμενος	λέγω	V-	_	-spppmn--i	345134.0	apos	_	Ref=JOHN 4.25
+7	Χριστός	Χριστός	Ne	_	-s---mn--i	345138.0	xobj	_	Ref=JOHN 4.25
+
+# sent_id = 22095
+# text = ὅταν ἔλθῃ ἐκεῖνος ἀναγγελεῖ ἡμῖν ἅπαντα
+1	ὅταν	ὅταν	Dq	_	---------n	345142.0	adv	_	Ref=JOHN 4.25
+2	ἔλθῃ	ἔρχομαι	V-	_	3sasa----i	345145.0	adv	_	Ref=JOHN 4.25
+3	ἐκεῖνος	ἐκεῖνος	Pd	_	-s---mn--i	345142.0	sub	_	Ref=JOHN 4.25|AntId=345134
+4	ἀναγγελεῖ	ἀναγγέλλω	V-	_	3sfia----i	nan	pred	_	Ref=JOHN 4.25
+5	ἡμῖν	ἡμεῖς	Pp	_	1p---pd--i	345145.0	obl	_	Ref=JOHN 4.25|AntId=861513
+6	ἅπαντα	ἅπας	A-	_	-p---nap-i	345145.0	obj	_	Ref=JOHN 4.25
+
+# sent_id = 22096
+# text = λέγει αὐτῇ ὁ Ἰησοῦς
+1	λέγει	λέγω	V-	_	3spia----i	nan	pred	_	Ref=JOHN 4.26
+2	αὐτῇ	αὐτός	Pp	_	3s---fd--i	345149.0	obl	_	Ref=JOHN 4.26|AntId=861515
+3	ὁ	ὁ	S-	_	-s---mn--i	345152.0	aux	_	Ref=JOHN 4.26
+4	Ἰησοῦς	Ἰησοῦς	Ne	_	-s---mn--i	345149.0	sub	_	Ref=JOHN 4.26|AntId=345128
+
+# sent_id = 22097
+# text = ἐγώ εἰμι ὁ λαλῶν σοι
+1	ἐγώ	ἐγώ	Pp	_	1s---pn--i	345155.0	xobj	_	Ref=JOHN 4.26|AntId=345152
+2	εἰμι	εἰμί#1	V-	_	1spia----i	nan	pred	_	Ref=JOHN 4.26
+3	ὁ	ὁ	S-	_	-s---mn--i	345158.0	aux	_	Ref=JOHN 4.26
+4	λαλῶν	λαλέω	V-	_	-sppamn--i	345154.0	apos	_	Ref=JOHN 4.26
+5	σοι	σύ	Pp	_	2s---pd--i	345158.0	obl	_	Ref=JOHN 4.26|AntId=345150
