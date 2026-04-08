@@ -47,4 +47,3 @@ Cinq usages documentés, avec les ressources associées, allant au-delà du simp
 **Point de tension à explorer pour ton projet :**
 Ces approches supposent toutes que les unités linguistiques standard (token, lemme, entité) correspondent à des unités *narratives* pertinentes — ce qui n'est pas toujours le cas (ironie, narrateur non fiable, polyphonie). C'est là que la couche d'interprétation humaine reste irremplaçable.
 
-Sur quel type de corpus travailles-tu — français contemporain, textes anciens, corpus multilingue ?

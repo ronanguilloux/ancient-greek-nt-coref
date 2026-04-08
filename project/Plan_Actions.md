@@ -624,7 +624,7 @@ Fine-tuner un petit classifieur (régression logistique ou MLP léger sur embedd
 
 ### Découverte clé
 
-> **AUCUN benchmark SOTA n'existe pour la résolution de coréférence sur le grec ancien.** Notre objectif de 60% serait pioneering work.
+> **AUCUN benchmark SOTA n'existe pour la résolution de coréférence sur le grec ancien.** Notre objectif de 55-60% serait pioneering work.
 
 ### Nouvelle architecture (Two-Stage, Celano 2023)
 
@@ -633,7 +633,10 @@ Fine-tuner un petit classifieur (régression logistique ou MLP léger sur embedd
 
 **Documents:**
 - [`SPRINT2C_POSTMORTEM.md`](./docs/SPRINT2C_POSTMORTEM.md) — Analyse détaillée
-- [`SPRINT3A_PLAN.md`](./docs/SPRINT3A_PLAN.md) — Plan d'implémentation 6 semaines
+- [`SPRINT3A_PLAN.md`](./docs/SPRINT3A_PLAN.md) — Plan d'implémentation
+- [`TARGET_JUSTIFICATION.md`](./docs/TARGET_JUSTIFICATION.md) — Justification de la cible 55-60%
+- [`FUTURE_WORK.md`](./docs/FUTURE_WORK.md) — Évolutions futures documentées
+- [`BIBLIOGRAPHY.md`](./docs/BIBLIOGRAPHY.md) — Bibliographie complète
 
 ---
 
@@ -816,6 +819,62 @@ Semaines 12–15 │ 🔄 Sprint 2C│ Pro-drop (pivot avril 2026)
 Semaines 16–18 │ ⏳ Sprint 3A│ Attribution discours directs
 Semaines 18–20 │ ⏳ Sprint 3B│ Actes narratifs par personnage
 Semaines 21–24 │ ⏳ Sprint 4 │ API + granularités + exports + évaluation finale
+
+---
+
+## Actions immédiates — Sprint 3A
+
+### Phase 1 : Parsing dépendanciel
+
+1. **Charger PROIEL XML directement** (pas trankit)
+   ```python
+   from lxml import etree
+   tree = etree.parse("proiel-treebank/data/greek-nt.xml")
+   ```
+
+2. **Détecter les candidats pro-drop**
+   - Trouver les verbes finis (pos=V-*)
+   - Filtrer ceux sans nsubj dans les dépendances
+   - Vérifier compatibilité personne/nombre
+
+3. **Livrable :** `find_prodrop_candidates()` fonctionnel
+
+### Phase 2 : Métrique head-matching
+
+1. **Adopter head-matching** au lieu de string-matching
+   - Correspondance sur la tête syntaxique (dépendances)
+   - Standard CRAC 2024
+
+2. **Réévaluer baselines** avec nouvelle métrique
+
+### Phase 3 : Classificateur d'ambiguïté
+
+1. **Détecter les marqueurs narratifs**
+   - δέ (continuité vs adversatif)
+   - τότε (rupture temporelle)
+   - Génitif absolu (changement de sujet)
+
+2. **Construire `is_ambiguous()`**
+   - 1 entité compatible → cas clair (règles)
+   - 2+ entités → cas ambigu (ML)
+
+### Point de validation
+
+À la fin de chaque phase :
+- Vérifier sur 50 instances PROIEL
+- Documenter les erreurs dans `project/docs/`
+
+---
+
+## Documents de référence
+
+| Fichier | Contenu |
+|---------|---------|
+| `docs/SPRINT3A_PLAN.md` | Plan détaillé phase par phase |
+| `docs/TARGET_JUSTIFICATION.md` | Analyse benchmark + justification cible |
+| `docs/FUTURE_WORK.md` | Évolutions futures (NEL, objets nuls, etc.) |
+| `docs/BIBLIOGRAPHY.md` | 23 sources académiques formatées |
+| `docs/SPRINT2C_POSTMORTEM.md` | Retour d'expérience Sprint 2C |
 ```
 
 **Durée totale : 24 semaines (~6 mois)**

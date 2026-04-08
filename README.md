@@ -25,7 +25,9 @@ Ce projet construit les outils pour résoudre ces énigmes automatiquement.
 - **Benchmark grec ancien :** ❌ N'EXISTE PAS
 
 ### Objectif
-**60% de précision** — Ce serait pioneering work, car aucun benchmark public n'existe pour la résolution de coréférence sur le grec ancien.
+**55-60% de précision** — Ce serait pioneering work, car aucun benchmark public n'existe pour la résolution de coréférence sur le grec ancien.
+
+> Justification détaillée : [`project/docs/TARGET_JUSTIFICATION.md`](./project/docs/TARGET_JUSTIFICATION.md)
 
 ### Approche
 Architecture two-stage inspirée de Celano (2023) :
@@ -245,7 +247,7 @@ Instance pro-drop
 
 **Note:** Évaluation sur 101 instances avec gold PROIEL (avril 2026).  
 **Découverte:** AUCUN benchmark SOTA n'existe pour le grec ancien.  
-**Nouvelle cible:** 60% — voir [`project/docs/SPRINT3A_PLAN.md`](./project/docs/SPRINT3A_PLAN.md)
+**Nouvelle cible:** 55-60% — voir [`project/docs/TARGET_JUSTIFICATION.md`](./project/docs/TARGET_JUSTIFICATION.md)
 
 > ⚠️ **Mise à jour avril 2026:** Cette architecture a été dépassée.  
 > Voir [`project/docs/SPRINT2C_POSTMORTEM.md`](./project/docs/SPRINT2C_POSTMORTEM.md) et la nouvelle architecture two-stage dans [`project/docs/SPRINT3A_PLAN.md`](./project/docs/SPRINT3A_PLAN.md).
@@ -322,6 +324,14 @@ deactivate
 | [PROIEL treebank](https://github.com/proiel/proiel-treebank) | NT grec avec annotation syntaxique et coréférence partielle | Données d'entraînement, baseline d'évaluation |
 | [N1904-TF](https://github.com/ETCBC/nestle1904) | Nestle 1904 en format Text-Fabric | Traits morphologiques (genre, nombre, cas, lemme) |
 | [odyCy](https://github.com/explosion/spaCy) | Modèle NLP pour le grec ancien (`grc_odycy_joint_trf`) | Tokenisation, POS, analyse syntaxique |
+
+---
+
+## Références bibliographiques
+
+La bibliographie complète du projet, avec les citations au format ACL Anthology et les résumés des publications clés, est disponible dans :
+
+➡️ [`project/docs/BIBLIOGRAPHY.md`](./project/docs/BIBLIOGRAPHY.md)
 
 ---
 

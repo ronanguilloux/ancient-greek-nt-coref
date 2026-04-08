@@ -1,12 +1,47 @@
 # Tâches — `ntcoref`
-> Dernière mise à jour : 8 avril 2026
-> Périmètre : prochaines tâches uniquement (complétées exclues)
+> Dernière mise à jour : 9 avril 2026
+> Périmètre : prochaines tâches uniquement (complétues exclues)
 
 ---
 
-### 📚 Ressources prioritaires à explorer (Veille technique)
+### 📚 Ressources & Documentation
 
-Voir la [Bibliographie](project/Recherches/Bibliographie.md)
+| Document | Contenu |
+|----------|---------|
+| [`docs/BIBLIOGRAPHY.md`](./docs/BIBLIOGRAPHY.md) | Bibliographie complète (23 sources) |
+| [`docs/TARGET_JUSTIFICATION.md`](./docs/TARGET_JUSTIFICATION.md) | Justification de la cible 55-60% |
+| [`docs/SPRINT3A_PLAN.md`](./docs/SPRINT3A_PLAN.md) | Plan d'implémentation détaillé |
+| [`docs/FUTURE_WORK.md`](./docs/FUTURE_WORK.md) | Évolutions futures documentées |
+| [`docs/SPRINT2C_POSTMORTEM.md`](./docs/SPRINT2C_POSTMORTEM.md) | Retour d'expérience |
+
+---
+
+## 🚀 Prochaines étapes immédiates (Sprint 3A)
+
+### Étape 1 : Intégration du parsing dépendanciel
+
+**Objectif :** Remplacer la fenêtre d'entités par une détection basée sur les dépendances
+
+1. **Charger PROIEL XML directement** (serveurs trankit instables)
+2. **Détecter les verbes finis sans nsubj** (candidats pro-drop)
+3. **Construire `find_prodrop_candidates()`**
+
+**Livrable attendu :** Script qui parse Mark 1 et identifie les verbes pro-drop
+
+### Étape 2 : Classification d'ambiguïté
+
+**Objectif :** Distinguer les cas clairs des cas ambigus
+
+1. Extraire les marqueurs narratifs (δέ, τότε, génitif absolu)
+2. Construire `is_ambiguous()` 
+3. Valider sur ~100 exemples PROIEL
+
+### Étape 3 : Évaluation head-matching
+
+**Objectif :** Adopter la métrique standard CRAC
+
+- Corriger l'évaluation pour utiliser head-matching (pas string-matching)
+- Comparer avec baseline PROIEL (empty nodes)
 
 ## Sprint 0 — Données et environnement · ✅ TERMINÉ
 
@@ -63,7 +98,9 @@ L'architecture C0 (Parser) et C1 (Mention Detector) a été implémentée avec s
 
 ## Sprint 2C v2 — Nouvelle Architecture (Avril 2026) · 🔄 EN COURS
 
-**Objectif:** 60% de précision sur gold PROIEL
+**Objectif:** 55-60% de précision sur gold PROIEL
+
+**Justification:** Voir [`project/docs/TARGET_JUSTIFICATION.md`](./docs/TARGET_JUSTIFICATION.md)
 
 **Approche two-stage inspirée de Celano (2023) :**
 
@@ -72,14 +109,18 @@ L'architecture C0 (Parser) et C1 (Mention Detector) a été implémentée avec s
 
 **Plan d'implémentation:** Voir `project/docs/SPRINT3A_PLAN.md`
 
-| Semaine | Tâche | Livrable |
-|---------|-------|----------|
-| 1 | Intégration parsing dépendanciel | Candidate detector |
-| 2 | Classificateur d'ambiguïté | `is_ambiguous()` |
-| 3 | Modèle neuronal | Training loop |
-| 4 | Caractère-level (LOGION/CNN) | Embeddings |
-| 5 | Pipeline complet | Script intégré |
-| 6 | Évaluation | Rapport 60% |
+| Composant | Cible | Notes |
+|-----------|-------|-------|
+| Détection des zéros | 85%+ | Baseline CRAC à 88.4% |
+| Cas clairs (règles) | 70-80% | Un seul candidat compatible |
+| Cas ambigus (ML) | 50-60% | Plusieurs candidats |
+| **Précision globale** | **55-60%** | Moyenne pondérée |
+
+### Périmètre clarifié
+
+- ✅ **Personnes uniquement** (PER) — pas LOC, ORG, EVENT
+- ✅ **Sujets implicites uniquement** — pas les objets nuls
+- ✅ **Head-matching** pour l'évaluation (standard CRAC)
 
 ---
 

@@ -1,19 +1,20 @@
 # Sprint 3A Plan — Two-Stage Pro-Drop Resolution
 
-**Target:** 60% accuracy on PROIEL gold  
-**Deadline:** 6 weeks  
+**Target:** 55-60% accuracy on PROIEL gold  
 **Status:** Implementation
+
+> See [`TARGET_JUSTIFICATION.md`](./TARGET_JUSTIFICATION.md) for detailed benchmarking analysis.
 
 ---
 
 ## Background
 
-**No Ancient Greek coreference SOTA exists.** Our 60% target would be pioneering work.
+**No Ancient Greek coreference SOTA exists.** Our 55-60% target would be pioneering work.
 
 Current baseline:
 - LLM accuracy: 29.7%
 - Rules accuracy: 24.8%
-- **Target gap:** +30 percentage points
+- **Target gap:** +25-30 percentage points
 
 ---
 
@@ -46,6 +47,46 @@ Based on Celano (2023) "Neural Network Approach to Ellipsis Detection":
 │                                                                  │
 └─────────────────────────────────────────────────────────────────┘
 ```
+
+---
+
+## Scope Constraints
+
+### PERSONS Only (Not LOC, ORG, etc.)
+
+This project focuses exclusively on **person entities** (PER):
+- ✅ Ἰησοῦς, Παῦλος, Πέτρος
+- ✅ αὐτός (anaphoric pronouns referring to persons)
+- ✅ ὁ διδάσκαλος (epithets referring to persons)
+
+Out of scope:
+- ❌ LOC (place names) - separate NER task
+- ❌ ORG (organizations, institutions)
+- ❌ EVENT, WORK, etc.
+
+### Subject Pro-Drop Only (Not Objects)
+
+Current focus: **Subject** zero mentions (implied subjects).
+
+**Future extension potential:** Object zero mentions (e.g., "gave" → "gave [it]") — requires additional grammatical role analysis. Documented in [`FUTURE_WORK.md`](./FUTURE_WORK.md).
+
+---
+
+## Evaluation: Head-Matching
+
+**Critical for Ancient Greek:** Because mentions are often subtrees in dependency trees, string matching fails on case-inflected forms.
+
+| Method | Example | Result |
+|--------|---------|--------|
+| String matching | "τῷ ΠΕΤΡῳ" vs "ΠΕΤΡΟΣ" | ❌ Wrong |
+| Head-matching | Both → "Peter" | ✅ Correct |
+
+**Head-matching aligns with CRAC shared task standards (Novák et al., 2024).**
+
+The CRAC 2024 evaluation uses **head-match CoNLL F1** as the primary metric:
+- Gold and predicted mentions match if their **syntactic heads** are identical
+- Full spans are ignored except for disambiguation
+- This accounts for Ancient Greek's rich morphology (case inflection)
 
 ---
 
@@ -202,7 +243,7 @@ def resolve_prodrop(sentence, context):
 |------|------------|------------|
 | Insufficient training data | Medium | Augment with Luke, Acts when available |
 | LOGION unavailable | High | Use character CNN fallback |
-| 60% not achievable | Medium | Lower to 50%, document limits |
+| 60% not achievable | Medium | Lower to 55%, document limits (see TARGET_JUSTIFICATION.md) |
 | Trankit servers down | High | Use PROIEL XML directly, or OdyCy |
 
 ---
@@ -220,14 +261,14 @@ def resolve_prodrop(sentence, context):
 
 ## Deliverables
 
-| Week | Deliverable |
-|------|-------------|
+| Phase | Deliverable |
+|-------|-------------|
 | 1 | Candidate detector script |
 | 2 | Ambiguity classifier |
 | 3 | Neural resolution model |
 | 4 | Character-level features |
 | 5 | Full pipeline script |
-| 6 | Evaluation report + 60% claim |
+| 6 | Evaluation report + 55-60% accuracy claim |
 
 ---
 
@@ -235,9 +276,12 @@ def resolve_prodrop(sentence, context):
 
 | Metric | Target | Measurement |
 |--------|--------|-------------|
-| Level 2+3 accuracy | 60% | PROIEL gold evaluation |
-| Clear case accuracy | 95% | Rules-only subset |
-| Overall accuracy | 50% | Full evaluation |
+| Zero detection | 85%+ | Compare against PROIEL empty nodes |
+| Clear case accuracy | 70-80% | Rules-only subset |
+| Ambiguous case accuracy | 50-60% | ML classifier |
+| **Overall accuracy** | **55-60%** | PROIEL gold evaluation |
+
+> Full justification in [`TARGET_JUSTIFICATION.md`](./TARGET_JUSTIFICATION.md)
 
 ---
 
