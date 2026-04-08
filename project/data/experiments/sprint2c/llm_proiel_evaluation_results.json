@@ -1,0 +1,1035 @@
+{
+  "metadata": {
+    "source": "PROIEL",
+    "date": "2026-04-08",
+    "method": "LLM"
+  },
+  "stats": {
+    "total": 101,
+    "correct": 30,
+    "level_1": {
+      "total": 22,
+      "correct": 3
+    },
+    "level_2": {
+      "total": 60,
+      "correct": 24
+    },
+    "level_3": {
+      "total": 19,
+      "correct": 3
+    }
+  },
+  "detailed": [
+    {
+      "verse_ref": "MARK 1.7",
+      "verb": "ἐκήρυσσεν",
+      "level": 2,
+      "gold": "IOANNES",
+      "pred": "IOANNES",
+      "correct": true,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 1.10",
+      "verb": "εἶδεν",
+      "level": 2,
+      "gold": "IESOUS",
+      "pred": "IESOUS",
+      "correct": true,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 1.13",
+      "verb": "ἦν",
+      "level": 2,
+      "gold": "IESOUS",
+      "pred": "IESOUS",
+      "correct": true,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 1.13",
+      "verb": "ἦν",
+      "level": 2,
+      "gold": "IESOUS",
+      "pred": "IOANNES",
+      "correct": false,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Salience heuristic: 8 entities, most frequent = IOANNES"
+    },
+    {
+      "verse_ref": "MARK 1.16",
+      "verb": "εἶδεν",
+      "level": 3,
+      "gold": "ANDREAS",
+      "pred": "IESOUS",
+      "correct": false,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 1.16",
+      "verb": "ἦσαν",
+      "level": 2,
+      "gold": "ANDREAS",
+      "pred": "ΣΊΜΩΝ ΚΑῚ ἈΝΔ",
+      "correct": false,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 1.18",
+      "verb": "ἠκολούθησαν",
+      "level": 2,
+      "gold": "ANDREAS",
+      "pred": "IOANNES",
+      "correct": false,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Salience heuristic: 7 entities, most frequent = IOANNES"
+    },
+    {
+      "verse_ref": "MARK 1.19",
+      "verb": "εἶδεν",
+      "level": 3,
+      "gold": "IESOUS",
+      "pred": "IESOUS",
+      "correct": true,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 1.20",
+      "verb": "ἐκάλεσεν",
+      "level": 3,
+      "gold": "IOANNES",
+      "pred": "IESOUS",
+      "correct": false,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 1.20",
+      "verb": "ἀπῆλθον",
+      "level": 2,
+      "gold": "IOANNES",
+      "pred": "IOANNES",
+      "correct": true,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Salience heuristic: 8 entities, most frequent = IOANNES"
+    },
+    {
+      "verse_ref": "MARK 1.21",
+      "verb": "εἰσπορεύονται",
+      "level": 2,
+      "gold": "IESOUS",
+      "pred": "IOANNES",
+      "correct": false,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Salience heuristic: 9 entities, most frequent = IOANNES"
+    },
+    {
+      "verse_ref": "MARK 1.21",
+      "verb": "ἐδίδασκεν",
+      "level": 3,
+      "gold": "IESOUS",
+      "pred": "ΚΑΦΑΡΝΑΟΎΜ",
+      "correct": false,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Genitive absolute construction detected"
+    },
+    {
+      "verse_ref": "MARK 1.30",
+      "verb": "λέγουσιν",
+      "level": 3,
+      "gold": "PETROS",
+      "pred": "ΣΊΜΩΝ, ἈΝΔΡΈΑΣ",
+      "correct": false,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 2.14",
+      "verb": "εἶδεν",
+      "level": 2,
+      "gold": "ΛΕΥΊ",
+      "pred": "ΛΕΥΊ",
+      "correct": true,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Salience heuristic: 2 entities, most frequent = ΛΕΥΊ"
+    },
+    {
+      "verse_ref": "MARK 2.14",
+      "verb": "λέγει",
+      "level": 2,
+      "gold": "ΛΕΥΊ",
+      "pred": "IESOUS",
+      "correct": false,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 2.14",
+      "verb": "ἠκολούθησεν",
+      "level": 2,
+      "gold": "ΛΕΥΊ",
+      "pred": "ΛΕΥΊ",
+      "correct": true,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 2.15",
+      "verb": "γίνεται",
+      "level": 2,
+      "gold": "OI_MATHETAI",
+      "pred": "NONE (IMPERSONAL VERB)",
+      "correct": false,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 2.15",
+      "verb": "ἦσαν",
+      "level": 2,
+      "gold": "OI_MATHETAI",
+      "pred": "ΤΕΛΩ͂ΝΑΙ ΚΑῚ ἉΜΑΡ",
+      "correct": false,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 2.25",
+      "verb": "λέγει",
+      "level": 2,
+      "gold": "ΔΑΥΊΔ",
+      "pred": "IESOUS",
+      "correct": false,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 2.25",
+      "verb": "ἔσχεν",
+      "level": 2,
+      "gold": "ΔΑΥΊΔ",
+      "pred": "ΔΑΥΕΊΔ",
+      "correct": false,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 2.26",
+      "verb": "εἰσῆλθεν",
+      "level": 3,
+      "gold": "ΔΑΥΊΔ",
+      "pred": "ἈΡΧΙΕΡΕΎΣ",
+      "correct": false,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Genitive absolute construction detected"
+    },
+    {
+      "verse_ref": "MARK 2.26",
+      "verb": "ἔφαγεν",
+      "level": 3,
+      "gold": "ΔΑΥΊΔ",
+      "pred": "ἈΡΧΙΕΡΕΎΣ",
+      "correct": false,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Genitive absolute construction detected"
+    },
+    {
+      "verse_ref": "MARK 2.26",
+      "verb": "ἔξεστιν",
+      "level": 2,
+      "gold": "ΔΑΥΊΔ",
+      "pred": "NONE (IMPERSONAL VERB)",
+      "correct": false,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 2.26",
+      "verb": "ἔδωκεν",
+      "level": 2,
+      "gold": "ΔΑΥΊΔ",
+      "pred": "ΔΑΥΊΔ",
+      "correct": true,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Salience heuristic: 4 entities, most frequent = ΔΑΥΊΔ"
+    },
+    {
+      "verse_ref": "MARK 3.26",
+      "verb": "δύναται",
+      "level": 2,
+      "gold": "ΣΑΤΑΝΑ͂Σ",
+      "pred": "ΣΑΤΑΝΑ͂Σ",
+      "correct": true,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Salience heuristic: 5 entities, most frequent = ΣΑΤΑΝΑ͂Σ"
+    },
+    {
+      "verse_ref": "MARK 3.26",
+      "verb": "ἔχει",
+      "level": 2,
+      "gold": "ΣΑΤΑΝΑ͂Σ",
+      "pred": "ΣΑΤΑΝΑ͂Σ",
+      "correct": true,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Salience heuristic: 5 entities, most frequent = ΣΑΤΑΝΑ͂Σ"
+    },
+    {
+      "verse_ref": "MARK 4.15",
+      "verb": "ἀκούσωσιν",
+      "level": 3,
+      "gold": "ΣΑΤΑΝΑ͂Σ",
+      "pred": "ΟὟΤΟΙ / ΟἹ ΠΑΡᾺ ΤῊΝ",
+      "correct": false,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 4.15",
+      "verb": "αἴρει",
+      "level": 3,
+      "gold": "ΣΑΤΑΝΑ͂Σ",
+      "pred": "ΣΑΤΑΝΑ͂Σ",
+      "correct": true,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 4.41",
+      "verb": "ἔλεγον",
+      "level": 1,
+      "gold": "OI_MATHETAI",
+      "pred": "ΟἹ ΜΑΘΗΤΑΊ (THE DISCIPLES",
+      "correct": false,
+      "method": "LLM_FALLBACK",
+      "reasoning": "Level 1 with no entities - LLM resolved: "
+    },
+    {
+      "verse_ref": "MARK 5.1",
+      "verb": "ἦλθον",
+      "level": 1,
+      "gold": "OI_MATHETAI",
+      "pred": "ἸΗΣΟΥ͂Σ ΚΑῚ ΟἹ ΜΑ",
+      "correct": false,
+      "method": "LLM_FALLBACK",
+      "reasoning": "Level 1 with no entities - LLM resolved: "
+    },
+    {
+      "verse_ref": "MARK 6.29",
+      "verb": "ἦραν",
+      "level": 2,
+      "gold": "OI_MATHETAI",
+      "pred": "ΟἹ ΜΑΘΗΤΑ",
+      "correct": false,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 6.29",
+      "verb": "ἔθηκαν",
+      "level": 2,
+      "gold": "OI_MATHETAI",
+      "pred": "ΟἹ ΜΑΘΗΤΑῚ",
+      "correct": false,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 6.30",
+      "verb": "ἀπήγγειλαν",
+      "level": 2,
+      "gold": "OI_APOSTOLOI",
+      "pred": "ΟἹ ἈΠΌΣΤΟΛΟΙ",
+      "correct": false,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 6.30",
+      "verb": "ἐποίησαν",
+      "level": 2,
+      "gold": "OI_APOSTOLOI",
+      "pred": "IOANNES",
+      "correct": false,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Salience heuristic: 3 entities, most frequent = IOANNES"
+    },
+    {
+      "verse_ref": "MARK 6.30",
+      "verb": "ἐδίδαξαν",
+      "level": 3,
+      "gold": "OI_APOSTOLOI",
+      "pred": "IESOUS",
+      "correct": false,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Genitive absolute construction detected"
+    },
+    {
+      "verse_ref": "MARK 6.31",
+      "verb": "λέγει",
+      "level": 1,
+      "gold": "OI_APOSTOLOI",
+      "pred": "IESOUS",
+      "correct": false,
+      "method": "RULES",
+      "reasoning": "Single compatible entity in window (number=plural)"
+    },
+    {
+      "verse_ref": "MARK 6.31",
+      "verb": "εὐκαίρουν",
+      "level": 1,
+      "gold": "OI_APOSTOLOI",
+      "pred": "IESOUS",
+      "correct": false,
+      "method": "RULES",
+      "reasoning": "Single compatible entity in window (number=None)"
+    },
+    {
+      "verse_ref": "MARK 6.32",
+      "verb": "ἀπῆλθον",
+      "level": 1,
+      "gold": "OI_APOSTOLOI",
+      "pred": "IESOUS",
+      "correct": false,
+      "method": "RULES",
+      "reasoning": "Single compatible entity in window (number=None)"
+    },
+    {
+      "verse_ref": "MARK 6.34",
+      "verb": "εἶδεν",
+      "level": 1,
+      "gold": "IESOUS",
+      "pred": "IESOUS",
+      "correct": true,
+      "method": "RULES",
+      "reasoning": "Single compatible entity in window (number=None)"
+    },
+    {
+      "verse_ref": "MARK 6.34",
+      "verb": "ἦσαν",
+      "level": 3,
+      "gold": "IESOUS",
+      "pred": "ὌΧΛΟΣ (OR ΑΥ̓ΤΟῪΣ /",
+      "correct": false,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 6.34",
+      "verb": "ἤρξατο",
+      "level": 1,
+      "gold": "IESOUS",
+      "pred": "IESOUS",
+      "correct": true,
+      "method": "RULES",
+      "reasoning": "Single compatible entity in window (number=None)"
+    },
+    {
+      "verse_ref": "MARK 6.37",
+      "verb": "λέγουσιν",
+      "level": 1,
+      "gold": "OI_APOSTOLOI",
+      "pred": "ΟἹ ΜΑΘΗΤΑῚ",
+      "correct": false,
+      "method": "LLM_FALLBACK",
+      "reasoning": "Level 1 with no entities - LLM resolved: "
+    },
+    {
+      "verse_ref": "MARK 6.39",
+      "verb": "ἐπέταξεν",
+      "level": 1,
+      "gold": "IESOUS",
+      "pred": "IESOUS",
+      "correct": true,
+      "method": "LLM_FALLBACK",
+      "reasoning": "Level 1 with no entities - LLM resolved: "
+    },
+    {
+      "verse_ref": "MARK 6.41",
+      "verb": "εὐλόγησεν",
+      "level": 1,
+      "gold": "IESOUS",
+      "pred": "NONE",
+      "correct": false,
+      "method": "RULES",
+      "reasoning": "No entities in window"
+    },
+    {
+      "verse_ref": "MARK 6.41",
+      "verb": "κατέκλασεν",
+      "level": 1,
+      "gold": "IESOUS",
+      "pred": "NONE",
+      "correct": false,
+      "method": "RULES",
+      "reasoning": "No entities in window"
+    },
+    {
+      "verse_ref": "MARK 6.41",
+      "verb": "ἐδίδου",
+      "level": 1,
+      "gold": "IESOUS",
+      "pred": "NONE",
+      "correct": false,
+      "method": "RULES",
+      "reasoning": "No entities in window"
+    },
+    {
+      "verse_ref": "MARK 6.41",
+      "verb": "παρατιθῶσιν",
+      "level": 3,
+      "gold": "IESOUS",
+      "pred": "ΜΑΘΗΤΑΙ͂Σ (DISCIPLES)",
+      "correct": false,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 6.41",
+      "verb": "ἐμέρισεν",
+      "level": 1,
+      "gold": "IESOUS",
+      "pred": "NONE",
+      "correct": false,
+      "method": "RULES",
+      "reasoning": "No entities in window"
+    },
+    {
+      "verse_ref": "MARK 6.45",
+      "verb": "ἠνάγκασεν",
+      "level": 3,
+      "gold": "IESOUS",
+      "pred": "IESOUS",
+      "correct": true,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 6.46",
+      "verb": "ἀπῆλθεν",
+      "level": 1,
+      "gold": "IESOUS",
+      "pred": "ΒΗΘΣΑΪΔΆ(Ν)",
+      "correct": false,
+      "method": "RULES",
+      "reasoning": "Single compatible entity in window (number=None)"
+    },
+    {
+      "verse_ref": "MARK 8.6",
+      "verb": "παραγγέλλει",
+      "level": 1,
+      "gold": "OI_MATHETAI",
+      "pred": "IESOUS",
+      "correct": false,
+      "method": "LLM_FALLBACK",
+      "reasoning": "Level 1 with no entities - LLM resolved: "
+    },
+    {
+      "verse_ref": "MARK 8.6",
+      "verb": "ἔκλασεν",
+      "level": 1,
+      "gold": "OI_MATHETAI",
+      "pred": "NONE",
+      "correct": false,
+      "method": "RULES",
+      "reasoning": "No entities in window"
+    },
+    {
+      "verse_ref": "MARK 8.6",
+      "verb": "ἐδίδου",
+      "level": 1,
+      "gold": "OI_MATHETAI",
+      "pred": "NONE",
+      "correct": false,
+      "method": "RULES",
+      "reasoning": "No entities in window"
+    },
+    {
+      "verse_ref": "MARK 8.6",
+      "verb": "παρατιθῶσιν",
+      "level": 3,
+      "gold": "OI_MATHETAI",
+      "pred": "NONE",
+      "correct": false,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . No entities in window"
+    },
+    {
+      "verse_ref": "MARK 8.6",
+      "verb": "παρέθηκαν",
+      "level": 1,
+      "gold": "OI_MATHETAI",
+      "pred": "ΟἹ ΜΑΘΗΤΑῚ",
+      "correct": false,
+      "method": "LLM_FALLBACK",
+      "reasoning": "Level 1 with no entities - LLM resolved: "
+    },
+    {
+      "verse_ref": "MARK 8.14",
+      "verb": "ἐπελάθοντο",
+      "level": 1,
+      "gold": "OI_MATHETAI",
+      "pred": "ΔΑΛΜΑΝΟΥΘΆ",
+      "correct": false,
+      "method": "RULES",
+      "reasoning": "Single compatible entity in window (number=None)"
+    },
+    {
+      "verse_ref": "MARK 8.14",
+      "verb": "εἶχον",
+      "level": 1,
+      "gold": "OI_MATHETAI",
+      "pred": "ΔΑΛΜΑΝΟΥΘΆ",
+      "correct": false,
+      "method": "RULES",
+      "reasoning": "Single compatible entity in window (number=None)"
+    },
+    {
+      "verse_ref": "MARK 8.16",
+      "verb": "διελογίζοντο",
+      "level": 1,
+      "gold": "OI_MATHETAI",
+      "pred": "ἩΡΏΙΔΗΣ",
+      "correct": false,
+      "method": "RULES",
+      "reasoning": "Single compatible entity in window (number=None)"
+    },
+    {
+      "verse_ref": "MARK 9.4",
+      "verb": "ἦσαν",
+      "level": 2,
+      "gold": "MOYSES",
+      "pred": "ἩΛΊΑΣ,",
+      "correct": false,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 9.6",
+      "verb": "ᾔδει",
+      "level": 2,
+      "gold": "PETROS",
+      "pred": "PETROS",
+      "correct": true,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 9.6",
+      "verb": "ἐγένοντο",
+      "level": 2,
+      "gold": "PETROS",
+      "pred": "ΠΈΤΡΟΣ, ἸΆΚ",
+      "correct": false,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 9.8",
+      "verb": "εἶδον",
+      "level": 2,
+      "gold": "PETROS",
+      "pred": "ἩΛΊΑΣ",
+      "correct": false,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Salience heuristic: 4 entities, most frequent = ἩΛΊΑΣ"
+    },
+    {
+      "verse_ref": "MARK 9.9",
+      "verb": "διεστείλατο",
+      "level": 2,
+      "gold": "PETROS",
+      "pred": "IESOUS",
+      "correct": false,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 9.9",
+      "verb": "εἶδον",
+      "level": 2,
+      "gold": "PETROS",
+      "pred": "ἩΛΊΑΣ",
+      "correct": false,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Salience heuristic: 4 entities, most frequent = ἩΛΊΑΣ"
+    },
+    {
+      "verse_ref": "MARK 9.9",
+      "verb": "διηγήσωνται",
+      "level": 2,
+      "gold": "PETROS",
+      "pred": "ἩΛΊΑΣ",
+      "correct": false,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Salience heuristic: 4 entities, most frequent = ἩΛΊΑΣ"
+    },
+    {
+      "verse_ref": "MARK 9.10",
+      "verb": "ἐκράτησαν",
+      "level": 2,
+      "gold": "PETROS",
+      "pred": "PETROS",
+      "correct": true,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Salience heuristic: 4 entities, most frequent = PETROS"
+    },
+    {
+      "verse_ref": "MARK 9.14",
+      "verb": "εἶδον",
+      "level": 1,
+      "gold": "PETROS",
+      "pred": "ἩΛΊΑΣ",
+      "correct": false,
+      "method": "RULES",
+      "reasoning": "Single compatible entity in window (number=None)"
+    },
+    {
+      "verse_ref": "MARK 9.32",
+      "verb": "ἐφοβοῦντο",
+      "level": 2,
+      "gold": "OI_MATHETAI",
+      "pred": "IESOUS",
+      "correct": false,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Salience heuristic: 2 entities, most frequent = IESOUS"
+    },
+    {
+      "verse_ref": "MARK 10.5",
+      "verb": "ἔγραψεν",
+      "level": 3,
+      "gold": "MOYSES",
+      "pred": "ΜΩΫΣΗ͂Σ",
+      "correct": false,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 11.32",
+      "verb": "ἐφοβοῦντο",
+      "level": 2,
+      "gold": "IOANNES",
+      "pred": "IOANNES",
+      "correct": true,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Salience heuristic: 4 entities, most frequent = IOANNES"
+    },
+    {
+      "verse_ref": "MARK 11.32",
+      "verb": "ἦν",
+      "level": 2,
+      "gold": "IOANNES",
+      "pred": "IOANNES",
+      "correct": true,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 14.10",
+      "verb": "παραδοῖ",
+      "level": 2,
+      "gold": "ἸΟΎΔΑΣ",
+      "pred": "ἸΟΎΔΑΣ",
+      "correct": true,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 14.11",
+      "verb": "ἐπηγγείλαντο",
+      "level": 2,
+      "gold": "ἸΟΎΔΑΣ",
+      "pred": "IESOUS",
+      "correct": false,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Salience heuristic: 3 entities, most frequent = IESOUS"
+    },
+    {
+      "verse_ref": "MARK 14.11",
+      "verb": "ἐζήτει",
+      "level": 2,
+      "gold": "ἸΟΎΔΑΣ",
+      "pred": "ἸΟΎΔΑΣ",
+      "correct": true,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 14.11",
+      "verb": "παραδοῖ",
+      "level": 3,
+      "gold": "ἸΟΎΔΑΣ",
+      "pred": "ἸΣΚΑΡΙΏΘ",
+      "correct": false,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Genitive absolute construction detected"
+    },
+    {
+      "verse_ref": "MARK 14.54",
+      "verb": "ἦν",
+      "level": 2,
+      "gold": "PETROS",
+      "pred": "PETROS",
+      "correct": true,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 14.68",
+      "verb": "ἐξῆλθεν",
+      "level": 2,
+      "gold": "PETROS",
+      "pred": "PETROS",
+      "correct": true,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Salience heuristic: 3 entities, most frequent = PETROS"
+    },
+    {
+      "verse_ref": "MARK 14.72",
+      "verb": "ἔκλαιεν",
+      "level": 2,
+      "gold": "PETROS",
+      "pred": "PETROS",
+      "correct": true,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 15.8",
+      "verb": "ἐποίει",
+      "level": 3,
+      "gold": "PILATOS",
+      "pred": "ΒΑΡΑΒΒΑ͂Σ",
+      "correct": false,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Genitive absolute construction detected"
+    },
+    {
+      "verse_ref": "MARK 15.10",
+      "verb": "ἐγίνωσκεν",
+      "level": 2,
+      "gold": "PILATOS",
+      "pred": "IESOUS",
+      "correct": false,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Salience heuristic: 3 entities, most frequent = IESOUS"
+    },
+    {
+      "verse_ref": "MARK 15.11",
+      "verb": "ἀπολύσῃ",
+      "level": 2,
+      "gold": "PILATOS",
+      "pred": "ΒΑΡΑΒΒΑ͂Σ",
+      "correct": false,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Salience heuristic: 2 entities, most frequent = ΒΑΡΑΒΒΑ͂Σ"
+    },
+    {
+      "verse_ref": "MARK 15.15",
+      "verb": "παρέδωκεν",
+      "level": 2,
+      "gold": "PILATOS",
+      "pred": "PILATOS",
+      "correct": true,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 15.21",
+      "verb": "ἀγγαρεύουσιν",
+      "level": 2,
+      "gold": "PETROS",
+      "pred": "PETROS",
+      "correct": true,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Salience heuristic: 3 entities, most frequent = PETROS"
+    },
+    {
+      "verse_ref": "MARK 15.21",
+      "verb": "ἄρῃ",
+      "level": 2,
+      "gold": "PETROS",
+      "pred": "PETROS",
+      "correct": true,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 15.41",
+      "verb": "ἦν",
+      "level": 3,
+      "gold": "ΣΑΛΏΜΗ",
+      "pred": "IESOUS",
+      "correct": false,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 15.41",
+      "verb": "διηκόνουν",
+      "level": 2,
+      "gold": "ΣΑΛΏΜΗ",
+      "pred": "ΓΥΝΑΙ͂ΚΕΣ",
+      "correct": false,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 15.43",
+      "verb": "ᾐτήσατο",
+      "level": 2,
+      "gold": "ἸΩΣΉΦ",
+      "pred": "ἸΩΣΉΦ",
+      "correct": true,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 15.45",
+      "verb": "ἐδωρήσατο",
+      "level": 2,
+      "gold": "PILATOS",
+      "pred": "MARIA",
+      "correct": false,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Salience heuristic: 11 entities, most frequent = MARIA"
+    },
+    {
+      "verse_ref": "MARK 15.46",
+      "verb": "ἐνείλησεν",
+      "level": 2,
+      "gold": "ἸΩΣΉΦ",
+      "pred": "ἸΩΣΉΦ",
+      "correct": true,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 15.46",
+      "verb": "κατέθηκεν",
+      "level": 2,
+      "gold": "ἸΩΣΉΦ",
+      "pred": "ἸΩΣΉΦ",
+      "correct": true,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 15.46",
+      "verb": "προσεκύλισεν",
+      "level": 2,
+      "gold": "ἸΩΣΉΦ",
+      "pred": "ΓΑΛΙΛΑΊΑ",
+      "correct": false,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Salience heuristic: 6 entities, most frequent = ΓΑΛΙΛΑΊΑ"
+    },
+    {
+      "verse_ref": "MARK 16.1",
+      "verb": "ἀλείψωσιν",
+      "level": 2,
+      "gold": "ΣΑΛΏΜΗ",
+      "pred": "ΜΑΡΊΑ Ἡ ΜΑΓΔΑΛΗΝῊ",
+      "correct": false,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 16.2",
+      "verb": "ἔρχονται",
+      "level": 3,
+      "gold": "ΣΑΛΏΜΗ",
+      "pred": "SALOME",
+      "correct": false,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Genitive absolute construction detected"
+    },
+    {
+      "verse_ref": "MARK 16.3",
+      "verb": "ἔλεγον",
+      "level": 2,
+      "gold": "ΣΑΛΏΜΗ",
+      "pred": "ΜΑΡΊΑ Ἡ ΜΑΓΔΑΛΗΝῊ ΚΑῚ",
+      "correct": false,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 16.5",
+      "verb": "εἶδον",
+      "level": 2,
+      "gold": "ΣΑΛΏΜΗ",
+      "pred": "MARIA",
+      "correct": false,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Salience heuristic: 3 entities, most frequent = MARIA"
+    },
+    {
+      "verse_ref": "MARK 16.8",
+      "verb": "ἔφυγον",
+      "level": 2,
+      "gold": "ΣΑΛΏΜΗ",
+      "pred": "IESOUS",
+      "correct": false,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Salience heuristic: 3 entities, most frequent = IESOUS"
+    },
+    {
+      "verse_ref": "MARK 16.8",
+      "verb": "εἶπον",
+      "level": 2,
+      "gold": "ΣΑΛΏΜΗ",
+      "pred": "THE WOMEN (IMPLIED BY ΑΥ̓",
+      "correct": false,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 16.8",
+      "verb": "ἐφοβοῦντο",
+      "level": 2,
+      "gold": "ΣΑΛΏΜΗ",
+      "pred": "ΑἹ ΓΥΝΑΙ͂ΚΕΣ",
+      "correct": false,
+      "method": "LLM",
+      "reasoning": ""
+    },
+    {
+      "verse_ref": "MARK 16.13",
+      "verb": "ἐπίστευσαν",
+      "level": 2,
+      "gold": "OI_MATHETAI",
+      "pred": "MARIA",
+      "correct": false,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Salience heuristic: 2 entities, most frequent = MARIA"
+    },
+    {
+      "verse_ref": "MARK 16.14",
+      "verb": "ὠνείδισεν",
+      "level": 2,
+      "gold": "OI_MATHETAI",
+      "pred": "MARIA",
+      "correct": false,
+      "method": "HYBRID",
+      "reasoning": "LLM failed: . Salience heuristic: 2 entities, most frequent = MARIA"
+    },
+    {
+      "verse_ref": "MARK 16.14",
+      "verb": "ἐπίστευσαν",
+      "level": 2,
+      "gold": "OI_MATHETAI",
+      "pred": "ΤΟΙ͂Σ ἝΝΔΕΚΑ",
+      "correct": false,
+      "method": "LLM",
+      "reasoning": ""
+    }
+  ]
+}

@@ -12,3 +12,4 @@ trankit
 google-genai
 aiohttp
 requests
+python-dotenv
