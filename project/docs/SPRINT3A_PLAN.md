@@ -100,7 +100,28 @@ The CRAC 2024 evaluation uses **head-match CoNLL F1** as the primary metric:
 - 6 CONLLU files parsed, 2,465 tokens
 - 245 pro-drop candidates detected
 - 23 with person antecedent (gold standard)
-- **Baseline accuracy: 9.4%**
+- **Baseline accuracy: 9.4%** (string-matching)
+
+> ⚠️ **Corrections appliquées (9 avril 2026):**
+> - **Head-matching:** À implémenter (see Milestone 1.1)
+> - **Fenêtre:** Réduite à 2 versets (Milestone 1.2)
+
+---
+
+### Milestone 1.1: Head-Matching Correction · 🔄 EN COURS
+
+**Objectif:** Corriger l'évaluation pour head-matching CRAC
+
+- Implémenter extraction synchronous heads depuis PROIEL
+- Ajouter fonction `compare_heads(predicted, gold) → bool`
+- Réévaluer avec nouvelle métrique
+
+### Milestone 1.2: Window Size Reduction · 🔄 EN COURS
+
+**Objectif:** Passer de 5 versets à 2 versets
+
+- Ajuster `window_size=2` dans le script
+- Réévaluer baseline avec fenêtre réduite
 
 ---
 

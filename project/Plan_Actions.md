@@ -823,7 +823,30 @@ Les modules NER général (LOC, ORG, groupes) et l'export Text-Fabric complet so
 
 ---
 
-## Actions immédiates — Sprint 3A
+## Actions immédiates — Sprint 3A (corrigé 9 avril 2026)
+
+### ⚠️ Corrections rétroactives appliquées
+
+| Correction | Avant | Après |
+|------------|-------|-------|
+| Métrique d'éval | String-matching | **Head-matching** (CRAC standard) |
+| Fenêtre résolution | 5 versets | **2 versets** (réduit entités obsolètes) |
+
+### Phase 1.1 : Correction head-matching
+
+1. **Implémenter extraction synchronous heads**
+   - PROIEL: tokens avec `syncat=X` dans MISC
+   - Fallback: tête syntaxique directe
+
+2. **Corriger script d'évaluation**
+   - `scripts/sprint3a_phase1_prodrop_detection.py`
+   - Ajouter fonction `get_head_matching_id(token, gold_heads)`
+
+### Phase 1.2 : Réduction fenêtre
+
+1. **Ajuster paramètre window**
+   - Modifier `window_size = 2` (au lieu de 5)
+   - dans `find_antecedents_in_window()`
 
 ### Phase 1 : Parsing dépendanciel
 
