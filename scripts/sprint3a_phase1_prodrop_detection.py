@@ -44,14 +44,23 @@ class Token:
             return False
         if not self.feats:
             return False
+        if self.feats == "_":
+            return False
         return True
 
     def get_person(self) -> Optional[int]:
         """Extract person from morphological features."""
-        if not self.feats:
+        if not self.feats or self.feats == "_":
             return None
+        # Handle original PROIEL format: "3saim----i"
         match = re.search(r"(\d)[spd]", self.feats)
-        return int(match.group(1)) if match else None
+        if match:
+            return int(match.group(1))
+        # Handle new CONLLU format: "Number=Sing|Gender=Masc|Case=_"
+        match = re.search(r"Person=(\d)", self.feats)
+        if match:
+            return int(match.group(1))
+        return None
 
 
 NARRATIVE_MARKERS = {
@@ -66,16 +75,143 @@ NARRATIVE_MARKERS = {
 GENITIVE_ABSOLUTE_MARKERS = {"γενόμενος", "γενομένης", "ὄντος", "οὔσης", "θανάτου"}
 
 
-def extract_narrative_features(sentence_text: str) -> Dict:
-    """Extract narrative markers from sentence text."""
+def extract_narrative_features(sentence) -> Dict:
+    """Extract narrative markers from sentence for disambiguation.
+
+    Returns:
+        features: dict with has_delta, has_tote, first_word, etc.
+    """
     features = {
-        "has_delta": "δέ" in sentence_text,
-        "has_tote": "τότε" in sentence_text,
-        "has_kai": "καί" in sentence_text,
-        "has_gar": "γάρ" in sentence_text,
-        "has_genitive_absolute": False,  # Would need dependency parsing
+        "has_delta": False,
+        "has_tote": False,
+        "has_kai": False,
+        "has_gar": False,
+        "has_genitive_absolute": False,
+        "starts_with_delta": False,
+        "starts_with_tote": False,
+        "delta_at_position_2": False,  # e.g., "καὶ δέ" pattern
     }
+
+    # Get all token forms
+    token_forms = [t.form for t in sentence.tokens]
+    sentence_text = " ".join(token_forms)
+
+    features["has_delta"] = "δέ" in sentence_text
+    features["has_tote"] = "τότε" in sentence_text
+    features["has_kai"] = "καί" in sentence_text or "καὶ" in sentence_text
+    features["has_gar"] = "γάρ" in sentence_text or "γαρ" in sentence_text
+
+    # Check first token(s) for narrative markers
+    if token_forms:
+        first_token = token_forms[0].lower()
+        features["starts_with_delta"] = first_token == "δέ"
+        features["starts_with_tote"] = first_token == "τότε" or first_token == "τότε"
+
+        # Check second token for "καὶ δέ" pattern (very common for subject continuation)
+        if len(token_forms) > 1:
+            second_token = token_forms[1].lower()
+            if second_token == "δέ":
+                features["delta_at_position_2"] = True
+
+        # Also check "οἱ δέ", "ὁ δέ", "αἱ δέ" patterns (article + δέ = subject continuity)
+        features["article_delta_pattern"] = any(
+            token_forms[i] in ("ὁ", "οἱ", "ἡ", "αἱ")
+            and i + 1 < len(token_forms)
+            and token_forms[i + 1].lower() == "δέ"
+            for i in range(len(token_forms) - 1)
+        )
+
     return features
+
+
+def apply_narrative_rules(
+    sentence, predicate_analysis: Dict, prev_subject: Optional[str] = None
+) -> Dict:
+    """
+    Apply δέ/τότε narrative marker rules to disambiguate pro-drop candidates.
+
+    Rules:
+    - τότε at sentence start: narrative shift → DIFFERENT subject → likely pro-drop
+    - δέ at sentence start: could be same or different subject → check context
+    - δέ after article (οἱ δέ, ὁ δέ): subject continuity → likely NOT pro-drop
+    - No narrative marker: default to original rule
+
+    Args:
+        sentence: Sentence object
+        predicate_analysis: dict with predicate info including is_pro_drop_candidate
+        prev_subject: subject from previous sentence (if known)
+
+    Returns:
+        Updated analysis dict with narrative_disambiguation reason
+    """
+    narrative = extract_narrative_features(sentence)
+    form = predicate_analysis["form"]
+    is_candidate = predicate_analysis.get("is_pro_drop_candidate", False)
+
+    result = predicate_analysis.copy()
+    result["narrative_marker"] = None
+    result["narrative_disambiguation"] = "default"  # default: keep as-is
+
+    if not is_candidate:
+        return result
+
+    # τότε = "then" - typically marks narrative shift to DIFFERENT subject
+    # This STRENGTHENS the pro-drop detection (likely different subject)
+    if narrative.get("starts_with_tote") or narrative.get("has_tote"):
+        result["narrative_marker"] = "τότε"
+        result["narrative_disambiguation"] = (
+            "keep"  # τότε confirms different subject → pro-drop likely
+        )
+        return result
+
+    # δέ anywhere in sentence - just mark it, don't filter
+    # The "καὶ δέ" pattern does NOT mean "not pro-drop" - the subject can still be implicit
+    # We keep these as pro-drop candidates but add the marker for analysis
+    if narrative.get("has_delta"):
+        result["narrative_marker"] = "δέ"
+        result["narrative_disambiguation"] = (
+            "keep"  # Don't filter - δέ doesn't guarantee explicit subject
+        )
+        return result
+
+    # No specific narrative marker - use default
+    return result
+
+    # δέ anywhere in sentence - check for patterns
+    if narrative.get("has_delta"):
+        result["narrative_marker"] = "δέ"
+
+        # Pattern 1: "καὶ δέ" at start (very common) → subject likely continues
+        # Pattern 2: "οἱ δέ" / "ὁ δέ" → subject likely continues
+        if narrative.get("delta_at_position_2") or narrative.get(
+            "article_delta_pattern"
+        ):
+            result["narrative_disambiguation"] = (
+                "filter_suggestion"  # likely same subject → NOT pro-drop
+            )
+        else:
+            result["narrative_disambiguation"] = "keep"  # could be different subject
+        return result
+
+    # No specific narrative marker - use default
+    return result
+
+    # δέ at sentence start - context dependent
+    if narrative.get("starts_with_delta"):
+        result["narrative_marker"] = "δέ"
+
+        # Rule: "οἱ δέ" or "ὁ δέ" pattern often means SAME subject continues
+        # In this case, FILTER OUT (not pro-drop)
+        if narrative.get("delta_after_article"):
+            result["narrative_disambiguation"] = (
+                "filter_suggestion"  # likely same subject
+            )
+        else:
+            result["narrative_disambiguation"] = "keep"  # could be different subject
+        return result
+
+    # No specific narrative marker - use default
+    return result
 
 
 def is_genitive_absolute(sentence, verb_token_id: int) -> bool:
@@ -690,20 +826,44 @@ class Sentence:
     verse_refs: List[str] = field(default_factory=list)
 
     def get_predicates(self) -> List[Token]:
-        """Get all finite verbs with 'pred' relation (predicates)."""
-        return [t for t in self.tokens if t.is_finite_verb() and t.relation == "pred"]
+        """Get all finite verbs - includes predicates AND other verbal relations (comp, adv, etc.)
+
+        PROIEL marks various verbal functions with different relations:
+        - pred: main predicate
+        - comp: complement (e.g., ἵνα clauses)
+        - adv: adverbial clause
+        - atr: attributive
+        - apos: appositive
+        All can have pro-drop subjects.
+        """
+        return [t for t in self.tokens if t.is_finite_verb() and t.get_person() == 3]
 
     def get_subject(self, predicate_head: Optional[int]) -> Optional[Token]:
-        """Find the subject of a predicate by looking for nsubj relation."""
+        """Find the subject of a predicate by looking for nsubj relation.
+
+        Note: For the predicate's head (external head), we use the predicate's id
+        (internal token ID within the sentence) to find subjects, as this works
+        for both old PROIEL format (where predicate.head=None) and new format
+        (where predicate.head contains an external ID).
+        """
         for token in self.tokens:
             if token.head == predicate_head and token.relation in ("nsubj", "sub"):
                 return token
         return None
 
+    def get_subject_by_id(self, predicate_id: int) -> Optional[Token]:
+        """Find the subject of a predicate using the predicate's internal ID."""
+        for token in self.tokens:
+            if token.head == predicate_id and token.relation in ("nsubj", "sub"):
+                return token
+        return None
+
     def has_null_subject(self, predicate: Token) -> bool:
         """Check if a predicate has a null (implicit) subject."""
-        subject = self.get_subject(predicate.head)
-        return subject is None and predicate.get_person() == 3
+        # Use predicate.id (internal ID) to find subject - this works for both formats
+        subject = self.get_subject_by_id(predicate.id)
+        person = predicate.get_person()
+        return subject is None and person == 3
 
     def get_antecedent_for_null(
         self, predicate: Token, all_sentences: Dict[str, "Sentence"]
@@ -971,32 +1131,45 @@ def integrate_with_gold(
 
 
 def analyze_verbs_in_sentence(sent: Sentence) -> Dict:
-    """Analyze a sentence to find finite verbs and their subject status."""
+    """Analyze a sentence to find finite verbs and their subject status.
+
+    Applies δέ/τότε narrative marker rules to disambiguate pro-drop candidates.
+    """
     result = {
         "sentence_id": sent.id,
         "verse_refs": sent.verse_refs,
         "text": sent.text,
         "predicates": [],
+        "narrative_features": extract_narrative_features(sent),
     }
 
     for token in sent.tokens:
         if token.is_finite_verb():
-            subject = sent.get_subject(token.head)
+            # Use internal ID to find subject (works for both old and new PROIEL format)
+            subject = sent.get_subject_by_id(token.id)
             has_subj = subject is not None
             person = token.get_person()
 
-            result["predicates"].append(
-                {
-                    "token_id": token.id,
-                    "form": token.form,
-                    "lemma": token.lemma,
-                    "morph": token.feats,
-                    "person": person,
-                    "has_explicit_subject": has_subj,
-                    "subject_form": subject.form if subject else None,
-                    "is_pro_drop_candidate": person == 3 and not has_subj,
-                }
-            )
+            # Base pro-drop detection
+            is_candidate = person == 3 and not has_subj
+
+            predicate_analysis = {
+                "token_id": token.id,
+                "form": token.form,
+                "lemma": token.lemma,
+                "morph": token.feats,
+                "person": person,
+                "relation": token.relation,
+                "has_explicit_subject": has_subj,
+                "subject_form": subject.form if subject else None,
+                "is_pro_drop_candidate": is_candidate,
+            }
+
+            # Apply narrative marker rules if this is a candidate
+            if is_candidate:
+                predicate_analysis = apply_narrative_rules(sent, predicate_analysis)
+
+            result["predicates"].append(predicate_analysis)
 
     return result
 
