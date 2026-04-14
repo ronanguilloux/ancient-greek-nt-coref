@@ -1,6 +1,9 @@
 # Plan d'action — Coréférence NT grec
 ## `ntcoref` · Focus résolution des personnages
 
+> ⚠️ **Règle d'architecture : Ce fichier est le Master Plan Stratégique.** 
+> Il décrit *ce* que le système doit faire et *pourquoi* (architecture, pipelines, justification académique, jalons macro). **Interdiction absolue d'y lister des micro-tâches ou des TODOs quotidiens.** Pour le suivi de l'exécution, les bugs, et les prochaines actions de code, utilisez exclusivement `project/Taches.md`.
+
 > Ce plan est dérivé de la Phase 1-2-3 de la feuille de route `grcnlp` (cf. *Faisabilité d'un portage de BookNLP pour le grec ancien du NT*).
 > Il recentre l'ensemble du travail sur **un objectif unique** : résoudre la coréférence des personnages dans le NT grec, à l'échelle d'un groupe de versets, d'un chapitre ou d'un livre entier.
 
@@ -823,70 +826,19 @@ Les modules NER général (LOC, ORG, groupes) et l'export Text-Fabric complet so
 
 ---
 
-## Actions immédiates — Sprint 3A (corrigé 9 avril 2026)
+## Résumé Stratégique — Début Sprint 3A
 
-### ⚠️ Corrections rétroactives appliquées
+> **Note de Suivi :** Les actions granulaires du Sprint 3A sont désormais gérées exclusivement dans `project/Taches.md`.
 
-| Correction | Avant | Après |
-|------------|-------|-------|
-| Métrique d'éval | String-matching | **Head-matching** (CRAC standard) |
-| Fenêtre résolution | 5 versets | **2 versets** (réduit entités obsolètes) |
+Le pivot de l'architecture Pro-Drop (initié suite au post-mortem du Sprint 2C) a été validé au début du Sprint 3A. 
+Les fondations suivantes sont désormais opérationnelles :
+- L'évaluation repose sur la métrique stricte **Head-Matching** (standard CRAC).
+- La fenêtre de résolution a été optimisée (`window_size=2` versets).
+- Les règles heuristiques donnent la priorité absolue aux entités de la même phrase et à la syntaxe du sujet (qui ont fait passer la baseline de 9.4% à 39.1%).
+- Un classificateur d'ambiguïté isolant les cas via les marqueurs narratifs (δέ, τότε) est en place.
 
-### Phase 1.1 : Correction head-matching
-
-1. **Implémenter extraction synchronous heads**
-   - PROIEL: tokens avec `syncat=X` dans MISC
-   - Fallback: tête syntaxique directe
-
-2. **Corriger script d'évaluation**
-   - `scripts/sprint3a_phase1_prodrop_detection.py`
-   - Ajouter fonction `get_head_matching_id(token, gold_heads)`
-
-### Phase 1.2 : Réduction fenêtre
-
-1. **Ajuster paramètre window**
-   - Modifier `window_size = 2` (au lieu de 5)
-   - dans `find_antecedents_in_window()`
-
-### Phase 1 : Parsing dépendanciel
-
-1. **Charger PROIEL XML directement** (pas trankit)
-   ```python
-   from lxml import etree
-   tree = etree.parse("proiel-treebank/data/greek-nt.xml")
-   ```
-
-2. **Détecter les candidats pro-drop**
-   - Trouver les verbes finis (pos=V-*)
-   - Filtrer ceux sans nsubj dans les dépendances
-   - Vérifier compatibilité personne/nombre
-
-3. **Livrable :** `find_prodrop_candidates()` fonctionnel
-
-### Phase 2 : Métrique head-matching
-
-1. **Adopter head-matching** au lieu de string-matching
-   - Correspondance sur la tête syntaxique (dépendances)
-   - Standard CRAC 2024
-
-2. **Réévaluer baselines** avec nouvelle métrique
-
-### Phase 3 : Classificateur d'ambiguïté
-
-1. **Détecter les marqueurs narratifs**
-   - δέ (continuité vs adversatif)
-   - τότε (rupture temporelle)
-   - Génitif absolu (changement de sujet)
-
-2. **Construire `is_ambiguous()`**
-   - 1 entité compatible → cas clair (règles)
-   - 2+ entités → cas ambigu (ML)
-
-### Point de validation
-
-À la fin de chaque phase :
-- Vérifier sur 50 instances PROIEL
-- Documenter les erreurs dans `project/docs/`
+**Focus Macro pour la suite du Sprint 3A :**
+L'objectif est d'atteindre la cible globale de 55-60% de précision. Le développement doit maintenant se concentrer sur l'élaboration des règles de haute précision pour les **cas clairs (cible locale : 87%)**, nécessitant l'expansion du corpus de test vers d'autres livres riches en marqueurs narratifs (ex: Luc, Jean).
 
 ---
 

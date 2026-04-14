@@ -1,5 +1,8 @@
 # Tâches — `ntcoref`
-> Dernière mise à jour : 9 avril 2026
+> ⚠️ **Règle de gestion : Ce fichier est le Sprint Backlog (To-Do list).**
+> Il sert à tracer l'exécution tactique, les métriques immédiates, et le travail restant. **Toute nouvelle tâche de code ou correction de bug doit être ajoutée ici.** Ne modifiez le fichier `Plan_Actions.md` que si l'architecture globale ou la feuille de route du projet change fondamentalement.
+
+> Dernière mise à jour : 11 avril 2026
 > Périmètre : prochaines tâches uniquement (complétues exclues)
 
 ---
@@ -16,9 +19,19 @@
 
 ---
 
-## 🚀 Prochaines étapes immédiates (Sprint 3A)
+## 🚀 Sprint Backlog Actif (Sprint 3A)
 
-### Étape 1 : Intégration du parsing dépendanciel · ✅ TERMINÉ
+**Travail restant à implémenter :**
+- [ ] ⚠️ **Règles pour les cas clairs (Clear-case rules)** : Cible de précision de 87% (nécessite l'expansion du corpus d'abord).
+- [ ] ⚠️ **Expansion du corpus de test** : Ajouter de nouveaux livres (ex: Luc, Jean) contenant de multiples occurrences de marqueurs narratifs (δέ/τότε) car Mark 1-4 en est dépourvu, empêchant de tester le classificateur d'ambiguïté.
+- [ ] ⚠️ **Attribution des discours directs** : Détection de la ponctuation, des *verba dicendi*, et résolution de l'agent.
+- [ ] ⚠️ **Actes narratifs par personnage** : Semantic Role Labeling avec la typologie Pedalion.
+
+---
+
+## 🏁 Historique d'exécution (Sprint 3A)
+
+### ✅ Étape 1 : Intégration du parsing dépendanciel · TERMINÉ
 
 **Livrable:** `scripts/sprint3a_phase1_prodrop_detection.py`
 
@@ -83,10 +96,6 @@
 - Accuracy session: **26.1% → 39.1%** (+13 points)
 
 **Note:** Les données MARK 1-4 ne contiennent pas de δέ ou τότε, donc l'effet n'est pas visible sur ce corpus. La logique est prête pour d'autres livres.
-
-**Prochaines étapes (non implémentées):**
-1. ⚠️ Clear-case rules (87% target) - nécessite plus de données
-2. ⚠️ Ajouter plus de livres avec δέ/τότε au corpus de test
 
 ## Sprint 0 — Données et environnement · ✅ TERMINÉ
 
