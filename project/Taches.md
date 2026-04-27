@@ -22,10 +22,11 @@
 ## 🚀 Sprint Backlog Actif (Sprint 3A)
 
 **Travail restant à implémenter :**
-- [ ] ⚠️ **Règles pour les cas clairs (Clear-case rules)** : Cible de précision de 87% (nécessite l'expansion du corpus d'abord).
-- [ ] ⚠️ **Expansion du corpus de test** : Ajouter de nouveaux livres (ex: Luc, Jean) contenant de multiples occurrences de marqueurs narratifs (δέ/τότε) car Mark 1-4 en est dépourvu, empêchant de tester le classificateur d'ambiguïté.
-- [ ] ⚠️ **Attribution des discours directs** : Détection de la ponctuation, des *verba dicendi*, et résolution de l'agent.
-- [ ] ⚠️ **Actes narratifs par personnage** : Semantic Role Labeling avec la typologie Pedalion.
+- [ ] ⚠️ **Expansion propre du corpus de test** : Modifier `scripts/generate_gold_samples.py` pour ajouter Luc 1-10 et Jean 1-10. Regénérer les `.conllu` pour obtenir les ~400 exemples de cas clairs/ambigus nécessaires.
+- [ ] ⚠️ **Règles pour les cas clairs (Clear-case rules)** : Évaluer et affiner la logique narrative sur le nouveau corpus étendu. Cible de précision de 87% sur les cas isolés.
+- [ ] ⚠️ **Modèle ML pour les Cas Ambigus** : Implémenter le classificateur neuronal (LOGION/CNN) pour les cas complexes résiduels afin d'atteindre la cible globale de 55-60%.
+- [ ] ⚠️ **Attribution des discours directs** : *Bloqué jusqu'à validation pro-drop (55-60%)*.
+- [ ] ⚠️ **Actes narratifs par personnage** : *Bloqué jusqu'à validation pro-drop (55-60%)*.
 
 ---
 
@@ -96,6 +97,14 @@
 - Accuracy session: **26.1% → 39.1%** (+13 points)
 
 **Note:** Les données MARK 1-4 ne contiennent pas de δέ ou τότε, donc l'effet n'est pas visible sur ce corpus. La logique est prête pour d'autres livres.
+
+### 🔄 Étape 5 : Expansion du corpus Gold (11 avril 2026)
+
+**Livrable:** `scripts/generate_gold_samples.py` mis à jour et nouveaux `.conllu`.
+
+**Objectifs :**
+- Normaliser le dataset de test en incluant Luc 1-10 et Jean 1-10.
+- Obtenir un volume de données suffisant avec des marqueurs narratifs pour valider le Two-Stage.
 
 ## Sprint 0 — Données et environnement · ✅ TERMINÉ
 

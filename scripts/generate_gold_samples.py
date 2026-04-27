@@ -10,7 +10,20 @@ def get_verse_range(book_prefix, chapter, start_v, end_v):
     return df[df["ref"].isin(verses)].copy()
 
 
+def get_chapter_range(book_prefix, start_ch, end_ch):
+    """Get all verses for a range of chapters. Much faster than building thousands of strings."""
+    # We can match refs starting with book_prefix + chapter number
+    # "JOHN 1." to "JOHN 10."
+    prefixes = [f"{book_prefix} {ch}." for ch in range(start_ch, end_ch + 1)]
+    # Use string startswith for matching
+    return df[
+        df["ref"].astype(str).apply(lambda x: any(x.startswith(p) for p in prefixes))
+    ].copy()
+
+
 samples = {
+    "John_1_10": get_chapter_range("JOHN", 1, 10),
+    "Luke_1_10": get_chapter_range("LUKE", 1, 10),
     "John_4_7_26": get_verse_range("JOHN", 4, 7, 26),
     "Mark_1_12_20": get_verse_range("MARK", 1, 12, 20),
     "Mark_1_1_4_26": get_verse_range("MARK", 1, 1, 26),

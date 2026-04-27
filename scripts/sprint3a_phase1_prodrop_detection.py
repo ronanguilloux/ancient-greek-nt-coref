@@ -1052,7 +1052,7 @@ def find_prodrop_candidates(
         for verb in verbs:
             antecedent = sent.get_antecedent_for_null(verb, sentence_index)
 
-            narrative = extract_narrative_features(sent.text)
+            narrative = extract_narrative_features(sent)
 
             candidate = {
                 "sentence_id": sent.id,
@@ -1195,22 +1195,12 @@ def main():
     sentences_orig, index_orig, tokens_orig = ProielCONLLU.load_gold_directory(gold_dir)
     print(f"    Loaded {len(sentences_orig)} sentences, {len(tokens_orig)} tokens")
 
-    # Also load the new chapter file
-    new_chapters_file = os.path.join(
-        gold_dir, "MATT_24_27_MARK_13_LUKE_14_21_ACTS_9.conllu"
-    )
-    if os.path.exists(new_chapters_file):
-        print("  - Loading new chapters (MATT 24-27, MARK 13, LUKE 14/21, ACTS 9)...")
-        sentences_new, index_new, tokens_new = ProielCONLLU.parse_file(
-            new_chapters_file
-        )
-        # Merge - add new sentences and tokens with offset IDs to avoid collisions
-        sentences = sentences_orig + sentences_new
-        sentence_index = {**index_orig, **index_new}
-        token_index = {**tokens_orig, **tokens_new}
-        print(f"    Loaded {len(sentences_new)} sentences, {len(tokens_new)} tokens")
-    else:
-        sentences, sentence_index, token_index = sentences_orig, index_orig, tokens_orig
+    # The new chapters John 1-10 and Luke 1-10 are already in the directory, so load_gold_directory will pick them up
+
+    # We no longer load the old custom combined file
+    sentences = sentences_orig
+    sentence_index = index_orig
+    token_index = tokens_orig
 
     print(f"Total: {len(sentences)} sentences, {len(token_index)} tokens")
     print()
@@ -1289,12 +1279,10 @@ def main():
 
     total_with_gold = clear_count + ambiguous_count
     print(f"\nAmbiguity Classification:")
-    print(
-        f"  Clear cases: {clear_count} ({clear_count / total_with_gold * 100:.1f}% if total_with_gold else 0)"
-    )
-    print(
-        f"  Ambiguous cases: {ambiguous_count} ({ambiguous_count / total_with_gold * 100:.1f}% if total_with_gold else 0)"
-    )
+    clear_pct = clear_count / total_with_gold * 100 if total_with_gold else 0
+    amb_pct = ambiguous_count / total_with_gold * 100 if total_with_gold else 0
+    print(f"  Clear cases: {clear_count} ({clear_pct:.1f}%)")
+    print(f"  Ambiguous cases: {ambiguous_count} ({amb_pct:.1f}%)")
     print(f"  No gold antecedent: {no_antecedent}")
     print()
 

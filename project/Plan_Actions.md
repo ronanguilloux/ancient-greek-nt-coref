@@ -643,6 +643,29 @@ Fine-tuner un petit classifieur (régression logistique ou MLP léger sur embedd
 
 ---
 
+## Décision d'exécution (11 avril 2026) : Expansion du corpus & Consolidation Two-Stage
+
+Suite à l'évaluation du script de détection des pro-drops `sprint3a_phase1_prodrop_detection.py`, nous avons identifié que la baseline actuelle (39.1% sur Marc 1-4) est faussée par l'absence de marqueurs narratifs forts (`δέ`, `τότε`) dans ces premiers chapitres. Bien qu'un fichier étendu ait été testé le 11 avril, il est nécessaire de normaliser l'extraction des données.
+
+Conformément à la directive de **privilégier la qualité et la recherche approfondie**, le plan d'action immédiat est ajusté comme suit :
+
+### 1. Expansion formelle du Corpus Gold (Priorité Absolue)
+* **Action :** Modifier `generate_gold_samples.py` pour extraire des chapitres continus et représentatifs (ex: Luc 1-10, Jean 1-10) depuis `proiel_coref.csv`.
+* **Objectif :** Obtenir les ~400 exemples requis par `SPRINT3A_PLAN.md` pour observer en conditions réelles la capacité des règles à séparer les *cas clairs* des *cas ambigus*.
+
+### 2. Validation des règles "Clear Cases" (Milestone 2)
+* **Action :** Évaluer la logique de désambiguïsation narrative sur le nouveau corpus étendu.
+* **Objectif :** Atteindre la cible de précision (87% sur les cas clairs) avant de déléguer les cas restants au modèle neuronal.
+
+### 3. Modèle ML pour les Cas Ambigus (Milestone 3 & 4)
+* **Action :** Implémenter le classificateur ML (LOGION ou Character CNN) pour traiter les ~13% de cas ambigus complexes isolés par l'étape 2.
+* **Objectif :** Atteindre la précision globale de 55-60% (norme CRAC).
+
+### 4. Blocage strict
+* **Règle :** L'implémentation de l'« Attribution des discours directs » (Sprint 3A) et des « Actes narratifs (SRL) » (Sprint 3B) est **bloquée** tant que le module pro-drop n'atteint pas l'accuracy ciblée de 55-60% sur l'ensemble du gold standard étendu. La robustesse des étapes futures dépend entièrement de la qualité de cette fondation.
+
+---
+
 ### Sprint 3 — Attribution des discours & actes narratifs
 
 **Correspond à l'Étape 5 de la feuille de route globale.**
