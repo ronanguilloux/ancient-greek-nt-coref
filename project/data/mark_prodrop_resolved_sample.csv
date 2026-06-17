@@ -1,0 +1,7 @@
+token_id,form,lemma,method,resolved_entity
+101752,γέγραπται,γράφω,LLM,IMPERSONAL_OR_NONE
+101781,ἑτοιμάσατε,ἑτοιμάζω,LLM,CROWD
+101787,ποιεῖτε,ποιέω,LLM,IMPERSONAL_OR_NONE
+101821,ἐβαπτίζοντο,βαπτίζω,HEURISTIC,ἹΕΡΟΣΟΛΥΜΊΤΗΣ
+101856,ἐκήρυσσεν,κηρύσσω,HEURISTIC,ἸΩΆΝ(Ν)ΗΣ
+101868,εἰμὶ,εἰμί#1,LLM,JOHN_THE_BAPTIST
